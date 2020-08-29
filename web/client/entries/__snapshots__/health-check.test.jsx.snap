@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HealthCheck renders correct snapshot 1`] = `
+<div
+  className="sc-bwzfXH egOajC sc-bdVaJa kjejsN"
+  style={
+    Object {
+      "height": "100%",
+    }
+  }
+>
+  <div
+    className="sc-bdVaJa jplJEP"
+  >
+    <ul>
+      <li>
+        <a
+          className="health-check-link sc-jqCOkK dLGIUz sc-htoDjs gLCdRU"
+          onClick={[Function]}
+        >
+          Health Check Summary
+        </a>
+      </li>
+      <li>
+        <a
+          className="health-check-link2 sc-jqCOkK dLGIUz sc-htoDjs gLCdRU"
+          onClick={[Function]}
+        >
+          Manifest
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div
+    className="sc-bwzfXH hKiLMS sc-bdVaJa OqbGj"
+  >
+    <div
+      className="text-here sc-jlyJG eGdVCw"
+      w="100%"
+    >
+      <div
+        className="sc-gqjmRU kKsieB"
+      >
+         Loading... 
+      </div>
+    </div>
+  </div>
+</div>
+`;

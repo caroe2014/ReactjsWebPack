@@ -1,0 +1,27 @@
+[
+    {
+        "businessContextId": "931243d1-d290-4f29-aa68-b52e6505d5c9",
+        "tenantId": "1",
+        "storeInfoId": "1",
+        "storeName": "RGB Dev Engineering Store A_1-1",
+        "address1": "41681549-d788-4909-babb-eecf35da50f0"
+    },
+    {
+        "businessContextId": "0eb6a708-b11c-4bad-8ff9-6b301f0bcea5",
+        "tenantId": "1",
+        "storeInfoId": "6",
+        "storeName": "stacy's cantina-1"
+    },
+    {
+        "businessContextId": "dfa74927-218d-4ebf-9603-e967fd503797",
+        "tenantId": "1",
+        "storeInfoId": "26",
+        "storeName": "rgb dev automation store a_1-1"
+    },
+    {
+        "businessContextId": "c2db4ee3-f104-4c93-b8ee-863806bee9a3",
+        "tenantId": "1",
+        "storeInfoId": "35",
+        "storeName": "rgb dev automation store a_1-1"
+    }
+]

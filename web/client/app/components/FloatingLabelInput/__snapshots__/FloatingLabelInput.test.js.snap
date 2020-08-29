@@ -1,0 +1,472 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FloatingLabelInput does a snapshot test 1`] = `
+.c3 {
+  box-sizing: border-box;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.c7 {
+  font-size: inherit;
+  line-height: inherit;
+  width: 100%;
+  border: 0;
+  border-color: gray;
+  box-shadow: 1;
+  border-radius: 2px;
+  margin: 0px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: inherit;
+  background-color: transparent;
+  font-family: inherit;
+  display: inline-block;
+  vertical-align: middle;
+  border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c7:focus {
+  outline: none;
+  box-shadow: inset 0 0 0 1px undefined;
+}
+
+.c7:disabled {
+  opacity: 0.25;
+}
+
+.c0 {
+  position: relative;
+  margin-bottom: 10px;
+  min-height: 75px;
+  width: auto;
+}
+
+.c1 {
+  -webkit-flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  width: 100%;
+}
+
+.c1>input::-ms-clear {
+  display: none;
+}
+
+.c1>input::-webkit-inner-spin-button,
+.c1>input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c6 {
+  color: #383838;
+  font-size: 18px;
+  left: 0;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 2px solid #EEE;
+  padding: 3px 20px 3px 0px;
+  box-shadow: none;
+  outline: 0;
+  padding-left: 0px;
+}
+
+.c6:disabled {
+  cursor: not-allowed;
+}
+
+.c6:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.c8 {
+  pointer-events: none;
+  -webkit-transform: translateY(8px) scale(0.85);
+  -ms-transform: translateY(8px) scale(0.85);
+  transform: translateY(8px) scale(0.85);
+  font-weight: bold;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 100ms;
+  transition: 100ms;
+  font-size: 16px;
+}
+
+.c8 color:function (props) {
+  return: props.theme.colors.primaryTextColor;
+}
+
+.c5:focus ~ .c8 {
+  -webkit-transform: translateY(8px) scale(0.85);
+  -ms-transform: translateY(8px) scale(0.85);
+  transform: translateY(8px) scale(0.85);
+  color: #383838;
+  font-weight: bold;
+}
+
+.c8:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.c4 {
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+}
+
+.c10 {
+  color: #cc0000;
+  height: auto;
+  font-size: 14px;
+  min-height: 1.2em;
+  padding-left: 3px;
+  margin: 5px 0px 0px 0px;
+}
+
+.c10:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+<ThemeProvider
+  theme={
+    Object {
+      "colors": Object {
+        "addOnTab": "#347CFF",
+        "addToCart": "#347CFF",
+        "addonBg": "#EEEEEE",
+        "backgroundGrey": "#E6E6E6",
+        "black": "#000000",
+        "close": "red",
+        "contextBackground": "#f0f0f3",
+        "darkGrey": "#464646",
+        "disableBackground": "#E4E4E4",
+        "disableButton": "#D1D1D1",
+        "error": "#cc0000",
+        "footer": "#48a942",
+        "glutenFree": "#8d7356",
+        "healthy": "#359919",
+        "hint": "#a6a6a6",
+        "inputBottomBorder": "lightgray",
+        "itemBorder": "lightgrey",
+        "itemTile": "#3C474C0",
+        "light": "white",
+        "loader": "#ababab",
+        "loginBackground": "#303030",
+        "loginBoxColor": "#434149",
+        "loginField": "#AAA7AC",
+        "loginFormBackground": "#484848",
+        "navigationMenu": "#48a942",
+        "navigationMenuHover": "cornflowerblue",
+        "new": "#ff6000",
+        "open": "#48a942",
+        "paymentSuccessTitle": "#505050",
+        "placeHolder": "#909090",
+        "primary": "#347CFF",
+        "primaryButton": "#347CFF",
+        "primaryText": "#383838",
+        "secondaryText": "#a6a6a6",
+        "spicy": "#ed1c24",
+        "text": "black",
+        "textGrey": "#505050",
+        "tile": "#505050",
+        "validationError": "#cc0000",
+        "vegan": "#0d4a22",
+        "vegetarian": "#0d4a22",
+      },
+      "fontFamily": "Roboto",
+      "fontSize": Object {
+        "lg": "1.8rem",
+        "md": "1.3rem",
+        "nm": "1rem",
+        "sm": "0.75rem",
+        "xl": "2.4rem",
+      },
+      "fontSizeFromProps": [Function],
+      "mediaBreakpoints": Object {
+        "desktop": [Function],
+        "mobile": [Function],
+        "tablet": [Function],
+      },
+      "nav": Object {
+        "height": "70px",
+      },
+      "receiptFontFamily": "Roboto",
+      "shadow": "#cfcfcf 0.1px 0.1px 3px 0px",
+      "spacing": Object {
+        "lg": "4em",
+        "md": "2em",
+        "nm": "1em",
+        "none": "0em",
+        "sm": "0.5em",
+        "xl": "8em",
+      },
+    }
+  }
+>
+  <FloatingLabelInput
+    value="test"
+  >
+    <ThemeProvider
+      theme={
+        Object {
+          "colors": Object {
+            "addOnTab": "#347CFF",
+            "addToCart": "#347CFF",
+            "addonBg": "#EEEEEE",
+            "backgroundGrey": "#E6E6E6",
+            "black": "#000000",
+            "close": "red",
+            "contextBackground": "#f0f0f3",
+            "darkGrey": "#464646",
+            "disableBackground": "#E4E4E4",
+            "disableButton": "#D1D1D1",
+            "error": "#cc0000",
+            "footer": "#48a942",
+            "glutenFree": "#8d7356",
+            "healthy": "#359919",
+            "hint": "#a6a6a6",
+            "inputBottomBorder": "lightgray",
+            "itemBorder": "lightgrey",
+            "itemTile": "#3C474C0",
+            "light": "white",
+            "loader": "#ababab",
+            "loginBackground": "#303030",
+            "loginBoxColor": "#434149",
+            "loginField": "#AAA7AC",
+            "loginFormBackground": "#484848",
+            "navigationMenu": "#48a942",
+            "navigationMenuHover": "cornflowerblue",
+            "new": "#ff6000",
+            "open": "#48a942",
+            "paymentSuccessTitle": "#505050",
+            "placeHolder": "#909090",
+            "primary": "#347CFF",
+            "primaryButton": "#347CFF",
+            "primaryText": "#383838",
+            "secondaryText": "#a6a6a6",
+            "spicy": "#ed1c24",
+            "text": "black",
+            "textGrey": "#505050",
+            "tile": "#505050",
+            "validationError": "#cc0000",
+            "vegan": "#0d4a22",
+            "vegetarian": "#0d4a22",
+          },
+          "fontFamily": "Roboto",
+          "fontSize": Object {
+            "lg": "1.8rem",
+            "md": "1.3rem",
+            "nm": "1rem",
+            "sm": "0.75rem",
+            "xl": "2.4rem",
+          },
+          "fontSizeFromProps": [Function],
+          "mediaBreakpoints": Object {
+            "desktop": [Function],
+            "mobile": [Function],
+            "tablet": [Function],
+          },
+          "nav": Object {
+            "height": "70px",
+          },
+          "receiptFontFamily": "Roboto",
+          "shadow": "#cfcfcf 0.1px 0.1px 3px 0px",
+          "spacing": Object {
+            "lg": "4em",
+            "md": "2em",
+            "nm": "1em",
+            "none": "0em",
+            "sm": "0.5em",
+            "xl": "8em",
+          },
+        }
+      }
+    >
+      <styled.div
+        className="input-field-wrapper"
+      >
+        <div
+          className="input-field-wrapper c0"
+        >
+          <Styled(Flex)
+            className="input-field-parent"
+          >
+            <Flex
+              className="input-field-parent c1"
+            >
+              <Box
+                className="input-field-parent c1 c2"
+              >
+                <div
+                  className="input-field-parent c1 c2 c3"
+                >
+                  <Styled(Flex)
+                    className="text-div"
+                    id="parent"
+                  >
+                    <Flex
+                      className="text-div c4"
+                      id="parent"
+                    >
+                      <Box
+                        className="text-div c4 c2"
+                        id="parent"
+                      >
+                        <div
+                          className="text-div c4 c2 c3"
+                          id="parent"
+                        >
+                          <Styled(Input)
+                            className="input-text"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onFocus={[Function]}
+                            pattern=""
+                            type="text"
+                            value="test"
+                          >
+                            <Input
+                              bg="transparent"
+                              border={0}
+                              borderColor="gray"
+                              borderRadius={2}
+                              boxShadow={1}
+                              className="input-text c5 c6"
+                              color="inherit"
+                              fontSize="inherit"
+                              is="input"
+                              lineHeight="inherit"
+                              m={0}
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              onFocus={[Function]}
+                              pattern=""
+                              px={1}
+                              py={2}
+                              type="text"
+                              value="test"
+                              width={1}
+                            >
+                              <ForwardRef
+                                bg="transparent"
+                                border={0}
+                                borderColor="gray"
+                                borderRadius={2}
+                                boxShadow={1}
+                                className="input-text c5 c6 c7"
+                                color="inherit"
+                                fontSize="inherit"
+                                is="input"
+                                lineHeight="inherit"
+                                m={0}
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                onFocus={[Function]}
+                                pattern=""
+                                px={1}
+                                py={2}
+                                type="text"
+                                value="test"
+                                width={1}
+                              >
+                                <input
+                                  className="input-text c5 c6 c7"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  onFocus={[Function]}
+                                  pattern=""
+                                  type="text"
+                                  value="test"
+                                />
+                              </ForwardRef>
+                            </Input>
+                          </Styled(Input)>
+                        </div>
+                      </Box>
+                    </Flex>
+                  </Styled(Flex)>
+                  <Styled(Label)
+                    className="input-field-label"
+                    length={4}
+                    transformLabel={false}
+                  >
+                    <Label
+                      alignItems="center"
+                      className="input-field-label c8"
+                      fontSize={1}
+                      is="label"
+                      length={4}
+                      mb={1}
+                      transformLabel={false}
+                    >
+                      <ForwardRef
+                        alignItems="center"
+                        className="input-field-label c8 c9"
+                        fontSize={1}
+                        is="label"
+                        length={4}
+                        mb={1}
+                        transformLabel={false}
+                      >
+                        <label
+                          className="input-field-label c8 c9"
+                          length={4}
+                          transformLabel={false}
+                        />
+                      </ForwardRef>
+                    </Label>
+                  </Styled(Label)>
+                </div>
+              </Box>
+            </Flex>
+          </Styled(Flex)>
+          <styled.p
+            aria-live="polite"
+            className="input-field-error"
+            tabIndex={-1}
+          >
+            <p
+              aria-live="polite"
+              className="input-field-error c10"
+              tabIndex={-1}
+            />
+          </styled.p>
+        </div>
+      </styled.div>
+    </ThemeProvider>
+  </FloatingLabelInput>
+</ThemeProvider>
+`;

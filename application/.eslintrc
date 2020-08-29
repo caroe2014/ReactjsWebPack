@@ -1,0 +1,33 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "react",
+    "only-warn",
+    "jest"
+  ],
+  "rules": {
+    "max-len": [
+      1,
+      120,
+      2,
+      {
+        "ignoreComments": true
+      }
+    ],
+    "semi": [
+      2,
+      "always"
+    ],
+    "padded-blocks": 0,
+    "new-cap": 0,
+    "react/jsx-tag-spacing": 0,
+    "react/prop-types": 0
+  },
+  "extends": [
+    "standard",
+    "standard-react"
+  ],
+  "env": {
+    "jest/globals": true
+  }
+}

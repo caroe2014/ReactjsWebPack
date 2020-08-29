@@ -1,0 +1,375 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaymentCard does a snapshot test 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "colors": Object {
+        "addOnTab": "#347CFF",
+        "addToCart": "#347CFF",
+        "addonBg": "#EEEEEE",
+        "backgroundGrey": "#E6E6E6",
+        "black": "#000000",
+        "close": "red",
+        "contextBackground": "#f0f0f3",
+        "darkGrey": "#464646",
+        "disableBackground": "#E4E4E4",
+        "disableButton": "#D1D1D1",
+        "error": "#cc0000",
+        "footer": "#48a942",
+        "glutenFree": "#8d7356",
+        "healthy": "#359919",
+        "hint": "#a6a6a6",
+        "inputBottomBorder": "lightgray",
+        "itemBorder": "lightgrey",
+        "itemTile": "#3C474C0",
+        "light": "white",
+        "loader": "#ababab",
+        "loginBackground": "#303030",
+        "loginBoxColor": "#434149",
+        "loginField": "#AAA7AC",
+        "loginFormBackground": "#484848",
+        "navigationMenu": "#48a942",
+        "navigationMenuHover": "cornflowerblue",
+        "new": "#ff6000",
+        "open": "#48a942",
+        "paymentSuccessTitle": "#505050",
+        "placeHolder": "#909090",
+        "primary": "#347CFF",
+        "primaryButton": "#347CFF",
+        "primaryText": "#383838",
+        "secondaryText": "#a6a6a6",
+        "spicy": "#ed1c24",
+        "text": "black",
+        "textGrey": "#505050",
+        "tile": "#505050",
+        "validationError": "#cc0000",
+        "vegan": "#0d4a22",
+        "vegetarian": "#0d4a22",
+      },
+      "fontFamily": "Roboto",
+      "fontSize": Object {
+        "lg": "1.8rem",
+        "md": "1.3rem",
+        "nm": "1rem",
+        "sm": "0.75rem",
+        "xl": "2.4rem",
+      },
+      "fontSizeFromProps": [Function],
+      "mediaBreakpoints": Object {
+        "desktop": [Function],
+        "mobile": [Function],
+        "tablet": [Function],
+      },
+      "nav": Object {
+        "height": "70px",
+      },
+      "receiptFontFamily": "Roboto",
+      "shadow": "#cfcfcf 0.1px 0.1px 3px 0px",
+      "spacing": Object {
+        "lg": "4em",
+        "md": "2em",
+        "nm": "1em",
+        "none": "0em",
+        "sm": "0.5em",
+        "xl": "8em",
+      },
+    }
+  }
+>
+  <PaymentCard
+    appconfig={
+      Object {
+        "contextID": "1",
+        "tenantID": "1",
+      }
+    }
+    keyProps={
+      Object {
+        "displayLabel": "CREDIT/ DEBIT CARD",
+        "id": "101",
+        "image": "https://cdn.freebiesupply.com/logos/large/2x/visa-logo-png-transparent.png",
+        "name": "CREDIT/ DEBIT CARD",
+        "type": "cardpay",
+        "valid": true,
+        "value": "cardpay",
+      }
+    }
+  >
+    <ThemeProvider
+      className="card"
+      theme={
+        Object {
+          "colors": Object {
+            "addOnTab": "#347CFF",
+            "addToCart": "#347CFF",
+            "addonBg": "#EEEEEE",
+            "backgroundGrey": "#E6E6E6",
+            "black": "#000000",
+            "close": "red",
+            "contextBackground": "#f0f0f3",
+            "darkGrey": "#464646",
+            "disableBackground": "#E4E4E4",
+            "disableButton": "#D1D1D1",
+            "error": "#cc0000",
+            "footer": "#48a942",
+            "glutenFree": "#8d7356",
+            "healthy": "#359919",
+            "hint": "#a6a6a6",
+            "inputBottomBorder": "lightgray",
+            "itemBorder": "lightgrey",
+            "itemTile": "#3C474C0",
+            "light": "white",
+            "loader": "#ababab",
+            "loginBackground": "#303030",
+            "loginBoxColor": "#434149",
+            "loginField": "#AAA7AC",
+            "loginFormBackground": "#484848",
+            "navigationMenu": "#48a942",
+            "navigationMenuHover": "cornflowerblue",
+            "new": "#ff6000",
+            "open": "#48a942",
+            "paymentSuccessTitle": "#505050",
+            "placeHolder": "#909090",
+            "primary": "#347CFF",
+            "primaryButton": "#347CFF",
+            "primaryText": "#383838",
+            "secondaryText": "#a6a6a6",
+            "spicy": "#ed1c24",
+            "text": "black",
+            "textGrey": "#505050",
+            "tile": "#505050",
+            "validationError": "#cc0000",
+            "vegan": "#0d4a22",
+            "vegetarian": "#0d4a22",
+          },
+          "fontFamily": "Roboto",
+          "fontSize": Object {
+            "lg": "1.8rem",
+            "md": "1.3rem",
+            "nm": "1rem",
+            "sm": "0.75rem",
+            "xl": "2.4rem",
+          },
+          "fontSizeFromProps": [Function],
+          "mediaBreakpoints": Object {
+            "desktop": [Function],
+            "mobile": [Function],
+            "tablet": [Function],
+          },
+          "nav": Object {
+            "height": "70px",
+          },
+          "receiptFontFamily": "Roboto",
+          "shadow": "#cfcfcf 0.1px 0.1px 3px 0px",
+          "spacing": Object {
+            "lg": "4em",
+            "md": "2em",
+            "nm": "1em",
+            "none": "0em",
+            "sm": "0.5em",
+            "xl": "8em",
+          },
+        }
+      }
+    >
+      <Styled(Flex)
+        alignItems="center"
+        aria-label="CREDIT/ DEBIT CARD"
+        className="click-cont container undefined"
+        currentoption="cardpay"
+        flexWrap="nowrap"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        role="button"
+        tabIndex={0}
+        validpayment={1}
+      >
+        <Flex
+          alignItems="center"
+          aria-label="CREDIT/ DEBIT CARD"
+          className="click-cont container undefined sc-uJMKN bOSvrq"
+          currentoption="cardpay"
+          flexWrap="nowrap"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          role="button"
+          tabIndex={0}
+          validpayment={1}
+        >
+          <Box
+            alignItems="center"
+            aria-label="CREDIT/ DEBIT CARD"
+            className="click-cont container undefined sc-uJMKN bOSvrq sc-bwzfXH cjHxAH"
+            currentoption="cardpay"
+            flexWrap="nowrap"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            role="button"
+            tabIndex={0}
+            validpayment={1}
+          >
+            <div
+              aria-label="CREDIT/ DEBIT CARD"
+              className="click-cont container undefined sc-uJMKN bOSvrq sc-bwzfXH cjHxAH sc-bdVaJa iHZvIS"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              <Styled(Flex)
+                className="account-container"
+              >
+                <Flex
+                  className="account-container sc-hEsumM dYNwUI"
+                >
+                  <Box
+                    className="account-container sc-hEsumM dYNwUI sc-bwzfXH hKiLMS"
+                  >
+                    <div
+                      className="account-container sc-hEsumM dYNwUI sc-bwzfXH hKiLMS sc-bdVaJa iHZvIS"
+                    >
+                      <Styled(Flex)
+                        className="box-container"
+                        width={
+                          Array [
+                            1,
+                          ]
+                        }
+                      >
+                        <Flex
+                          className="box-container sc-gGBfsJ cJuXXz"
+                          width={
+                            Array [
+                              1,
+                            ]
+                          }
+                        >
+                          <Box
+                            className="box-container sc-gGBfsJ cJuXXz sc-bwzfXH hKiLMS"
+                            width={
+                              Array [
+                                1,
+                              ]
+                            }
+                          >
+                            <div
+                              className="box-container sc-gGBfsJ cJuXXz sc-bwzfXH hKiLMS sc-bdVaJa gRrvFh"
+                              width={
+                                Array [
+                                  1,
+                                ]
+                              }
+                            >
+                              <Component
+                                alt=""
+                                className="url-container"
+                                imageStyle={
+                                  Object {
+                                    "backgroundRepeat": "no-repeat",
+                                    "backgroundSize": "cover",
+                                    "height": "40px",
+                                    "maxHeight": "40px",
+                                    "width": "40px",
+                                  }
+                                }
+                                src="application/api/image/1/undefined/https://cdn.freebiesupply.com/logos/large/2x/visa-logo-png-transparent.png"
+                              >
+                                <div
+                                  id="mockUrlImageLoaderm"
+                                >
+                                  mockUrlImageLoader
+                                </div>
+                              </Component>
+                            </div>
+                          </Box>
+                        </Flex>
+                      </Styled(Flex)>
+                      <Styled(Flex)
+                        alignItems="flex-start"
+                        className="detail-container-cardpay"
+                        flexDirection="column"
+                        imageflag="https://cdn.freebiesupply.com/logos/large/2x/visa-logo-png-transparent.png"
+                        width={
+                          Array [
+                            1,
+                          ]
+                        }
+                      >
+                        <Flex
+                          alignItems="flex-start"
+                          className="detail-container-cardpay sc-bbmXgH ljmMSZ"
+                          flexDirection="column"
+                          imageflag="https://cdn.freebiesupply.com/logos/large/2x/visa-logo-png-transparent.png"
+                          width={
+                            Array [
+                              1,
+                            ]
+                          }
+                        >
+                          <Box
+                            alignItems="flex-start"
+                            className="detail-container-cardpay sc-bbmXgH ljmMSZ sc-bwzfXH iaREIe"
+                            flexDirection="column"
+                            imageflag="https://cdn.freebiesupply.com/logos/large/2x/visa-logo-png-transparent.png"
+                            width={
+                              Array [
+                                1,
+                              ]
+                            }
+                          >
+                            <div
+                              className="detail-container-cardpay sc-bbmXgH ljmMSZ sc-bwzfXH iaREIe sc-bdVaJa gRrvFh"
+                              width={
+                                Array [
+                                  1,
+                                ]
+                              }
+                            >
+                              <Styled(Text)
+                                className="text-container"
+                                data-color={false}
+                              >
+                                <Text
+                                  className="text-container sc-jnlKLf iCKpPK"
+                                  data-color={false}
+                                  m={0}
+                                >
+                                  <ForwardRef
+                                    className="text-container sc-jnlKLf iCKpPK sc-gqjmRU kKsieB"
+                                    data-color={false}
+                                    m={0}
+                                  >
+                                    <div
+                                      className="text-container sc-jnlKLf iCKpPK sc-gqjmRU kKsieB"
+                                      data-color={false}
+                                    >
+                                      CREDIT/ DEBIT CARD
+                                    </div>
+                                  </ForwardRef>
+                                </Text>
+                              </Styled(Text)>
+                            </div>
+                          </Box>
+                        </Flex>
+                      </Styled(Flex)>
+                    </div>
+                  </Box>
+                </Flex>
+              </Styled(Flex)>
+            </div>
+          </Box>
+        </Flex>
+      </Styled(Flex)>
+    </ThemeProvider>
+  </PaymentCard>
+</ThemeProvider>
+`;

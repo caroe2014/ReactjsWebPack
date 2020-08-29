@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotificationBar does a snapshot test 1`] = `
+<Flex>
+  <Styled(Drawer)
+    open={true}
+    p={3}
+    role="alert"
+    side="bottom"
+  >
+    <Announcements
+      ariaLive="assertive"
+    />
+    <span
+      style={
+        Object {
+          "boxShadow": "none",
+          "outline": "none",
+        }
+      }
+      tabIndex={0}
+    />
+    <Styled(Component)
+      role="button"
+      tabIndex={0}
+    />
+  </Styled(Drawer)>
+</Flex>
+`;

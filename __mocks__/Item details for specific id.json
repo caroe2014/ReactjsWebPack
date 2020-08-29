@@ -1,0 +1,38 @@
+{
+    "itemId": "1",
+    "name": "Almond Granola Bars",
+    "lastUpdateTime": "2017-09-14T12:09:25.595Z",
+    "revenueCategoryId": "1",
+    "productClassId": "34",
+    "kpText": "Almond Granola B",
+    "kitchenDisplayText": "Almond Granola B",
+    "receiptText": "Almond Granola Bars",
+    "price": {
+        "currencyUnit": "USD",
+        "amount": "0.00"
+    },
+    "defaultPriceLevelId": "1",
+    "priceLevels": {
+        "1": {
+            "priceLevelId": "1",
+            "name": "Regular",
+            "price": {
+                "currencyUnit": "USD",
+                "amount": "0.00"
+            }
+        }
+    },
+    "isDiscountable": true,
+    "taxClasses": [
+        "No Tax",
+        "Tax 10%"
+    ],
+    "kitchenVideoLabel": "Almond Granola Bar",
+    "skus": [
+        "011110869982"
+    ],
+    "itemType": "ITEM",
+    "id": "59ba7175d60180000e2900e1",
+    "tenantId": "1",
+    "contextId": "931243d1-d290-4f29-aa68-b52e6505d5c9"
+}

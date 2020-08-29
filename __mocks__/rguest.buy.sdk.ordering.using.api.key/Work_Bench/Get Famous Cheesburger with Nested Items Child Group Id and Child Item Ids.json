@@ -1,0 +1,668 @@
+{
+    "itemId": "101",
+    "name": "Cheeseburger",
+    "lastUpdateTime": "2018-06-14T23:23:29.364Z",
+    "revenueCategoryId": "1",
+    "productClassId": "34",
+    "kpText": "Cheeseburger",
+    "kitchenDisplayText": "Cheeseburger",
+    "receiptText": "Cheeseburger",
+    "price": {
+        "currencyUnit": "USD",
+        "amount": "3.35"
+    },
+    "defaultPriceLevelId": "1",
+    "priceLevels": {
+        "1": {
+            "priceLevelId": "1",
+            "name": "Regular",
+            "price": {
+                "currencyUnit": "USD",
+                "amount": "3.35"
+            }
+        }
+    },
+    "isDiscountable": true,
+    "taxClasses": [
+        "No Tax",
+        "Sales Tax"
+    ],
+    "kitchenVideoLabel": "Cheeseburger",
+    "kitchenVideoId": "5b22f8ebb1ed73000c6b5d82",
+    "itemType": "ITEM",
+    "childGroups": [
+        {
+            "groupId": "10",
+            "name": "Choose Bread",
+            "groupType": "CHOICE_GROUP",
+            "minimum": 0,
+            "maximum": 5,
+            "terminalPrompt": "Choose Bread",
+            "displayName": "Choose Bread",
+            "childItems": [
+                {
+                    "itemId": "7",
+                    "name": "Wheat Bun",
+                    "lastUpdateTime": "2018-06-18T21:14:40.310Z",
+                    "kpText": "Wheat Bun",
+                    "kitchenDisplayText": "Wheat Bun",
+                    "receiptText": "Wheat Bun",
+                    "price": {
+                        "currencyUnit": "USD",
+                        "amount": "0.00"
+                    },
+                    "defaultPriceLevelId": "1",
+                    "priceLevels": {
+                        "1": {
+                            "priceLevelId": "1",
+                            "name": "Regular",
+                            "price": {
+                                "currencyUnit": "USD",
+                                "amount": "0.00"
+                            }
+                        }
+                    },
+                    "kitchenVideoLabel": "Wheat Bun",
+                    "itemType": "MODIFIER",
+                    "id": "5b22f8f2b1ed73000c6b5e12",
+                    "tenantId": "48",
+                    "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+                },
+                {
+                    "itemId": "12",
+                    "name": "Brioche Bun",
+                    "lastUpdateTime": "2018-06-18T21:14:40.307Z",
+                    "kpText": "Brioche Bun",
+                    "kitchenDisplayText": "Brioche Bun",
+                    "receiptText": "Brioche Bun",
+                    "price": {
+                        "currencyUnit": "USD",
+                        "amount": "0.00"
+                    },
+                    "defaultPriceLevelId": "1",
+                    "priceLevels": {
+                        "1": {
+                            "priceLevelId": "1",
+                            "name": "Regular",
+                            "price": {
+                                "currencyUnit": "USD",
+                                "amount": "0.00"
+                            }
+                        }
+                    },
+                    "kitchenVideoLabel": "Brioche Bun",
+                    "itemType": "MODIFIER",
+                    "id": "5b22f8f2b1ed73000c6b5e0f",
+                    "tenantId": "48",
+                    "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+                },
+                {
+                    "itemId": "17",
+                    "name": "No Bread",
+                    "lastUpdateTime": "2018-06-18T21:14:40.293Z",
+                    "kpText": "No Bread",
+                    "kitchenDisplayText": "No Bread",
+                    "receiptText": "No Bread",
+                    "price": {
+                        "currencyUnit": "USD",
+                        "amount": "0.00"
+                    },
+                    "defaultPriceLevelId": "1",
+                    "priceLevels": {
+                        "1": {
+                            "priceLevelId": "1",
+                            "name": "Regular",
+                            "price": {
+                                "currencyUnit": "USD",
+                                "amount": "0.00"
+                            }
+                        }
+                    },
+                    "kitchenVideoLabel": "No Bread",
+                    "itemType": "MODIFIER",
+                    "id": "5b22f8f2b1ed73000c6b5e07",
+                    "tenantId": "48",
+                    "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+                }
+            ],
+            "id": "5b22f8eda1a419000cf26787",
+            "tenantId": "48",
+            "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+        },
+        {
+            "groupId": "13",
+            "name": "Add Vegetable",
+            "groupType": "CHOICE_GROUP",
+            "minimum": 0,
+            "maximum": 4,
+            "terminalPrompt": "Add Vegetable",
+            "displayName": "Add Vegetable",
+            "childItems": [
+                {
+                    "itemId": "22",
+                    "name": "Red Onion",
+                    "lastUpdateTime": "2018-06-18T21:14:40.313Z",
+                    "kpText": "Red Onion",
+                    "kitchenDisplayText": "Red Onion",
+                    "receiptText": "Red Onion",
+                    "price": {
+                        "currencyUnit": "USD",
+                        "amount": "0.00"
+                    },
+                    "defaultPriceLevelId": "1",
+                    "priceLevels": {
+                        "1": {
+                            "priceLevelId": "1",
+                            "name": "Regular",
+                            "price": {
+                                "currencyUnit": "USD",
+                                "amount": "0.00"
+                            }
+                        }
+                    },
+                    "kitchenVideoLabel": "Red Onion",
+                    "itemType": "MODIFIER",
+                    "id": "5b22f8f2b1ed73000c6b5e13",
+                    "tenantId": "48",
+                    "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+                },
+                {
+                    "itemId": "26",
+                    "name": "Pickles",
+                    "lastUpdateTime": "2018-06-18T21:14:40.309Z",
+                    "kpText": "Pickles",
+                    "kitchenDisplayText": "Pickles",
+                    "receiptText": "Pickles",
+                    "price": {
+                        "currencyUnit": "USD",
+                        "amount": "0.00"
+                    },
+                    "defaultPriceLevelId": "1",
+                    "priceLevels": {
+                        "1": {
+                            "priceLevelId": "1",
+                            "name": "Regular",
+                            "price": {
+                                "currencyUnit": "USD",
+                                "amount": "0.00"
+                            }
+                        }
+                    },
+                    "kitchenVideoLabel": "Pickles",
+                    "itemType": "MODIFIER",
+                    "id": "5b22f8f2b1ed73000c6b5e11",
+                    "tenantId": "48",
+                    "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+                },
+                {
+                    "itemId": "29",
+                    "name": "Lettuce",
+                    "lastUpdateTime": "2018-06-18T21:14:40.307Z",
+                    "kpText": "Lettuce",
+                    "kitchenDisplayText": "Lettuce",
+                    "receiptText": "Lettuce",
+                    "price": {
+                        "currencyUnit": "USD",
+                        "amount": "0.00"
+                    },
+                    "defaultPriceLevelId": "1",
+                    "priceLevels": {
+                        "1": {
+                            "priceLevelId": "1",
+                            "name": "Regular",
+                            "price": {
+                                "currencyUnit": "USD",
+                                "amount": "0.00"
+                            }
+                        }
+                    },
+                    "kitchenVideoLabel": "Lettuce",
+                    "itemType": "MODIFIER",
+                    "id": "5b22f8f2b1ed73000c6b5e0e",
+                    "tenantId": "48",
+                    "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+                },
+                {
+                    "itemId": "50",
+                    "name": "Add Bacon",
+                    "lastUpdateTime": "2018-06-18T21:14:40.305Z",
+                    "kpText": "Add Bacon",
+                    "kitchenDisplayText": "Add Bacon",
+                    "receiptText": "Add Bacon",
+                    "price": {
+                        "currencyUnit": "USD",
+                        "amount": "0.81"
+                    },
+                    "defaultPriceLevelId": "1",
+                    "priceLevels": {
+                        "1": {
+                            "priceLevelId": "1",
+                            "name": "Regular",
+                            "price": {
+                                "currencyUnit": "USD",
+                                "amount": "0.81"
+                            }
+                        }
+                    },
+                    "kitchenVideoLabel": "Add Bacon",
+                    "itemType": "MODIFIER",
+                    "id": "5b22f8f2b1ed73000c6b5e0c",
+                    "tenantId": "48",
+                    "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+                }
+            ],
+            "id": "5b22f8ecb1ed73000c6b5d83",
+            "tenantId": "48",
+            "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+        },
+        {
+            "groupId": "14",
+            "name": "Add Cheese",
+            "groupType": "CHOICE_GROUP",
+            "minimum": 0,
+            "maximum": 5,
+            "terminalPrompt": "Add Cheese",
+            "displayName": "Add Cheese",
+            "childItems": [
+                {
+                    "itemId": "33",
+                    "name": "american",
+                    "lastUpdateTime": "2018-06-18T21:14:40.282Z",
+                    "kpText": "american",
+                    "kitchenDisplayText": "american",
+                    "receiptText": "american",
+                    "price": {
+                        "currencyUnit": "USD",
+                        "amount": "0.00"
+                    },
+                    "defaultPriceLevelId": "1",
+                    "priceLevels": {
+                        "1": {
+                            "priceLevelId": "1",
+                            "name": "Regular",
+                            "price": {
+                                "currencyUnit": "USD",
+                                "amount": "0.00"
+                            }
+                        }
+                    },
+                    "kitchenVideoLabel": "american",
+                    "itemType": "MODIFIER",
+                    "id": "5b22f8f2b1ed73000c6b5e00",
+                    "tenantId": "48",
+                    "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+                },
+                {
+                    "itemId": "35",
+                    "name": "Provolone",
+                    "lastUpdateTime": "2018-06-18T21:14:40.323Z",
+                    "kpText": "Provolone",
+                    "kitchenDisplayText": "Provolone",
+                    "receiptText": "Provolone",
+                    "price": {
+                        "currencyUnit": "USD",
+                        "amount": "0.00"
+                    },
+                    "defaultPriceLevelId": "1",
+                    "priceLevels": {
+                        "1": {
+                            "priceLevelId": "1",
+                            "name": "Regular",
+                            "price": {
+                                "currencyUnit": "USD",
+                                "amount": "0.00"
+                            }
+                        }
+                    },
+                    "kitchenVideoLabel": "Provolone",
+                    "itemType": "MODIFIER",
+                    "id": "5b22f8f2b1ed73000c6b5e18",
+                    "tenantId": "48",
+                    "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+                },
+                {
+                    "itemId": "36",
+                    "name": "Swiss",
+                    "lastUpdateTime": "2018-06-18T21:14:40.290Z",
+                    "kpText": "Swiss",
+                    "kitchenDisplayText": "Swiss",
+                    "receiptText": "Swiss",
+                    "price": {
+                        "currencyUnit": "USD",
+                        "amount": "0.00"
+                    },
+                    "defaultPriceLevelId": "1",
+                    "priceLevels": {
+                        "1": {
+                            "priceLevelId": "1",
+                            "name": "Regular",
+                            "price": {
+                                "currencyUnit": "USD",
+                                "amount": "0.00"
+                            }
+                        }
+                    },
+                    "kitchenVideoLabel": "Swiss",
+                    "itemType": "MODIFIER",
+                    "id": "5b22f8f2b1ed73000c6b5e04",
+                    "tenantId": "48",
+                    "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+                },
+                {
+                    "itemId": "40",
+                    "name": "Cheddar",
+                    "lastUpdateTime": "2018-06-18T21:14:40.320Z",
+                    "kpText": "Cheddar",
+                    "kitchenDisplayText": "Cheddar",
+                    "receiptText": "Cheddar",
+                    "price": {
+                        "currencyUnit": "USD",
+                        "amount": "0.00"
+                    },
+                    "defaultPriceLevelId": "1",
+                    "priceLevels": {
+                        "1": {
+                            "priceLevelId": "1",
+                            "name": "Regular",
+                            "price": {
+                                "currencyUnit": "USD",
+                                "amount": "0.00"
+                            }
+                        }
+                    },
+                    "kitchenVideoLabel": "Cheddar",
+                    "itemType": "MODIFIER",
+                    "id": "5b22f8f2b1ed73000c6b5e17",
+                    "tenantId": "48",
+                    "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+                },
+                {
+                    "itemId": "44",
+                    "name": "Pepper Jack",
+                    "lastUpdateTime": "2018-06-18T21:14:40.306Z",
+                    "kpText": "Pepper Jack",
+                    "kitchenDisplayText": "Pepper Jack",
+                    "receiptText": "Pepper Jack",
+                    "price": {
+                        "currencyUnit": "USD",
+                        "amount": "0.00"
+                    },
+                    "defaultPriceLevelId": "1",
+                    "priceLevels": {
+                        "1": {
+                            "priceLevelId": "1",
+                            "name": "Regular",
+                            "price": {
+                                "currencyUnit": "USD",
+                                "amount": "0.00"
+                            }
+                        }
+                    },
+                    "kitchenVideoLabel": "Pepper Jack",
+                    "itemType": "MODIFIER",
+                    "id": "5b22f8f2b1ed73000c6b5e0d",
+                    "tenantId": "48",
+                    "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+                }
+            ],
+            "id": "5b22f8eca1a419000cf26783",
+            "tenantId": "48",
+            "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+        },
+        {
+            "groupId": "15",
+            "name": "Add Ons",
+            "groupType": "CHOICE_GROUP",
+            "minimum": 0,
+            "maximum": 4,
+            "terminalPrompt": "Add Ons",
+            "displayName": "Add Ons",
+            "childItems": [
+                {
+                    "itemId": "50",
+                    "name": "Add Bacon",
+                    "lastUpdateTime": "2018-06-18T21:14:40.305Z",
+                    "kpText": "Add Bacon",
+                    "kitchenDisplayText": "Add Bacon",
+                    "receiptText": "Add Bacon",
+                    "price": {
+                        "currencyUnit": "USD",
+                        "amount": "0.81"
+                    },
+                    "defaultPriceLevelId": "1",
+                    "priceLevels": {
+                        "1": {
+                            "priceLevelId": "1",
+                            "name": "Regular",
+                            "price": {
+                                "currencyUnit": "USD",
+                                "amount": "0.81"
+                            }
+                        }
+                    },
+                    "kitchenVideoLabel": "Add Bacon",
+                    "itemType": "MODIFIER",
+                    "id": "5b22f8f2b1ed73000c6b5e0c",
+                    "tenantId": "48",
+                    "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+                },
+                {
+                    "itemId": "64",
+                    "name": "Extra Cheese",
+                    "lastUpdateTime": "2018-06-18T21:14:40.317Z",
+                    "kpText": "Extra Cheese",
+                    "kitchenDisplayText": "Extra Cheese",
+                    "receiptText": "Extra Cheese",
+                    "price": {
+                        "currencyUnit": "USD",
+                        "amount": "0.62"
+                    },
+                    "defaultPriceLevelId": "1",
+                    "priceLevels": {
+                        "1": {
+                            "priceLevelId": "1",
+                            "name": "Regular",
+                            "price": {
+                                "currencyUnit": "USD",
+                                "amount": "0.62"
+                            }
+                        }
+                    },
+                    "kitchenVideoLabel": "Extra Cheese",
+                    "itemType": "MODIFIER",
+                    "id": "5b22f8f2b1ed73000c6b5e16",
+                    "tenantId": "48",
+                    "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+                }
+            ],
+            "id": "5b22f8ecb1ed73000c6b5d84",
+            "tenantId": "48",
+            "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+        },
+        {
+            "groupId": "16",
+            "name": "Add Spread",
+            "groupType": "CHOICE_GROUP",
+            "minimum": 0,
+            "maximum": 6,
+            "terminalPrompt": "Add Spread",
+            "displayName": "Add Spread",
+            "childItems": [
+                {
+                    "itemId": "65",
+                    "name": "Ketchup",
+                    "lastUpdateTime": "2018-06-18T21:14:40.281Z",
+                    "kpText": "Ketchup",
+                    "kitchenDisplayText": "Katchup",
+                    "receiptText": "Ketchup",
+                    "price": {
+                        "currencyUnit": "USD",
+                        "amount": "0.00"
+                    },
+                    "defaultPriceLevelId": "1",
+                    "priceLevels": {
+                        "1": {
+                            "priceLevelId": "1",
+                            "name": "Regular",
+                            "price": {
+                                "currencyUnit": "USD",
+                                "amount": "0.00"
+                            }
+                        }
+                    },
+                    "kitchenVideoLabel": "Katchup",
+                    "itemType": "MODIFIER",
+                    "id": "5b22f8f2b1ed73000c6b5dff",
+                    "tenantId": "48",
+                    "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+                },
+                {
+                    "itemId": "66",
+                    "name": "Mustard",
+                    "lastUpdateTime": "2018-06-18T21:14:40.301Z",
+                    "kpText": "Mustard",
+                    "kitchenDisplayText": "Mustard",
+                    "receiptText": "Mustard",
+                    "price": {
+                        "currencyUnit": "USD",
+                        "amount": "0.00"
+                    },
+                    "defaultPriceLevelId": "1",
+                    "priceLevels": {
+                        "1": {
+                            "priceLevelId": "1",
+                            "name": "Regular",
+                            "price": {
+                                "currencyUnit": "USD",
+                                "amount": "0.00"
+                            }
+                        }
+                    },
+                    "kitchenVideoLabel": "Mustard",
+                    "itemType": "MODIFIER",
+                    "id": "5b22f8f2b1ed73000c6b5e0a",
+                    "tenantId": "48",
+                    "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+                },
+                {
+                    "itemId": "67",
+                    "name": "Mayo",
+                    "lastUpdateTime": "2018-06-18T21:14:40.314Z",
+                    "kpText": "Mayo",
+                    "kitchenDisplayText": "Mayo",
+                    "receiptText": "Mayo",
+                    "price": {
+                        "currencyUnit": "USD",
+                        "amount": "0.00"
+                    },
+                    "defaultPriceLevelId": "1",
+                    "priceLevels": {
+                        "1": {
+                            "priceLevelId": "1",
+                            "name": "Regular",
+                            "price": {
+                                "currencyUnit": "USD",
+                                "amount": "0.00"
+                            }
+                        }
+                    },
+                    "kitchenVideoLabel": "Mayo",
+                    "itemType": "MODIFIER",
+                    "id": "5b22f8f2b1ed73000c6b5e14",
+                    "tenantId": "48",
+                    "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+                },
+                {
+                    "itemId": "70",
+                    "name": "Chipotle Mayo",
+                    "lastUpdateTime": "2018-06-18T21:14:40.286Z",
+                    "kpText": "Chipotle Mayo",
+                    "kitchenDisplayText": "Chipotle Mayo",
+                    "receiptText": "Chipotle Mayo",
+                    "price": {
+                        "currencyUnit": "USD",
+                        "amount": "0.00"
+                    },
+                    "defaultPriceLevelId": "1",
+                    "priceLevels": {
+                        "1": {
+                            "priceLevelId": "1",
+                            "name": "Regular",
+                            "price": {
+                                "currencyUnit": "USD",
+                                "amount": "0.00"
+                            }
+                        }
+                    },
+                    "kitchenVideoLabel": "Chipotle Mayo",
+                    "itemType": "MODIFIER",
+                    "id": "5b22f8f2b1ed73000c6b5e02",
+                    "tenantId": "48",
+                    "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+                },
+                {
+                    "itemId": "71",
+                    "name": "BBQ Sauce",
+                    "lastUpdateTime": "2018-06-18T21:14:40.299Z",
+                    "kpText": "BBQ Sauce",
+                    "kitchenDisplayText": "BBQ Suace",
+                    "receiptText": "BBQ Sauce",
+                    "price": {
+                        "currencyUnit": "USD",
+                        "amount": "0.00"
+                    },
+                    "defaultPriceLevelId": "1",
+                    "priceLevels": {
+                        "1": {
+                            "priceLevelId": "1",
+                            "name": "Regular",
+                            "price": {
+                                "currencyUnit": "USD",
+                                "amount": "0.00"
+                            }
+                        }
+                    },
+                    "kitchenVideoLabel": "BBQ Suace",
+                    "itemType": "MODIFIER",
+                    "id": "5b22f8f2b1ed73000c6b5e09",
+                    "tenantId": "48",
+                    "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+                },
+                {
+                    "itemId": "74",
+                    "name": "Honey Mustard",
+                    "lastUpdateTime": "2018-06-18T21:14:40.283Z",
+                    "kpText": "Honey Mustard",
+                    "kitchenDisplayText": "Honey Mustard",
+                    "receiptText": "Honey Mustard",
+                    "price": {
+                        "currencyUnit": "USD",
+                        "amount": "0.00"
+                    },
+                    "defaultPriceLevelId": "1",
+                    "priceLevels": {
+                        "1": {
+                            "priceLevelId": "1",
+                            "name": "Regular",
+                            "price": {
+                                "currencyUnit": "USD",
+                                "amount": "0.00"
+                            }
+                        }
+                    },
+                    "kitchenVideoLabel": "Honey Mustard",
+                    "itemType": "MODIFIER",
+                    "id": "5b22f8f2b1ed73000c6b5e01",
+                    "tenantId": "48",
+                    "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+                }
+            ],
+            "id": "5b22f8eda1a419000cf26784",
+            "tenantId": "48",
+            "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+        }
+    ],
+    "id": "5b22f8f1b1ed73000c6b5de6",
+    "tenantId": "48",
+    "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+}

@@ -1,0 +1,18 @@
+{
+  "apps": [
+    {
+      "name": "kiosk-desktop",
+      "script": "./node_scripts/start.pm2.js",
+      "max_memory_restart": "1024M",
+      "watch": false,      
+      "instances": "max",
+      "exec_mode": "cluster",
+      "error_file": "./logs/error.log",
+      "out_file": "./logs/status.log",
+      "env": {
+        "COMMON_VARIABLE": "true",
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}

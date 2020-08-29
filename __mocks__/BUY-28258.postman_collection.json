@@ -1,0 +1,352 @@
+{
+	"id": "64c723cc-2e68-ef10-a7cf-8da7e8409b01",
+	"name": "BUY-28258",
+	"description": "",
+	"order": [
+		"d657307a-3f60-ba4f-3abd-70b03333d5b8",
+		"97bcdd33-1732-038a-6845-d19acb6c56ba",
+		"0fbc6943-e6c8-8723-8f49-7767514c0314",
+		"6dcf93b1-2972-6947-9c0c-030509cae4bd",
+		"fba7b35e-4998-3287-7a78-670b88728298"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1530608098577,
+	"owner": "3016213",
+	"public": false,
+	"requests": [
+		{
+			"id": "0fbc6943-e6c8-8723-8f49-7767514c0314",
+			"headers": "Content-Type: application/json\nConnection: keep-alive\n//Client-Id: {{clientId}}\n//Api-User-Name: {{apiUserName}}\n//Nonce: {{apiKey}}\ntenantId: {{tenantId}}\nX-token: {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Connection",
+					"value": "keep-alive",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Client-Id",
+					"value": "{{clientId}}",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Api-User-Name",
+					"value": "{{apiUserName}}",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Nonce",
+					"value": "{{apiKey}}",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "tenantId",
+					"value": "{{tenantId}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-token",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{buy-protocol}}://{{buy-server}}:{{buy-port}}/api/buy/kiosk/tenants/{{tenantId}}/businessContexts/{{businessContextId}}/displayProfiles",
+			"folder": "61e8a2ac-f16b-8a4d-7986-e5be67068d03",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1530612418719,
+			"name": "display profile",
+			"description": "TODO-replace it with API key once it is ready",
+			"collectionId": "64c723cc-2e68-ef10-a7cf-8da7e8409b01",
+			"responses": [],
+			"rawModeData": "{\r\n\t\"username\":\"buy_test\",\r\n     \"password\":\"Pa$$word5\"\r\n}"
+		},
+		{
+			"id": "6dcf93b1-2972-6947-9c0c-030509cae4bd",
+			"headers": "Content-Type: application/json\nConnection: keep-alive\n//Client-Id: {{clientId}}\n//Api-User-Name: {{apiUserName}}\n//Nonce: {{apiKey}}\ntenantId: {{tenantId}}\nX-token: {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Connection",
+					"value": "keep-alive",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Client-Id",
+					"value": "{{clientId}}",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Api-User-Name",
+					"value": "{{apiUserName}}",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Nonce",
+					"value": "{{apiKey}}",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "tenantId",
+					"value": "{{tenantId}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-token",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{buy-protocol}}://{{buy-server}}:{{buy-port}}/api/buy/core/tenants/{{tenantId}}/context/{{businessContextId}}/items",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "var responseData = JSON.parse(responseBody);\n\nresponseData.forEach(function(item){\n  if(item.kitchenVideoId)\n  {\n      postman.setEnvironmentVariable(\"nonNestedItemId\", item.id)\n  }\n});",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1530612411518,
+			"name": "select a non-nested item",
+			"description": "",
+			"collectionId": "64c723cc-2e68-ef10-a7cf-8da7e8409b01",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "97bcdd33-1732-038a-6845-d19acb6c56ba",
+			"headers": "Content-Type: application/json\nConnection: keep-alive\n//Client-Id: {{clientId}}\n//Api-User-Name: {{apiUserName}}\n//Nonce: {{apiKey}}\ntenantId: {{tenantId}}\nX-token: {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Connection",
+					"value": "keep-alive",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Client-Id",
+					"value": "{{clientId}}",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Api-User-Name",
+					"value": "{{apiUserName}}",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Nonce",
+					"value": "{{apiKey}}",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "tenantId",
+					"value": "{{tenantId}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-token",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{buy-protocol}}://{{buy-server}}:{{buy-port}}/api/buy/kiosk/tenants/{{tenantId}}/storeInfos",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "/*var responseData = JSON.parse(responseBody);\n\npostman.setEnvironmentVariable(\"openTerminalId\",  responseData[1].terminalId);\npostman.setEnvironmentVariable(\"closedTerminalId\",  responseData[1].terminalId);*/\n\n//TODO try running in sequence - postman.setNextRequest('')",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1530612431164,
+			"name": "Retrieve stores for a given tenant",
+			"description": "",
+			"collectionId": "64c723cc-2e68-ef10-a7cf-8da7e8409b01",
+			"responses": [],
+			"rawModeData": "{\r\n\t\"username\":\"buy_test\",\r\n     \"password\":\"Pa$$word5\"\r\n}"
+		},
+		{
+			"id": "d657307a-3f60-ba4f-3abd-70b03333d5b8",
+			"headers": "Content-Type: application/json\nConnection: keep-alive\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Connection",
+					"value": "keep-alive",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://buy-dev-buy-01.bellevue.agilysys.com:8080/user-service/user/tenants/{{tenantId}}/users/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": "",
+			"method": "POST",
+			"collectionId": "64c723cc-2e68-ef10-a7cf-8da7e8409b01",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Login and Get X-Token",
+			"description": "TODO-replace it with API key once it is ready",
+			"descriptionFormat": "html",
+			"time": 1530612345684,
+			"version": 2,
+			"responses": [],
+			"tests": "var data = JSON.parse(responseBody);\n\npostman.setEnvironmentVariable(\"token\",  data.token);\npostman.setEnvironmentVariable(\"tenantId\", data.tenants[0].tenantId)",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"username\":\"buy_test\",\r\n     \"password\":\"Pa$$word5\"\r\n}"
+		},
+		{
+			"id": "fba7b35e-4998-3287-7a78-670b88728298",
+			"headers": "Content-Type: application/json\nConnection: keep-alive\n//Client-Id: {{clientId}}\n//Api-User-Name: {{apiUserName}}\n//Nonce: {{apiKey}}\ntenantId: {{tenantId}}\nX-token: {{token}}\nAccept-Encoding: gzip, deflate\nAccept-Language: en-US,en;q=0.9\nHost: buy-dev-buy-01.bellevue.agilysys.com:8080\nReferer: http://buy-dev-buy-01.bellevue.agilysys.com:8080/tenants/{{tenantId}}/contexts/{{businesscontextId}}/items/{{nonNestedItemId}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Connection",
+					"value": "keep-alive",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Client-Id",
+					"value": "{{clientId}}",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Api-User-Name",
+					"value": "{{apiUserName}}",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Nonce",
+					"value": "{{apiKey}}",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "tenantId",
+					"value": "{{tenantId}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-token",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept-Encoding",
+					"value": "gzip, deflate",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept-Language",
+					"value": "en-US,en;q=0.9",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Host",
+					"value": "buy-dev-buy-01.bellevue.agilysys.com:8080",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Referer",
+					"value": "http://buy-dev-buy-01.bellevue.agilysys.com:8080/tenants/{{tenantId}}/contexts/{{businesscontextId}}/items/{{nonNestedItemId}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{buy-protocol}}://{{buy-server}}:{{buy-port}}/api/buy/images/tenants/296/contexts/{{businesscontextId}}/images?imageType=ITEM",
+			"folder": "efd195af-8113-50bc-0949-12ef572a844f",
+			"queryParams": [
+				{
+					"key": "imageType",
+					"value": "ITEM",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "/*var responseData = JSON.parse(responseBody);\n\npostman.setEnvironmentVariable(\"openTerminalId\",  responseData[1].terminalId);\npostman.setEnvironmentVariable(\"closedTerminalId\",  responseData[1].terminalId);*/\n\n//TODO try running in sequence - postman.setNextRequest('')",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1530612407736,
+			"name": "images",
+			"description": "",
+			"collectionId": "64c723cc-2e68-ef10-a7cf-8da7e8409b01",
+			"responses": [],
+			"rawModeData": "{\r\n\t\"username\":\"buy_test\",\r\n     \"password\":\"Pa$$word5\"\r\n}"
+		}
+	]
+}

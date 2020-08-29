@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryList does a snapshot test 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "colors": Object {
+        "addOnTab": "#347CFF",
+        "addToCart": "#347CFF",
+        "addonBg": "#EEEEEE",
+        "backgroundGrey": "#E6E6E6",
+        "black": "#000000",
+        "close": "red",
+        "contextBackground": "#f0f0f3",
+        "darkGrey": "#464646",
+        "disableBackground": "#E4E4E4",
+        "disableButton": "#D1D1D1",
+        "error": "#cc0000",
+        "footer": "#48a942",
+        "glutenFree": "#8d7356",
+        "healthy": "#359919",
+        "hint": "#a6a6a6",
+        "inputBottomBorder": "lightgray",
+        "itemBorder": "lightgrey",
+        "itemTile": "#3C474C0",
+        "light": "white",
+        "loader": "#ababab",
+        "loginBackground": "#303030",
+        "loginBoxColor": "#434149",
+        "loginField": "#AAA7AC",
+        "loginFormBackground": "#484848",
+        "navigationMenu": "#48a942",
+        "navigationMenuHover": "cornflowerblue",
+        "new": "#ff6000",
+        "open": "#48a942",
+        "paymentSuccessTitle": "#505050",
+        "placeHolder": "#909090",
+        "primary": "#347CFF",
+        "primaryButton": "#347CFF",
+        "primaryText": "#383838",
+        "secondaryText": "#a6a6a6",
+        "spicy": "#ed1c24",
+        "text": "black",
+        "textGrey": "#505050",
+        "tile": "#505050",
+        "validationError": "#cc0000",
+        "vegan": "#0d4a22",
+        "vegetarian": "#0d4a22",
+      },
+      "fontFamily": "Roboto",
+      "fontSize": Object {
+        "lg": "1.8rem",
+        "md": "1.3rem",
+        "nm": "1rem",
+        "sm": "0.75rem",
+        "xl": "2.4rem",
+      },
+      "fontSizeFromProps": [Function],
+      "mediaBreakpoints": Object {
+        "desktop": [Function],
+        "mobile": [Function],
+        "tablet": [Function],
+      },
+      "nav": Object {
+        "height": "70px",
+      },
+      "receiptFontFamily": "Roboto",
+      "shadow": "#cfcfcf 0.1px 0.1px 3px 0px",
+      "spacing": Object {
+        "lg": "4em",
+        "md": "2em",
+        "nm": "1em",
+        "none": "0em",
+        "sm": "0.5em",
+        "xl": "8em",
+      },
+    }
+  }
+>
+  <Styled(Flex)
+    className="category-list"
+    p={
+      Array [
+        1,
+        2,
+        3,
+        4,
+      ]
+    }
+  >
+    <Styled(Heading)
+      aria-label="CATEGORY_LIST_PAGE_LABEL"
+      className="select-category-header"
+      role="header"
+      tabIndex={0}
+    >
+      <div
+        i18nKey="CATEGORY_LIST_PAGE_LABEL"
+      />
+    </Styled(Heading)>
+    <Styled(Flex)
+      aria-label="CATEGORY_SELECT 3 CATEGORIES"
+      className="category-list-container"
+      tabIndex={0}
+    >
+      <Tile
+        ariaLabel="category1 Build Your Own Sandwich"
+        classContext="tile category-1 category_101"
+        className="tile"
+        hasBorder={true}
+        id="101"
+        image="https://thumbs.dreamstime.com/b/sandwich-plate-28397223.jpg"
+        imageresponsive="true"
+        isEnabled={true}
+        tabIndex={0}
+        title="Build Your Own Sandwich"
+      />
+      <Tile
+        ariaLabel="category2 Specials"
+        classContext="tile category-2 category_102"
+        className="tile"
+        hasBorder={true}
+        id="102"
+        image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaoN_zozVlVN4k6jJlaQOAcr1UbBFA7IJIvxXHjQ5x7o58H-zW6w"
+        imageresponsive="true"
+        isEnabled={true}
+        tabIndex={0}
+        title="Specials"
+      />
+      <Tile
+        ariaLabel="category3 Sides"
+        classContext="tile category-3 category_103"
+        className="tile"
+        hasBorder={true}
+        id="103"
+        image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE4FJOwC6UooDbfKebGZngjvGCC4YQn3XDDrJF-LAJ2hRbv-8V_A"
+        imageresponsive="true"
+        isEnabled={true}
+        tabIndex={0}
+        title="Sides"
+      />
+    </Styled(Flex)>
+  </Styled(Flex)>
+</ThemeProvider>
+`;

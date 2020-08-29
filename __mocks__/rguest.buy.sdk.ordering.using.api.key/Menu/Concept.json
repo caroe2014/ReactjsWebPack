@@ -1,0 +1,31 @@
+[
+    {
+        "name": "MicroSoft Cafe",
+        "id": "84",
+        "conceptOptions": {
+            "inUse": "true",
+            "displayText": "MS Cafe",
+            "showLogo": "false"
+        },
+        "menus": [
+            {
+                "name": "Food",
+                "id": "99",
+                "categories": [
+                    {
+                        "name": "Lunch",
+                        "categoryOptions": {},
+                        "items": [
+                            "5b218064a1a419000cf26781",
+                            "5b22f8f1b1ed73000c6b5de6",
+                            "5b22f8f1b1ed73000c6b5dcb"
+                        ],
+                        "itemIdToItemPropertiesMap": {},
+                        "kioskImages": []
+                    }
+                ],
+                "lastUpdateTime": "2018-06-19T15:53:31.253Z"
+            }
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IncrementInput does a snapshot test 1`] = `
+<Styled(Flex)
+  id="IncrementInput"
+>
+  <Styled(Flex)
+    style={
+      Object {
+        "fontWeight": "100",
+        "padding": "0px 27px",
+      }
+    }
+  >
+    Quantity 
+  </Styled(Flex)>
+</Styled(Flex)>
+`;

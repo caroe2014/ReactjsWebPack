@@ -1,0 +1,530 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconButton does a snapshot test 1`] = `
+.c2 {
+  box-sizing: border-box;
+  width: auto;
+}
+
+.c4 {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.c9 {
+  box-sizing: border-box;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+}
+
+.c7 {
+  font-family: inherit;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.1428571428571428;
+  margin: 0px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+  background-color: blue;
+  border-radius: 9999px;
+  border: 0;
+}
+
+.c7:disabled {
+  opacity: 0.25;
+}
+
+.c7:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px blue;
+}
+
+.c6 {
+  background-color: transparent;
+  color: #a6a6a6;
+  cursor: pointer;
+  font-size: 1.3rem;
+  padding: 0;
+}
+
+.c6:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.c8 {
+  padding: 0 5px;
+  color: #505050;
+}
+
+.c0 {
+  border: 0.5px solid #505050;
+  border-radius: 15px;
+  padding: 0.2em 0.75em;
+  height: 32px;
+}
+
+.c5 {
+  font-size: 0.75rem;
+  color: #505050;
+}
+
+.c5:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+<ThemeProvider
+  theme={
+    Object {
+      "colors": Object {
+        "addOnTab": "#347CFF",
+        "addToCart": "#347CFF",
+        "addonBg": "#EEEEEE",
+        "backgroundGrey": "#E6E6E6",
+        "black": "#000000",
+        "close": "red",
+        "contextBackground": "#f0f0f3",
+        "darkGrey": "#464646",
+        "disableBackground": "#E4E4E4",
+        "disableButton": "#D1D1D1",
+        "error": "#cc0000",
+        "footer": "#48a942",
+        "glutenFree": "#8d7356",
+        "healthy": "#359919",
+        "hint": "#a6a6a6",
+        "inputBottomBorder": "lightgray",
+        "itemBorder": "lightgrey",
+        "itemTile": "#3C474C0",
+        "light": "white",
+        "loader": "#ababab",
+        "loginBackground": "#303030",
+        "loginBoxColor": "#434149",
+        "loginField": "#AAA7AC",
+        "loginFormBackground": "#484848",
+        "navigationMenu": "#48a942",
+        "navigationMenuHover": "cornflowerblue",
+        "new": "#ff6000",
+        "open": "#48a942",
+        "paymentSuccessTitle": "#505050",
+        "placeHolder": "#909090",
+        "primary": "#347CFF",
+        "primaryButton": "#347CFF",
+        "primaryText": "#383838",
+        "secondaryText": "#a6a6a6",
+        "spicy": "#ed1c24",
+        "text": "black",
+        "textGrey": "#505050",
+        "tile": "#505050",
+        "validationError": "#cc0000",
+        "vegan": "#0d4a22",
+        "vegetarian": "#0d4a22",
+      },
+      "fontFamily": "Roboto",
+      "fontSize": Object {
+        "lg": "1.8rem",
+        "md": "1.3rem",
+        "nm": "1rem",
+        "sm": "0.75rem",
+        "xl": "2.4rem",
+      },
+      "fontSizeFromProps": [Function],
+      "mediaBreakpoints": Object {
+        "desktop": [Function],
+        "mobile": [Function],
+        "tablet": [Function],
+      },
+      "nav": Object {
+        "height": "70px",
+      },
+      "receiptFontFamily": "Roboto",
+      "shadow": "#cfcfcf 0.1px 0.1px 3px 0px",
+      "spacing": Object {
+        "lg": "4em",
+        "md": "2em",
+        "nm": "1em",
+        "none": "0em",
+        "sm": "0.5em",
+        "xl": "8em",
+      },
+    }
+  }
+>
+  <AddItem
+    min={1}
+    theme={
+      Object {
+        "colors": Object {
+          "addOnTab": "#347CFF",
+          "addToCart": "#347CFF",
+          "addonBg": "#EEEEEE",
+          "backgroundGrey": "#E6E6E6",
+          "black": "#000000",
+          "close": "red",
+          "contextBackground": "#f0f0f3",
+          "darkGrey": "#464646",
+          "disableBackground": "#E4E4E4",
+          "disableButton": "#D1D1D1",
+          "error": "#cc0000",
+          "footer": "#48a942",
+          "glutenFree": "#8d7356",
+          "healthy": "#359919",
+          "hint": "#a6a6a6",
+          "inputBottomBorder": "lightgray",
+          "itemBorder": "lightgrey",
+          "itemTile": "#3C474C0",
+          "light": "white",
+          "loader": "#ababab",
+          "loginBackground": "#303030",
+          "loginBoxColor": "#434149",
+          "loginField": "#AAA7AC",
+          "loginFormBackground": "#484848",
+          "navigationMenu": "#48a942",
+          "navigationMenuHover": "cornflowerblue",
+          "new": "#ff6000",
+          "open": "#48a942",
+          "paymentSuccessTitle": "#505050",
+          "placeHolder": "#909090",
+          "primary": "#347CFF",
+          "primaryButton": "#347CFF",
+          "primaryText": "#383838",
+          "secondaryText": "#a6a6a6",
+          "spicy": "#ed1c24",
+          "text": "black",
+          "textGrey": "#505050",
+          "tile": "#505050",
+          "validationError": "#cc0000",
+          "vegan": "#0d4a22",
+          "vegetarian": "#0d4a22",
+        },
+        "fontFamily": "Roboto",
+        "fontSize": Object {
+          "lg": "1.8rem",
+          "md": "1.3rem",
+          "nm": "1rem",
+          "sm": "0.75rem",
+          "xl": "2.4rem",
+        },
+        "fontSizeFromProps": [Function],
+        "mediaBreakpoints": Object {
+          "desktop": [Function],
+          "mobile": [Function],
+          "tablet": [Function],
+        },
+        "nav": Object {
+          "height": "70px",
+        },
+        "receiptFontFamily": "Roboto",
+        "shadow": "#cfcfcf 0.1px 0.1px 3px 0px",
+        "spacing": Object {
+          "lg": "4em",
+          "md": "2em",
+          "nm": "1em",
+          "none": "0em",
+          "sm": "0.5em",
+          "xl": "8em",
+        },
+      }
+    }
+  >
+    <Styled(Flex)
+      width="auto"
+    >
+      <Flex
+        className="c0"
+        width="auto"
+      >
+        <Box
+          className="c0 c1"
+          width="auto"
+        >
+          <div
+            className="c0 c1 c2"
+            width="auto"
+          >
+            <Flex
+              alignItems="center"
+              justifyContent="space-around"
+              width="100%"
+            >
+              <Box
+                alignItems="center"
+                className="c3"
+                justifyContent="space-around"
+                width="100%"
+              >
+                <div
+                  className="c3 c4"
+                  width="100%"
+                >
+                  <Styled(IconButton)
+                    aria-label="decrement"
+                    className="decrement-button"
+                    iconClassName="fa fa-minus"
+                    onClick={[Function]}
+                    role="button"
+                  >
+                    <IconButton
+                      aria-label="decrement"
+                      className="decrement-button c5"
+                      iconClassName="fa fa-minus"
+                      onClick={[Function]}
+                      role="button"
+                    >
+                      <Styled(ButtonCircle)
+                        aria-label="decrement"
+                        className="decrement-button c5"
+                        onClick={[Function]}
+                        role="button"
+                      >
+                        <ButtonCircle
+                          aria-label="decrement"
+                          bg="blue"
+                          border={0}
+                          borderRadius={9999}
+                          className="decrement-button c5 c6"
+                          color="white"
+                          extend={[Function]}
+                          fontSize={1}
+                          fontWeight="bold"
+                          is="button"
+                          lineHeight={1.1428571428571428}
+                          m={0}
+                          onClick={[Function]}
+                          px={3}
+                          py={2}
+                          role="button"
+                        >
+                          <ForwardRef
+                            aria-label="decrement"
+                            bg="blue"
+                            border={0}
+                            borderRadius={9999}
+                            className="decrement-button c5 c6 "
+                            color="white"
+                            extend={[Function]}
+                            fontSize={1}
+                            fontWeight="bold"
+                            is="button"
+                            lineHeight={1.1428571428571428}
+                            m={0}
+                            onClick={[Function]}
+                            px={3}
+                            py={2}
+                            role="button"
+                          >
+                            <Button
+                              aria-label="decrement"
+                              bg="blue"
+                              border={0}
+                              borderRadius={9999}
+                              className="decrement-button c5 c6 "
+                              color="white"
+                              fontSize={1}
+                              fontWeight="bold"
+                              is="button"
+                              lineHeight={1.1428571428571428}
+                              m={0}
+                              onClick={[Function]}
+                              px={3}
+                              py={2}
+                              role="button"
+                            >
+                              <ForwardRef
+                                aria-label="decrement"
+                                bg="blue"
+                                border={0}
+                                borderRadius={9999}
+                                className="decrement-button c5 c6 c7"
+                                color="white"
+                                fontSize={1}
+                                fontWeight="bold"
+                                is="button"
+                                lineHeight={1.1428571428571428}
+                                m={0}
+                                onClick={[Function]}
+                                px={3}
+                                py={2}
+                                role="button"
+                              >
+                                <button
+                                  aria-label="decrement"
+                                  className="decrement-button c5 c6 c7"
+                                  onClick={[Function]}
+                                  role="button"
+                                >
+                                  <i
+                                    className="fa fa-minus"
+                                  />
+                                </button>
+                              </ForwardRef>
+                            </Button>
+                          </ForwardRef>
+                        </ButtonCircle>
+                      </Styled(ButtonCircle)>
+                    </IconButton>
+                  </Styled(IconButton)>
+                  <Styled(Flex)>
+                    <Flex
+                      className="c8"
+                    >
+                      <Box
+                        className="c8 c1"
+                      >
+                        <div
+                          className="c8 c1 c9"
+                        >
+                          1
+                        </div>
+                      </Box>
+                    </Flex>
+                  </Styled(Flex)>
+                  <Styled(IconButton)
+                    aria-label="increment"
+                    className="increment-button"
+                    iconClassName="fa fa-plus"
+                    onClick={[Function]}
+                    role="button"
+                  >
+                    <IconButton
+                      aria-label="increment"
+                      className="increment-button c5"
+                      iconClassName="fa fa-plus"
+                      onClick={[Function]}
+                      role="button"
+                    >
+                      <Styled(ButtonCircle)
+                        aria-label="increment"
+                        className="increment-button c5"
+                        onClick={[Function]}
+                        role="button"
+                      >
+                        <ButtonCircle
+                          aria-label="increment"
+                          bg="blue"
+                          border={0}
+                          borderRadius={9999}
+                          className="increment-button c5 c6"
+                          color="white"
+                          extend={[Function]}
+                          fontSize={1}
+                          fontWeight="bold"
+                          is="button"
+                          lineHeight={1.1428571428571428}
+                          m={0}
+                          onClick={[Function]}
+                          px={3}
+                          py={2}
+                          role="button"
+                        >
+                          <ForwardRef
+                            aria-label="increment"
+                            bg="blue"
+                            border={0}
+                            borderRadius={9999}
+                            className="increment-button c5 c6 "
+                            color="white"
+                            extend={[Function]}
+                            fontSize={1}
+                            fontWeight="bold"
+                            is="button"
+                            lineHeight={1.1428571428571428}
+                            m={0}
+                            onClick={[Function]}
+                            px={3}
+                            py={2}
+                            role="button"
+                          >
+                            <Button
+                              aria-label="increment"
+                              bg="blue"
+                              border={0}
+                              borderRadius={9999}
+                              className="increment-button c5 c6 "
+                              color="white"
+                              fontSize={1}
+                              fontWeight="bold"
+                              is="button"
+                              lineHeight={1.1428571428571428}
+                              m={0}
+                              onClick={[Function]}
+                              px={3}
+                              py={2}
+                              role="button"
+                            >
+                              <ForwardRef
+                                aria-label="increment"
+                                bg="blue"
+                                border={0}
+                                borderRadius={9999}
+                                className="increment-button c5 c6 c7"
+                                color="white"
+                                fontSize={1}
+                                fontWeight="bold"
+                                is="button"
+                                lineHeight={1.1428571428571428}
+                                m={0}
+                                onClick={[Function]}
+                                px={3}
+                                py={2}
+                                role="button"
+                              >
+                                <button
+                                  aria-label="increment"
+                                  className="increment-button c5 c6 c7"
+                                  onClick={[Function]}
+                                  role="button"
+                                >
+                                  <i
+                                    className="fa fa-plus"
+                                  />
+                                </button>
+                              </ForwardRef>
+                            </Button>
+                          </ForwardRef>
+                        </ButtonCircle>
+                      </Styled(ButtonCircle)>
+                    </IconButton>
+                  </Styled(IconButton)>
+                </div>
+              </Box>
+            </Flex>
+          </div>
+        </Box>
+      </Flex>
+    </Styled(Flex)>
+  </AddItem>
+</ThemeProvider>
+`;

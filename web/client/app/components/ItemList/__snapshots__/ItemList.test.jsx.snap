@@ -1,0 +1,373 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItemList Component does a snapshot test 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "colors": Object {
+        "addOnTab": "#347CFF",
+        "addToCart": "#347CFF",
+        "addonBg": "#EEEEEE",
+        "backgroundGrey": "#E6E6E6",
+        "black": "#000000",
+        "close": "red",
+        "contextBackground": "#f0f0f3",
+        "darkGrey": "#464646",
+        "disableBackground": "#E4E4E4",
+        "disableButton": "#D1D1D1",
+        "error": "#cc0000",
+        "footer": "#48a942",
+        "glutenFree": "#8d7356",
+        "healthy": "#359919",
+        "hint": "#a6a6a6",
+        "inputBottomBorder": "lightgray",
+        "itemBorder": "lightgrey",
+        "itemTile": "#3C474C0",
+        "light": "white",
+        "loader": "#ababab",
+        "loginBackground": "#303030",
+        "loginBoxColor": "#434149",
+        "loginField": "#AAA7AC",
+        "loginFormBackground": "#484848",
+        "navigationMenu": "#48a942",
+        "navigationMenuHover": "cornflowerblue",
+        "new": "#ff6000",
+        "open": "#48a942",
+        "paymentSuccessTitle": "#505050",
+        "placeHolder": "#909090",
+        "primary": "#347CFF",
+        "primaryButton": "#347CFF",
+        "primaryText": "#383838",
+        "secondaryText": "#a6a6a6",
+        "spicy": "#ed1c24",
+        "text": "black",
+        "textGrey": "#505050",
+        "tile": "#505050",
+        "validationError": "#cc0000",
+        "vegan": "#0d4a22",
+        "vegetarian": "#0d4a22",
+      },
+      "fontFamily": "Roboto",
+      "fontSize": Object {
+        "lg": "1.8rem",
+        "md": "1.3rem",
+        "nm": "1rem",
+        "sm": "0.75rem",
+        "xl": "2.4rem",
+      },
+      "fontSizeFromProps": [Function],
+      "mediaBreakpoints": Object {
+        "desktop": [Function],
+        "mobile": [Function],
+        "tablet": [Function],
+      },
+      "nav": Object {
+        "height": "70px",
+      },
+      "receiptFontFamily": "Roboto",
+      "shadow": "#cfcfcf 0.1px 0.1px 3px 0px",
+      "spacing": Object {
+        "lg": "4em",
+        "md": "2em",
+        "nm": "1em",
+        "none": "0em",
+        "sm": "0.5em",
+        "xl": "8em",
+      },
+    }
+  }
+>
+  <ItemList
+    keyProps={
+      Array [
+        Object {
+          "amount": "Mock amount",
+          "attributes": Array [
+            Object {
+              "id": "mockId1",
+              "name": "mockName",
+              "value": "mockValue1",
+            },
+            Object {
+              "id": "mockId2",
+              "name": "mockName",
+              "value": "mockValue2",
+            },
+            Object {
+              "id": "mockId3",
+              "name": "mockName",
+              "value": "mockValue3",
+            },
+          ],
+          "description": "Mock description text",
+          "id": "100",
+          "image": "image.png",
+          "name": "This is a mock name",
+        },
+        Object {
+          "amount": "Mock amount",
+          "attributes": Array [
+            Object {
+              "id": "mockId1",
+              "name": "mockName",
+              "value": "mockValue1",
+            },
+            Object {
+              "id": "mockId2",
+              "name": "mockName",
+              "value": "mockValue2",
+            },
+            Object {
+              "id": "mockId3",
+              "name": "mockName",
+              "value": "mockValue3",
+            },
+          ],
+          "description": "Mock description text",
+          "id": "101",
+          "image": "image.png",
+          "name": "This is a mock name",
+        },
+        Object {
+          "amount": "Mock amount",
+          "attributes": Array [
+            Object {
+              "id": "mockId1",
+              "name": "mockName",
+              "value": "mockValue1",
+            },
+            Object {
+              "id": "mockId2",
+              "name": "mockName",
+              "value": "mockValue2",
+            },
+          ],
+          "description": "Mock description text",
+          "id": "102",
+          "image": "image.png",
+          "name": "This is a mock name",
+        },
+        Object {
+          "amount": "Mock amount",
+          "attributes": Array [
+            Object {
+              "id": "mockId1",
+              "name": "mockName",
+              "value": "mockValue1",
+            },
+            Object {
+              "id": "mockId2",
+              "name": "mockName",
+              "value": "mockValue2",
+            },
+          ],
+          "description": "Mock description text",
+          "id": "103",
+          "image": "image.png",
+          "name": "This is a mock name",
+        },
+      ]
+    }
+  >
+    <ThemeProvider
+      theme={
+        Object {
+          "colors": Object {
+            "addOnTab": "#347CFF",
+            "addToCart": "#347CFF",
+            "addonBg": "#EEEEEE",
+            "backgroundGrey": "#E6E6E6",
+            "black": "#000000",
+            "close": "red",
+            "contextBackground": "#f0f0f3",
+            "darkGrey": "#464646",
+            "disableBackground": "#E4E4E4",
+            "disableButton": "#D1D1D1",
+            "error": "#cc0000",
+            "footer": "#48a942",
+            "glutenFree": "#8d7356",
+            "healthy": "#359919",
+            "hint": "#a6a6a6",
+            "inputBottomBorder": "lightgray",
+            "itemBorder": "lightgrey",
+            "itemTile": "#3C474C0",
+            "light": "white",
+            "loader": "#ababab",
+            "loginBackground": "#303030",
+            "loginBoxColor": "#434149",
+            "loginField": "#AAA7AC",
+            "loginFormBackground": "#484848",
+            "navigationMenu": "#48a942",
+            "navigationMenuHover": "cornflowerblue",
+            "new": "#ff6000",
+            "open": "#48a942",
+            "paymentSuccessTitle": "#505050",
+            "placeHolder": "#909090",
+            "primary": "#347CFF",
+            "primaryButton": "#347CFF",
+            "primaryText": "#383838",
+            "secondaryText": "#a6a6a6",
+            "spicy": "#ed1c24",
+            "text": "black",
+            "textGrey": "#505050",
+            "tile": "#505050",
+            "validationError": "#cc0000",
+            "vegan": "#0d4a22",
+            "vegetarian": "#0d4a22",
+          },
+          "fontFamily": "Roboto",
+          "fontSize": Object {
+            "lg": "1.8rem",
+            "md": "1.3rem",
+            "nm": "1rem",
+            "sm": "0.75rem",
+            "xl": "2.4rem",
+          },
+          "fontSizeFromProps": [Function],
+          "mediaBreakpoints": Object {
+            "desktop": [Function],
+            "mobile": [Function],
+            "tablet": [Function],
+          },
+          "nav": Object {
+            "height": "70px",
+          },
+          "receiptFontFamily": "Roboto",
+          "shadow": "#cfcfcf 0.1px 0.1px 3px 0px",
+          "spacing": Object {
+            "lg": "4em",
+            "md": "2em",
+            "nm": "1em",
+            "none": "0em",
+            "sm": "0.5em",
+            "xl": "8em",
+          },
+        }
+      }
+    >
+      <Styled(Flex)
+        className="item-list"
+        m={
+          Array [
+            0,
+            2,
+          ]
+        }
+        p={
+          Array [
+            1,
+            2,
+            3,
+            4,
+          ]
+        }
+      >
+        <Flex
+          className="item-list sc-dqBHgY iyTuOp"
+          m={
+            Array [
+              0,
+              2,
+            ]
+          }
+          p={
+            Array [
+              1,
+              2,
+              3,
+              4,
+            ]
+          }
+        >
+          <Box
+            className="item-list sc-dqBHgY iyTuOp sc-bwzfXH hKiLMS"
+            m={
+              Array [
+                0,
+                2,
+              ]
+            }
+            p={
+              Array [
+                1,
+                2,
+                3,
+                4,
+              ]
+            }
+          >
+            <div
+              className="item-list sc-dqBHgY iyTuOp sc-bwzfXH hKiLMS sc-bdVaJa dQThJL"
+            >
+              <Styled(Heading)
+                aria-level="2"
+                className="select-item-header"
+                role="heading"
+                tabIndex={0}
+              >
+                <Heading
+                  aria-level="2"
+                  className="select-item-header sc-dfVpRl edrqND"
+                  fontSize={5}
+                  fontWeight="bold"
+                  is="h2"
+                  lineHeight={1.25}
+                  m={0}
+                  role="heading"
+                  tabIndex={0}
+                >
+                  <ForwardRef
+                    aria-level="2"
+                    className="select-item-header sc-dfVpRl edrqND sc-VigVT fXkMTo"
+                    fontSize={5}
+                    fontWeight="bold"
+                    is="h2"
+                    lineHeight={1.25}
+                    m={0}
+                    role="heading"
+                    tabIndex={0}
+                  >
+                    <h2
+                      aria-level="2"
+                      className="select-item-header sc-dfVpRl edrqND sc-VigVT fXkMTo"
+                      role="heading"
+                      tabIndex={0}
+                    >
+                      <div
+                        i18nKey="ITEM_LIST_PAGE_LABEL"
+                      />
+                    </h2>
+                  </ForwardRef>
+                </Heading>
+              </Styled(Heading)>
+              <Styled(Flex)
+                aria-label="ITEM_SELECT 4 ITEMS"
+                className="item-listcontainer"
+                tabIndex={0}
+              >
+                <Flex
+                  aria-label="ITEM_SELECT 4 ITEMS"
+                  className="item-listcontainer sc-gxMtzJ ftlvFG"
+                  tabIndex={0}
+                >
+                  <Box
+                    aria-label="ITEM_SELECT 4 ITEMS"
+                    className="item-listcontainer sc-gxMtzJ ftlvFG sc-bwzfXH hKiLMS"
+                    tabIndex={0}
+                  >
+                    <div
+                      aria-label="ITEM_SELECT 4 ITEMS"
+                      className="item-listcontainer sc-gxMtzJ ftlvFG sc-bwzfXH hKiLMS sc-bdVaJa iHZvIS"
+                      tabIndex={0}
+                    />
+                  </Box>
+                </Flex>
+              </Styled(Flex)>
+            </div>
+          </Box>
+        </Flex>
+      </Styled(Flex)>
+    </ThemeProvider>
+  </ItemList>
+</ThemeProvider>
+`;

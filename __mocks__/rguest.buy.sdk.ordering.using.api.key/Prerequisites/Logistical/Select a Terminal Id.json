@@ -1,0 +1,56 @@
+[
+    {
+        "terminalId": "11",
+        "name": "MS ATPG",
+        "isAssignedToDevice": false,
+        "id": "5b21805ca1a419000cf2677a",
+        "tenantId": "48",
+        "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f",
+        "assignedToDevice": false
+    },
+    {
+        "terminalId": "12",
+        "name": "MS Terminal 1",
+        "isAssignedToDevice": false,
+        "id": "5b21805db1ed73000c6b5d0c",
+        "tenantId": "48",
+        "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f",
+        "assignedToDevice": false
+    },
+    {
+        "terminalId": "13",
+        "name": "MS Terminal 2",
+        "isAssignedToDevice": false,
+        "id": "5b21805da1a419000cf2677b",
+        "tenantId": "48",
+        "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f",
+        "assignedToDevice": false
+    },
+    {
+        "terminalId": "14",
+        "name": "MS Terminal 3",
+        "isAssignedToDevice": false,
+        "id": "5b21805db1ed73000c6b5d0d",
+        "tenantId": "48",
+        "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f",
+        "assignedToDevice": false
+    },
+    {
+        "terminalId": "15",
+        "name": "MS Terminal 4",
+        "isAssignedToDevice": false,
+        "id": "5b21805da1a419000cf2677c",
+        "tenantId": "48",
+        "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f",
+        "assignedToDevice": false
+    },
+    {
+        "terminalId": "16",
+        "name": "MS Terminal 5",
+        "isAssignedToDevice": false,
+        "id": "5b21805db1ed73000c6b5d0e",
+        "tenantId": "48",
+        "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f",
+        "assignedToDevice": false
+    }
+]

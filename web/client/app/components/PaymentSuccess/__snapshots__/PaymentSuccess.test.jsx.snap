@@ -1,0 +1,861 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaymentSuccess does a snapshot test 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "colors": Object {
+        "addOnTab": "#347CFF",
+        "addToCart": "#347CFF",
+        "addonBg": "#EEEEEE",
+        "backgroundGrey": "#E6E6E6",
+        "black": "#000000",
+        "close": "red",
+        "contextBackground": "#f0f0f3",
+        "darkGrey": "#464646",
+        "disableBackground": "#E4E4E4",
+        "disableButton": "#D1D1D1",
+        "error": "#cc0000",
+        "footer": "#48a942",
+        "glutenFree": "#8d7356",
+        "healthy": "#359919",
+        "hint": "#a6a6a6",
+        "inputBottomBorder": "lightgray",
+        "itemBorder": "lightgrey",
+        "itemTile": "#3C474C0",
+        "light": "white",
+        "loader": "#ababab",
+        "loginBackground": "#303030",
+        "loginBoxColor": "#434149",
+        "loginField": "#AAA7AC",
+        "loginFormBackground": "#484848",
+        "navigationMenu": "#48a942",
+        "navigationMenuHover": "cornflowerblue",
+        "new": "#ff6000",
+        "open": "#48a942",
+        "paymentSuccessTitle": "#505050",
+        "placeHolder": "#909090",
+        "primary": "#347CFF",
+        "primaryButton": "#347CFF",
+        "primaryText": "#383838",
+        "secondaryText": "#a6a6a6",
+        "spicy": "#ed1c24",
+        "text": "black",
+        "textGrey": "#505050",
+        "tile": "#505050",
+        "validationError": "#cc0000",
+        "vegan": "#0d4a22",
+        "vegetarian": "#0d4a22",
+      },
+      "fontFamily": "Roboto",
+      "fontSize": Object {
+        "lg": "1.8rem",
+        "md": "1.3rem",
+        "nm": "1rem",
+        "sm": "0.75rem",
+        "xl": "2.4rem",
+      },
+      "fontSizeFromProps": [Function],
+      "mediaBreakpoints": Object {
+        "desktop": [Function],
+        "mobile": [Function],
+        "tablet": [Function],
+      },
+      "nav": Object {
+        "height": "70px",
+      },
+      "receiptFontFamily": "Roboto",
+      "shadow": "#cfcfcf 0.1px 0.1px 3px 0px",
+      "spacing": Object {
+        "lg": "4em",
+        "md": "2em",
+        "nm": "1em",
+        "none": "0em",
+        "sm": "0.5em",
+        "xl": "8em",
+      },
+    }
+  }
+>
+  <PaymentSuccess
+    cboConfig={Object {}}
+    saleData={
+      Object {
+        "closedOrder": Object {
+          "contextId": 1001,
+          "deliveryProperties": Object {
+            "deliveryOption": Object {
+              "id": "pickup",
+            },
+          },
+          "orderNumber": 1001,
+        },
+      }
+    }
+    sites={
+      Object {
+        "list": Array [
+          Object {
+            "etf": Object {
+              "etfEnabled": true,
+            },
+            "id": 1001,
+            "isLoyaltyEnabled": true,
+          },
+        ],
+      }
+    }
+    total="58.50"
+  >
+    <ThemeProvider
+      className="pay-success"
+      theme={
+        Object {
+          "colors": Object {
+            "addOnTab": "#347CFF",
+            "addToCart": "#347CFF",
+            "addonBg": "#EEEEEE",
+            "backgroundGrey": "#E6E6E6",
+            "black": "#000000",
+            "close": "red",
+            "contextBackground": "#f0f0f3",
+            "darkGrey": "#464646",
+            "disableBackground": "#E4E4E4",
+            "disableButton": "#D1D1D1",
+            "error": "#cc0000",
+            "footer": "#48a942",
+            "glutenFree": "#8d7356",
+            "healthy": "#359919",
+            "hint": "#a6a6a6",
+            "inputBottomBorder": "lightgray",
+            "itemBorder": "lightgrey",
+            "itemTile": "#3C474C0",
+            "light": "white",
+            "loader": "#ababab",
+            "loginBackground": "#303030",
+            "loginBoxColor": "#434149",
+            "loginField": "#AAA7AC",
+            "loginFormBackground": "#484848",
+            "navigationMenu": "#48a942",
+            "navigationMenuHover": "cornflowerblue",
+            "new": "#ff6000",
+            "open": "#48a942",
+            "paymentSuccessTitle": "#505050",
+            "placeHolder": "#909090",
+            "primary": "#347CFF",
+            "primaryButton": "#347CFF",
+            "primaryText": "#383838",
+            "secondaryText": "#a6a6a6",
+            "spicy": "#ed1c24",
+            "text": "black",
+            "textGrey": "#505050",
+            "tile": "#505050",
+            "validationError": "#cc0000",
+            "vegan": "#0d4a22",
+            "vegetarian": "#0d4a22",
+          },
+          "fontFamily": "Roboto",
+          "fontSize": Object {
+            "lg": "1.8rem",
+            "md": "1.3rem",
+            "nm": "1rem",
+            "sm": "0.75rem",
+            "xl": "2.4rem",
+          },
+          "fontSizeFromProps": [Function],
+          "mediaBreakpoints": Object {
+            "desktop": [Function],
+            "mobile": [Function],
+            "tablet": [Function],
+          },
+          "nav": Object {
+            "height": "70px",
+          },
+          "receiptFontFamily": "Roboto",
+          "shadow": "#cfcfcf 0.1px 0.1px 3px 0px",
+          "spacing": Object {
+            "lg": "4em",
+            "md": "2em",
+            "nm": "1em",
+            "none": "0em",
+            "sm": "0.5em",
+            "xl": "8em",
+          },
+        }
+      }
+    >
+      <Styled(Flex)
+        alignItems="center"
+        className="pay-success-container"
+        m={3}
+      >
+        <Flex
+          alignItems="center"
+          className="pay-success-container sc-ibxdXY dLRCpv"
+          m={3}
+        >
+          <Box
+            alignItems="center"
+            className="pay-success-container sc-ibxdXY dLRCpv sc-bwzfXH loXcNn"
+            m={3}
+          >
+            <div
+              className="pay-success-container sc-ibxdXY dLRCpv sc-bwzfXH loXcNn sc-bdVaJa ipthYH"
+            >
+              <styled.div>
+                <div
+                  className="sc-RefOD cVChke"
+                />
+              </styled.div>
+              <Styled(Styled(Flex))
+                className="top-div"
+              >
+                <Styled(Flex)
+                  className="top-div sc-lkqHmb hVTuVg"
+                >
+                  <Flex
+                    className="top-div sc-lkqHmb hVTuVg sc-bXGyLb gvvsCH"
+                  >
+                    <Box
+                      className="top-div sc-lkqHmb hVTuVg sc-bXGyLb gvvsCH sc-bwzfXH hKiLMS"
+                    >
+                      <div
+                        className="top-div sc-lkqHmb hVTuVg sc-bXGyLb gvvsCH sc-bwzfXH hKiLMS sc-bdVaJa iHZvIS"
+                      >
+                        <Styled(Flex)
+                          className="circleFlex"
+                        >
+                          <Flex
+                            className="circleFlex sc-cbkKFq gGgHBY"
+                          >
+                            <Box
+                              className="circleFlex sc-cbkKFq gGgHBY sc-bwzfXH hKiLMS"
+                            >
+                              <div
+                                className="circleFlex sc-cbkKFq gGgHBY sc-bwzfXH hKiLMS sc-bdVaJa iHZvIS"
+                              >
+                                <i
+                                  className="fa fa-check-circle"
+                                  style={
+                                    Object {
+                                      "color": undefined,
+                                      "fontSize": "65px",
+                                      "marginBottom": "15px",
+                                    }
+                                  }
+                                />
+                              </div>
+                            </Box>
+                          </Flex>
+                        </Styled(Flex)>
+                        <Announcements
+                          ariaLive="assertive"
+                          message="PAYMENT_SUCCESS_CHECKOUT_TITLE"
+                        >
+                          <div
+                            aria-atomic="false"
+                            aria-live="assertive"
+                            className="sr-only"
+                            role="alert"
+                            style={
+                              Object {
+                                "whiteSpace": "nowrap",
+                              }
+                            }
+                          >
+                            PAYMENT_SUCCESS_CHECKOUT_TITLE
+                          </div>
+                        </Announcements>
+                        <Styled(Heading)
+                          aria-label="PAYMENT_SUCCESS_CHECKOUT_TITLE"
+                          className="payment-success-header"
+                          tabIndex={0}
+                        >
+                          <Heading
+                            aria-label="PAYMENT_SUCCESS_CHECKOUT_TITLE"
+                            className="payment-success-header sc-gwVKww gDruOK"
+                            fontSize={5}
+                            fontWeight="bold"
+                            is="h2"
+                            lineHeight={1.25}
+                            m={0}
+                            tabIndex={0}
+                          >
+                            <ForwardRef
+                              aria-label="PAYMENT_SUCCESS_CHECKOUT_TITLE"
+                              className="payment-success-header sc-gwVKww gDruOK sc-VigVT fXkMTo"
+                              fontSize={5}
+                              fontWeight="bold"
+                              is="h2"
+                              lineHeight={1.25}
+                              m={0}
+                              tabIndex={0}
+                            >
+                              <h2
+                                aria-label="PAYMENT_SUCCESS_CHECKOUT_TITLE"
+                                className="payment-success-header sc-gwVKww gDruOK sc-VigVT fXkMTo"
+                                tabIndex={0}
+                              >
+                                <div
+                                  i18nKey="PAYMENT_SUCCESS_CHECKOUT_TITLE"
+                                />
+                              </h2>
+                            </ForwardRef>
+                          </Heading>
+                        </Styled(Heading)>
+                        <Styled(Text)
+                          aria-label="PAYMENT_SUCCESS_YOUR_ORDER undefined"
+                          tabIndex={0}
+                        >
+                          <Text
+                            aria-label="PAYMENT_SUCCESS_YOUR_ORDER undefined"
+                            className="sc-krvtoX bsYnga"
+                            m={0}
+                            tabIndex={0}
+                          >
+                            <ForwardRef
+                              aria-label="PAYMENT_SUCCESS_YOUR_ORDER undefined"
+                              className="sc-krvtoX bsYnga sc-gqjmRU kKsieB"
+                              m={0}
+                              tabIndex={0}
+                            >
+                              <div
+                                aria-label="PAYMENT_SUCCESS_YOUR_ORDER undefined"
+                                className="sc-krvtoX bsYnga sc-gqjmRU kKsieB"
+                                tabIndex={0}
+                              >
+                                <div
+                                  i18nKey="PAYMENT_SUCCESS_YOUR_ORDER"
+                                />
+                              </div>
+                            </ForwardRef>
+                          </Text>
+                        </Styled(Text)>
+                        <Styled(Styled(Heading))
+                          className="order-number order-label"
+                        >
+                          <Styled(Heading)
+                            className="order-number order-label sc-iQNlJl jqlTtN"
+                          >
+                            <Heading
+                              className="order-number order-label sc-iQNlJl jqlTtN sc-epnACN egmiDX"
+                              fontSize={5}
+                              fontWeight="bold"
+                              is="h2"
+                              lineHeight={1.25}
+                              m={0}
+                            >
+                              <ForwardRef
+                                className="order-number order-label sc-iQNlJl jqlTtN sc-epnACN egmiDX sc-VigVT fXkMTo"
+                                fontSize={5}
+                                fontWeight="bold"
+                                is="h2"
+                                lineHeight={1.25}
+                                m={0}
+                              >
+                                <h2
+                                  className="order-number order-label sc-iQNlJl jqlTtN sc-epnACN egmiDX sc-VigVT fXkMTo"
+                                />
+                              </ForwardRef>
+                            </Heading>
+                          </Styled(Heading)>
+                        </Styled(Styled(Heading))>
+                      </div>
+                    </Box>
+                  </Flex>
+                </Styled(Flex)>
+              </Styled(Styled(Flex))>
+              <Styled(Styled(Flex))
+                className="bottom-div"
+              >
+                <Styled(Flex)
+                  className="bottom-div sc-eLExRp fqZeIi"
+                >
+                  <Flex
+                    className="bottom-div sc-eLExRp fqZeIi sc-bXGyLb gvvsCH"
+                  >
+                    <Box
+                      className="bottom-div sc-eLExRp fqZeIi sc-bXGyLb gvvsCH sc-bwzfXH hKiLMS"
+                    >
+                      <div
+                        className="bottom-div sc-eLExRp fqZeIi sc-bXGyLb gvvsCH sc-bwzfXH hKiLMS sc-bdVaJa iHZvIS"
+                      >
+                        <Styled(Text)
+                          aria-label="PAYMENT_SUCCESS_OPTIONS"
+                          className="receipt-label"
+                          tabIndex={0}
+                        >
+                          <Text
+                            aria-label="PAYMENT_SUCCESS_OPTIONS"
+                            className="receipt-label sc-hZSUBg bZyMzd"
+                            m={0}
+                            tabIndex={0}
+                          >
+                            <ForwardRef
+                              aria-label="PAYMENT_SUCCESS_OPTIONS"
+                              className="receipt-label sc-hZSUBg bZyMzd sc-gqjmRU kKsieB"
+                              m={0}
+                              tabIndex={0}
+                            >
+                              <div
+                                aria-label="PAYMENT_SUCCESS_OPTIONS"
+                                className="receipt-label sc-hZSUBg bZyMzd sc-gqjmRU kKsieB"
+                                tabIndex={0}
+                              >
+                                <div
+                                  i18nKey="PAYMENT_SUCCESS_OPTIONS"
+                                />
+                              </div>
+                            </ForwardRef>
+                          </Text>
+                        </Styled(Text)>
+                        <Styled(Box)
+                          style={
+                            Object {
+                              "marginTop": "1em",
+                            }
+                          }
+                          width={
+                            Array [
+                              1,
+                            ]
+                          }
+                        >
+                          <Box
+                            className="sc-cMhqgX fVkzNN"
+                            style={
+                              Object {
+                                "marginTop": "1em",
+                              }
+                            }
+                            width={
+                              Array [
+                                1,
+                              ]
+                            }
+                          >
+                            <div
+                              className="sc-cMhqgX fVkzNN sc-bdVaJa gRrvFh"
+                              style={
+                                Object {
+                                  "marginTop": "1em",
+                                }
+                              }
+                              width={
+                                Array [
+                                  1,
+                                ]
+                              }
+                            >
+                              <Styled(Button)
+                                aria-label="PAYMENT_SUCCESS_EMAIL_BTN"
+                                className="No-button"
+                                onClick={[Function]}
+                                processing={false}
+                                role="button"
+                                tabIndex={0}
+                                type="submit"
+                              >
+                                <Button
+                                  aria-label="PAYMENT_SUCCESS_EMAIL_BTN"
+                                  bg="blue"
+                                  border={0}
+                                  borderRadius={2}
+                                  className="No-button sc-esOvli fmRxcM"
+                                  color="white"
+                                  fontSize={1}
+                                  fontWeight="bold"
+                                  is="button"
+                                  lineHeight={1.1428571428571428}
+                                  m={0}
+                                  onClick={[Function]}
+                                  processing={false}
+                                  px={3}
+                                  py={2}
+                                  role="button"
+                                  tabIndex={0}
+                                  type="submit"
+                                >
+                                  <ForwardRef
+                                    aria-label="PAYMENT_SUCCESS_EMAIL_BTN"
+                                    bg="blue"
+                                    border={0}
+                                    borderRadius={2}
+                                    className="No-button sc-esOvli fmRxcM sc-ifAKCX ceNdfT"
+                                    color="white"
+                                    fontSize={1}
+                                    fontWeight="bold"
+                                    is="button"
+                                    lineHeight={1.1428571428571428}
+                                    m={0}
+                                    onClick={[Function]}
+                                    processing={false}
+                                    px={3}
+                                    py={2}
+                                    role="button"
+                                    tabIndex={0}
+                                    type="submit"
+                                  >
+                                    <button
+                                      aria-label="PAYMENT_SUCCESS_EMAIL_BTN"
+                                      className="No-button sc-esOvli fmRxcM sc-ifAKCX ceNdfT"
+                                      onClick={[Function]}
+                                      processing={false}
+                                      role="button"
+                                      tabIndex={0}
+                                      type="submit"
+                                    >
+                                      <Styled(Flex)
+                                        className="loyalty-btn"
+                                      >
+                                        <Flex
+                                          className="loyalty-btn sc-fYiAbW kdUoSF"
+                                        >
+                                          <Box
+                                            className="loyalty-btn sc-fYiAbW kdUoSF sc-bwzfXH hKiLMS"
+                                          >
+                                            <div
+                                              className="loyalty-btn sc-fYiAbW kdUoSF sc-bwzfXH hKiLMS sc-bdVaJa iHZvIS"
+                                            >
+                                              <i
+                                                className="fa agilysys-icon-email-24px"
+                                                style={
+                                                  Object {
+                                                    "color": "#383838",
+                                                    "flex": "0.3",
+                                                    "fontSize": "22px",
+                                                  }
+                                                }
+                                              />
+                                              <Styled(Flex)>
+                                                <Flex
+                                                  className="sc-fOKMvo kNAdTm"
+                                                >
+                                                  <Box
+                                                    className="sc-fOKMvo kNAdTm sc-bwzfXH hKiLMS"
+                                                  >
+                                                    <div
+                                                      className="sc-fOKMvo kNAdTm sc-bwzfXH hKiLMS sc-bdVaJa iHZvIS"
+                                                    >
+                                                      <div
+                                                        i18nKey="PAYMENT_SUCCESS_EMAIL_BTN"
+                                                      />
+                                                    </div>
+                                                  </Box>
+                                                </Flex>
+                                              </Styled(Flex)>
+                                            </div>
+                                          </Box>
+                                        </Flex>
+                                      </Styled(Flex)>
+                                    </button>
+                                  </ForwardRef>
+                                </Button>
+                              </Styled(Button)>
+                            </div>
+                          </Box>
+                        </Styled(Box)>
+                        <Styled(Box)
+                          style={
+                            Object {
+                              "marginTop": "1em",
+                            }
+                          }
+                          width={
+                            Array [
+                              1,
+                            ]
+                          }
+                        >
+                          <Box
+                            className="sc-cMhqgX fVkzNN"
+                            style={
+                              Object {
+                                "marginTop": "1em",
+                              }
+                            }
+                            width={
+                              Array [
+                                1,
+                              ]
+                            }
+                          >
+                            <div
+                              className="sc-cMhqgX fVkzNN sc-bdVaJa gRrvFh"
+                              style={
+                                Object {
+                                  "marginTop": "1em",
+                                }
+                              }
+                              width={
+                                Array [
+                                  1,
+                                ]
+                              }
+                            >
+                              <Styled(Button)
+                                aria-label="PAYMENT_SUCCESS_TEXT_BTN"
+                                className="No-button"
+                                onClick={[Function]}
+                                processing={false}
+                                role="button"
+                                tabIndex={0}
+                                type="submit"
+                              >
+                                <Button
+                                  aria-label="PAYMENT_SUCCESS_TEXT_BTN"
+                                  bg="blue"
+                                  border={0}
+                                  borderRadius={2}
+                                  className="No-button sc-esOvli fmRxcM"
+                                  color="white"
+                                  fontSize={1}
+                                  fontWeight="bold"
+                                  is="button"
+                                  lineHeight={1.1428571428571428}
+                                  m={0}
+                                  onClick={[Function]}
+                                  processing={false}
+                                  px={3}
+                                  py={2}
+                                  role="button"
+                                  tabIndex={0}
+                                  type="submit"
+                                >
+                                  <ForwardRef
+                                    aria-label="PAYMENT_SUCCESS_TEXT_BTN"
+                                    bg="blue"
+                                    border={0}
+                                    borderRadius={2}
+                                    className="No-button sc-esOvli fmRxcM sc-ifAKCX ceNdfT"
+                                    color="white"
+                                    fontSize={1}
+                                    fontWeight="bold"
+                                    is="button"
+                                    lineHeight={1.1428571428571428}
+                                    m={0}
+                                    onClick={[Function]}
+                                    processing={false}
+                                    px={3}
+                                    py={2}
+                                    role="button"
+                                    tabIndex={0}
+                                    type="submit"
+                                  >
+                                    <button
+                                      aria-label="PAYMENT_SUCCESS_TEXT_BTN"
+                                      className="No-button sc-esOvli fmRxcM sc-ifAKCX ceNdfT"
+                                      onClick={[Function]}
+                                      processing={false}
+                                      role="button"
+                                      tabIndex={0}
+                                      type="submit"
+                                    >
+                                      <Styled(Flex)
+                                        className="loyalty-btn"
+                                      >
+                                        <Flex
+                                          className="loyalty-btn sc-fYiAbW kdUoSF"
+                                        >
+                                          <Box
+                                            className="loyalty-btn sc-fYiAbW kdUoSF sc-bwzfXH hKiLMS"
+                                          >
+                                            <div
+                                              className="loyalty-btn sc-fYiAbW kdUoSF sc-bwzfXH hKiLMS sc-bdVaJa iHZvIS"
+                                            >
+                                              <i
+                                                className="fa agilysys-icon-textsms-24px"
+                                                style={
+                                                  Object {
+                                                    "color": "#383838",
+                                                    "flex": "0.3",
+                                                    "fontSize": "22px",
+                                                  }
+                                                }
+                                              />
+                                              <Styled(Flex)>
+                                                <Flex
+                                                  className="sc-fOKMvo kNAdTm"
+                                                >
+                                                  <Box
+                                                    className="sc-fOKMvo kNAdTm sc-bwzfXH hKiLMS"
+                                                  >
+                                                    <div
+                                                      className="sc-fOKMvo kNAdTm sc-bwzfXH hKiLMS sc-bdVaJa iHZvIS"
+                                                    >
+                                                      <div
+                                                        i18nKey="PAYMENT_SUCCESS_TEXT_BTN"
+                                                      />
+                                                    </div>
+                                                  </Box>
+                                                </Flex>
+                                              </Styled(Flex)>
+                                            </div>
+                                          </Box>
+                                        </Flex>
+                                      </Styled(Flex)>
+                                    </button>
+                                  </ForwardRef>
+                                </Button>
+                              </Styled(Button)>
+                            </div>
+                          </Box>
+                        </Styled(Box)>
+                        <Styled(Box)
+                          style={
+                            Object {
+                              "marginTop": "1em",
+                              "textAlign": "center",
+                            }
+                          }
+                          width={
+                            Array [
+                              1,
+                            ]
+                          }
+                        >
+                          <Box
+                            className="sc-cMhqgX fVkzNN"
+                            style={
+                              Object {
+                                "marginTop": "1em",
+                                "textAlign": "center",
+                              }
+                            }
+                            width={
+                              Array [
+                                1,
+                              ]
+                            }
+                          >
+                            <div
+                              className="sc-cMhqgX fVkzNN sc-bdVaJa gRrvFh"
+                              style={
+                                Object {
+                                  "marginTop": "1em",
+                                  "textAlign": "center",
+                                }
+                              }
+                              width={
+                                Array [
+                                  1,
+                                ]
+                              }
+                            >
+                              <Styled(Button)
+                                aria-label="PAYMENT_SUCCESS_PRINT_RECEIPT"
+                                className="print-link"
+                                onClick={[Function]}
+                                role="button"
+                                tabIndex={0}
+                                type="loyalty"
+                              >
+                                <Button
+                                  aria-label="PAYMENT_SUCCESS_PRINT_RECEIPT"
+                                  bg="blue"
+                                  border={0}
+                                  borderRadius={2}
+                                  className="print-link sc-esOvli fmRxcM"
+                                  color="white"
+                                  fontSize={1}
+                                  fontWeight="bold"
+                                  is="button"
+                                  lineHeight={1.1428571428571428}
+                                  m={0}
+                                  onClick={[Function]}
+                                  px={3}
+                                  py={2}
+                                  role="button"
+                                  tabIndex={0}
+                                  type="loyalty"
+                                >
+                                  <ForwardRef
+                                    aria-label="PAYMENT_SUCCESS_PRINT_RECEIPT"
+                                    bg="blue"
+                                    border={0}
+                                    borderRadius={2}
+                                    className="print-link sc-esOvli fmRxcM sc-ifAKCX ceNdfT"
+                                    color="white"
+                                    fontSize={1}
+                                    fontWeight="bold"
+                                    is="button"
+                                    lineHeight={1.1428571428571428}
+                                    m={0}
+                                    onClick={[Function]}
+                                    px={3}
+                                    py={2}
+                                    role="button"
+                                    tabIndex={0}
+                                    type="loyalty"
+                                  >
+                                    <button
+                                      aria-label="PAYMENT_SUCCESS_PRINT_RECEIPT"
+                                      className="print-link sc-esOvli fmRxcM sc-ifAKCX ceNdfT"
+                                      onClick={[Function]}
+                                      role="button"
+                                      tabIndex={0}
+                                      type="loyalty"
+                                    >
+                                      <Styled(Flex)
+                                        className="loyalty-btn"
+                                      >
+                                        <Flex
+                                          className="loyalty-btn sc-fYiAbW kdUoSF"
+                                        >
+                                          <Box
+                                            className="loyalty-btn sc-fYiAbW kdUoSF sc-bwzfXH hKiLMS"
+                                          >
+                                            <div
+                                              className="loyalty-btn sc-fYiAbW kdUoSF sc-bwzfXH hKiLMS sc-bdVaJa iHZvIS"
+                                            >
+                                              <i
+                                                className="fa agilysys-icon-print-24px"
+                                                style={
+                                                  Object {
+                                                    "color": "#383838",
+                                                    "flex": "0.3",
+                                                    "fontSize": "22px",
+                                                  }
+                                                }
+                                              />
+                                              <Styled(Flex)>
+                                                <Flex
+                                                  className="sc-fOKMvo kNAdTm"
+                                                >
+                                                  <Box
+                                                    className="sc-fOKMvo kNAdTm sc-bwzfXH hKiLMS"
+                                                  >
+                                                    <div
+                                                      className="sc-fOKMvo kNAdTm sc-bwzfXH hKiLMS sc-bdVaJa iHZvIS"
+                                                    >
+                                                      <div
+                                                        i18nKey="PAYMENT_SUCCESS_PRINT_RECEIPT"
+                                                      />
+                                                    </div>
+                                                  </Box>
+                                                </Flex>
+                                              </Styled(Flex)>
+                                            </div>
+                                          </Box>
+                                        </Flex>
+                                      </Styled(Flex)>
+                                    </button>
+                                  </ForwardRef>
+                                </Button>
+                              </Styled(Button)>
+                            </div>
+                          </Box>
+                        </Styled(Box)>
+                      </div>
+                    </Box>
+                  </Flex>
+                </Styled(Flex)>
+              </Styled(Styled(Flex))>
+            </div>
+          </Box>
+        </Flex>
+      </Styled(Flex)>
+    </ThemeProvider>
+  </PaymentSuccess>
+</ThemeProvider>
+`;

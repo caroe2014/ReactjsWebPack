@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Cafe W/ Rotating",
+        "id": "73",
+        "workflowType": "CAFE",
+        "workflowTypeList": [
+            "cafe",
+            "multi_payment"
+        ],
+        "displayProfileOptions": {
+            "PAY/GARFIDEnabled": "true",
+            "PAY/GAMSRSwipeEnabled": "true",
+            "profit-center-id": "3",
+            "PAY/GAScanEnabled": "true",
+            "feature_usePayAgent": "true",
+            "isSmsEnabled": "true",
+            "itemScanningDisabled": "false"
+        },
+        "themeId": "CAFE",
+        "concepts": [
+            {
+                "name": "MicroSoft Cafe",
+                "id": "84",
+                "conceptOptions": {
+                    "inUse": "false",
+                    "displayText": "MS Cafe",
+                    "showLogo": "false"
+                },
+                "menus": [
+                    {
+                        "name": "Food",
+                        "id": "99",
+                        "categories": [
+                            {
+                                "name": "Lunch",
+                                "categoryOptions": {},
+                                "items": [
+                                    "5b218064a1a419000cf26781",
+                                    "5b22f8f1b1ed73000c6b5de6",
+                                    "5b22f8f1b1ed73000c6b5dcb"
+                                ],
+                                "itemIdToItemPropertiesMap": {},
+                                "kioskImages": []
+                            }
+                        ],
+                        "lastUpdateTime": "2018-06-19T15:53:31.253Z"
+                    }
+                ]
+            }
+        ],
+        "priceContextPriceLevelAssociations": [],
+        "receiptPrintOptions": "PROMPT"
+    }
+]

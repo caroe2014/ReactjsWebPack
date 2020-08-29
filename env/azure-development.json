@@ -1,0 +1,11 @@
+{
+  "serviceAccountTenantId" : "44",
+  
+  "API_GATEWAY_ONDEMAND_PRODUCT_URL": "https://core-dev.azure-api.net/api/buy/onDemandConfiguration",
+  "apiGatewayOndemandProductSubscriptionKey": "ec257d61bcee48b29fcfb60a74581a30",
+  "MOCK_DOMAIN": "http://www.TODO.com",
+  
+  "API_GATEWAY_POS_API_PRODUCT_BASE_URL": "https://core-dev.azure-api.net"
+}
+
+

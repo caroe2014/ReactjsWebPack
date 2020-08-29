@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DynamicImage does a snapshot test 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "colors": Object {
+        "addOnTab": "#347CFF",
+        "addToCart": "#347CFF",
+        "addonBg": "#EEEEEE",
+        "backgroundGrey": "#E6E6E6",
+        "black": "#000000",
+        "close": "red",
+        "contextBackground": "#f0f0f3",
+        "darkGrey": "#464646",
+        "disableBackground": "#E4E4E4",
+        "disableButton": "#D1D1D1",
+        "error": "#cc0000",
+        "footer": "#48a942",
+        "glutenFree": "#8d7356",
+        "healthy": "#359919",
+        "hint": "#a6a6a6",
+        "inputBottomBorder": "lightgray",
+        "itemBorder": "lightgrey",
+        "itemTile": "#3C474C0",
+        "light": "white",
+        "loader": "#ababab",
+        "loginBackground": "#303030",
+        "loginBoxColor": "#434149",
+        "loginField": "#AAA7AC",
+        "loginFormBackground": "#484848",
+        "navigationMenu": "#48a942",
+        "navigationMenuHover": "cornflowerblue",
+        "new": "#ff6000",
+        "open": "#48a942",
+        "paymentSuccessTitle": "#505050",
+        "placeHolder": "#909090",
+        "primary": "#347CFF",
+        "primaryButton": "#347CFF",
+        "primaryText": "#383838",
+        "secondaryText": "#a6a6a6",
+        "spicy": "#ed1c24",
+        "text": "black",
+        "textGrey": "#505050",
+        "tile": "#505050",
+        "validationError": "#cc0000",
+        "vegan": "#0d4a22",
+        "vegetarian": "#0d4a22",
+      },
+      "fontFamily": "Roboto",
+      "fontSize": Object {
+        "lg": "1.8rem",
+        "md": "1.3rem",
+        "nm": "1rem",
+        "sm": "0.75rem",
+        "xl": "2.4rem",
+      },
+      "fontSizeFromProps": [Function],
+      "mediaBreakpoints": Object {
+        "desktop": [Function],
+        "mobile": [Function],
+        "tablet": [Function],
+      },
+      "nav": Object {
+        "height": "70px",
+      },
+      "receiptFontFamily": "Roboto",
+      "shadow": "#cfcfcf 0.1px 0.1px 3px 0px",
+      "spacing": Object {
+        "lg": "4em",
+        "md": "2em",
+        "nm": "1em",
+        "none": "0em",
+        "sm": "0.5em",
+        "xl": "8em",
+      },
+    }
+  }
+>
+  <DynamicImage
+    min={1}
+    theme={
+      Object {
+        "colors": Object {
+          "addOnTab": "#347CFF",
+          "addToCart": "#347CFF",
+          "addonBg": "#EEEEEE",
+          "backgroundGrey": "#E6E6E6",
+          "black": "#000000",
+          "close": "red",
+          "contextBackground": "#f0f0f3",
+          "darkGrey": "#464646",
+          "disableBackground": "#E4E4E4",
+          "disableButton": "#D1D1D1",
+          "error": "#cc0000",
+          "footer": "#48a942",
+          "glutenFree": "#8d7356",
+          "healthy": "#359919",
+          "hint": "#a6a6a6",
+          "inputBottomBorder": "lightgray",
+          "itemBorder": "lightgrey",
+          "itemTile": "#3C474C0",
+          "light": "white",
+          "loader": "#ababab",
+          "loginBackground": "#303030",
+          "loginBoxColor": "#434149",
+          "loginField": "#AAA7AC",
+          "loginFormBackground": "#484848",
+          "navigationMenu": "#48a942",
+          "navigationMenuHover": "cornflowerblue",
+          "new": "#ff6000",
+          "open": "#48a942",
+          "paymentSuccessTitle": "#505050",
+          "placeHolder": "#909090",
+          "primary": "#347CFF",
+          "primaryButton": "#347CFF",
+          "primaryText": "#383838",
+          "secondaryText": "#a6a6a6",
+          "spicy": "#ed1c24",
+          "text": "black",
+          "textGrey": "#505050",
+          "tile": "#505050",
+          "validationError": "#cc0000",
+          "vegan": "#0d4a22",
+          "vegetarian": "#0d4a22",
+        },
+        "fontFamily": "Roboto",
+        "fontSize": Object {
+          "lg": "1.8rem",
+          "md": "1.3rem",
+          "nm": "1rem",
+          "sm": "0.75rem",
+          "xl": "2.4rem",
+        },
+        "fontSizeFromProps": [Function],
+        "mediaBreakpoints": Object {
+          "desktop": [Function],
+          "mobile": [Function],
+          "tablet": [Function],
+        },
+        "nav": Object {
+          "height": "70px",
+        },
+        "receiptFontFamily": "Roboto",
+        "shadow": "#cfcfcf 0.1px 0.1px 3px 0px",
+        "spacing": Object {
+          "lg": "4em",
+          "md": "2em",
+          "nm": "1em",
+          "none": "0em",
+          "sm": "0.5em",
+          "xl": "8em",
+        },
+      }
+    }
+  >
+    <div
+      className="dynamic-image-container"
+      style={
+        Object {
+          "backgroundColor": "#eee",
+          "height": "100%",
+          "overflow": "hidden",
+          "position": "relative",
+          "width": "100%",
+        }
+      }
+    >
+      <div
+        alt=""
+        className="dynamic-image"
+        style={
+          Object {
+            "backgroundPositionX": "50%",
+            "backgroundPositionY": "50%",
+            "backgroundRepeat": "no-repeat",
+            "backgroundSize": "contain",
+            "border": "solid 1px white",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "height": "100%",
+            "left": 0,
+            "opacity": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "transition": "opacity 0.3s ease",
+            "width": "100%",
+            "zIndex": 2,
+          }
+        }
+      />
+      <div
+        alt=""
+        className="default-image"
+        style={
+          Object {
+            "backgroundImage": "url('application/ui/static/assets/default_image.png')",
+            "backgroundPosition": "center",
+            "backgroundRepeat": "no-repeat",
+            "backgroundSize": "contain",
+            "border": "solid 1px #ccc",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "height": "100%",
+            "left": 0,
+            "opacity": 1,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "transition": "opacity 0.3s ease",
+            "width": "100%",
+            "zIndex": 1,
+          }
+        }
+      />
+    </div>
+  </DynamicImage>
+</ThemeProvider>
+`;

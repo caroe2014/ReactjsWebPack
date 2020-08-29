@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "image": "demo/site2.png",
+    "name": "Eat Street",
+    "availableAt": {
+      "opens": "9:00am",
+      "closes": "5:00pm"
+    },
+    "address": ["1000 Windward Concourse", "Alpharetta, GA, USA"]
+  },
+  { 
+    "id": 2, 
+    "image": "demo/site3.jpg",
+    "name": "City Central",
+    "availableAt": {
+      "opens": "9:00pm",
+      "closes": "5:00am"
+    },
+    "address": ["3380-146th PL SE", "Bellevue, WA, USA"]
+  },
+  { 
+    "id": 3, 
+    "image": "demo/site1.png",
+    "name": "Mall of America",
+    "availableAt": {
+      "opens": "9:00am",
+      "closes": "5:00pm"
+    }
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "image": "demo/concept1.png",
+    "name": "Go Green"
+  },
+  { 
+    "id": 2, 
+    "image": "demo/concept2.png",
+    "name": "Made Nice"
+  },
+  { 
+    "id": 3, 
+    "image": "demo/concept3.jpg",
+    "name": "Totally Counts As Salad"
+  }
+]

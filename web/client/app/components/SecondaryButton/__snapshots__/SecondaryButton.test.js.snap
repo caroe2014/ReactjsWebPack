@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SecondaryButton does a snapshot test 1`] = `
+.c1 {
+  font-family: inherit;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.1428571428571428;
+  margin: 0px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+  background-color: blue;
+  border-radius: 9999px;
+  border: 0;
+}
+
+.c1:disabled {
+  opacity: 0.25;
+}
+
+.c1:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px blue;
+}
+
+.c0 {
+  background-color: white;
+  border: 0.5px solid;
+  border-radius: 0;
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 20px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.c0:hover {
+  box-shadow: 0px 0px 10px 2px lightgrey;
+  -webkit-box-shadow: 0px 0px 10px 2px lightgrey;
+  -moz-box-shadow: 0px 0px 10px 2px lightgrey;
+}
+
+.c0:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+<ThemeProvider
+  theme={
+    Object {
+      "colors": Object {
+        "addOnTab": "#347CFF",
+        "addToCart": "#347CFF",
+        "addonBg": "#EEEEEE",
+        "backgroundGrey": "#E6E6E6",
+        "black": "#000000",
+        "close": "red",
+        "contextBackground": "#f0f0f3",
+        "darkGrey": "#464646",
+        "disableBackground": "#E4E4E4",
+        "disableButton": "#D1D1D1",
+        "error": "#cc0000",
+        "footer": "#48a942",
+        "glutenFree": "#8d7356",
+        "healthy": "#359919",
+        "hint": "#a6a6a6",
+        "inputBottomBorder": "lightgray",
+        "itemBorder": "lightgrey",
+        "itemTile": "#3C474C0",
+        "light": "white",
+        "loader": "#ababab",
+        "loginBackground": "#303030",
+        "loginBoxColor": "#434149",
+        "loginField": "#AAA7AC",
+        "loginFormBackground": "#484848",
+        "navigationMenu": "#48a942",
+        "navigationMenuHover": "cornflowerblue",
+        "new": "#ff6000",
+        "open": "#48a942",
+        "paymentSuccessTitle": "#505050",
+        "placeHolder": "#909090",
+        "primary": "#347CFF",
+        "primaryButton": "#347CFF",
+        "primaryText": "#383838",
+        "secondaryText": "#a6a6a6",
+        "spicy": "#ed1c24",
+        "text": "black",
+        "textGrey": "#505050",
+        "tile": "#505050",
+        "validationError": "#cc0000",
+        "vegan": "#0d4a22",
+        "vegetarian": "#0d4a22",
+      },
+      "fontFamily": "Roboto",
+      "fontSize": Object {
+        "lg": "1.8rem",
+        "md": "1.3rem",
+        "nm": "1rem",
+        "sm": "0.75rem",
+        "xl": "2.4rem",
+      },
+      "fontSizeFromProps": [Function],
+      "mediaBreakpoints": Object {
+        "desktop": [Function],
+        "mobile": [Function],
+        "tablet": [Function],
+      },
+      "nav": Object {
+        "height": "70px",
+      },
+      "receiptFontFamily": "Roboto",
+      "shadow": "#cfcfcf 0.1px 0.1px 3px 0px",
+      "spacing": Object {
+        "lg": "4em",
+        "md": "2em",
+        "nm": "1em",
+        "none": "0em",
+        "sm": "0.5em",
+        "xl": "8em",
+      },
+    }
+  }
+>
+  <SecondaryButton>
+    <Styled(ButtonCircle)>
+      <ButtonCircle
+        bg="blue"
+        border={0}
+        borderRadius={9999}
+        className="c0"
+        color="white"
+        extend={[Function]}
+        fontSize={1}
+        fontWeight="bold"
+        is="button"
+        lineHeight={1.1428571428571428}
+        m={0}
+        px={3}
+        py={2}
+      >
+        <ForwardRef
+          bg="blue"
+          border={0}
+          borderRadius={9999}
+          className="c0 "
+          color="white"
+          extend={[Function]}
+          fontSize={1}
+          fontWeight="bold"
+          is="button"
+          lineHeight={1.1428571428571428}
+          m={0}
+          px={3}
+          py={2}
+        >
+          <Button
+            bg="blue"
+            border={0}
+            borderRadius={9999}
+            className="c0 "
+            color="white"
+            fontSize={1}
+            fontWeight="bold"
+            is="button"
+            lineHeight={1.1428571428571428}
+            m={0}
+            px={3}
+            py={2}
+          >
+            <ForwardRef
+              bg="blue"
+              border={0}
+              borderRadius={9999}
+              className="c0 c1"
+              color="white"
+              fontSize={1}
+              fontWeight="bold"
+              is="button"
+              lineHeight={1.1428571428571428}
+              m={0}
+              px={3}
+              py={2}
+            >
+              <button
+                className="c0 c1"
+              />
+            </ForwardRef>
+          </Button>
+        </ForwardRef>
+      </ButtonCircle>
+    </Styled(ButtonCircle)>
+  </SecondaryButton>
+</ThemeProvider>
+`;

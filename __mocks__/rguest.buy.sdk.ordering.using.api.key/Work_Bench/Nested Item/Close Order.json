@@ -1,0 +1,470 @@
+{
+    "orderId": "9f242f11-a2cb-4a44-b0b4-1cbf97623152",
+    "version": 6,
+    "tenantId": "48",
+    "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f",
+    "created": "2018-07-10T06:32:54.677Z",
+    "orderState": "CLOSED",
+    "orderNumber": "00074",
+    "currencyUnit": "USD",
+    "lineItems": [
+        {
+            "itemId": "5b22f8f1b1ed73000c6b5de6",
+            "lineItemId": "bd51b202-8c58-4c92-9784-ee7d799f0e7f",
+            "soldByWeight": false,
+            "lineItemState": "NORMAL",
+            "weight": 0,
+            "tareWeight": 0,
+            "quantity": 1,
+            "price": {
+                "currencyUnit": "USD",
+                "amount": "777.00"
+            },
+            "lineItemGroups": [
+                {
+                    "groupId": "5b22f8ecb1ed73000c6b5d83",
+                    "minimum": 0,
+                    "maximum": 4,
+                    "lineItems": [
+                        {
+                            "itemId": "5b22f8f2b1ed73000c6b5e13",
+                            "lineItemId": "4760ab12-c73f-417a-84c6-23c81e37f437",
+                            "soldByWeight": false,
+                            "lineItemState": "NORMAL",
+                            "weight": 0,
+                            "tareWeight": 0,
+                            "quantity": 1,
+                            "price": {
+                                "currencyUnit": "USD",
+                                "amount": "10.00"
+                            },
+                            "lineItemGroups": [],
+                            "lineItemTax": {
+                                "id": "75181fe8-4c4a-4500-8a42-9c97387d4395",
+                                "taxableAmount": {
+                                    "currencyUnit": "USD",
+                                    "amount": "10.00"
+                                },
+                                "taxIncludedAmount": {
+                                    "currencyUnit": "USD",
+                                    "amount": "10.50"
+                                },
+                                "totalTaxAmount": {
+                                    "currencyUnit": "USD",
+                                    "amount": "0.50"
+                                },
+                                "taxEntries": [
+                                    {
+                                        "taxClass": "Sales Tax",
+                                        "taxAmount": {
+                                            "currencyUnit": "USD",
+                                            "amount": "0.50"
+                                        },
+                                        "taxableAmount": {
+                                            "currencyUnit": "USD",
+                                            "amount": "10.00"
+                                        }
+                                    },
+                                    {
+                                        "taxClass": "No Tax",
+                                        "taxAmount": {
+                                            "currencyUnit": "USD",
+                                            "amount": "0.00"
+                                        },
+                                        "taxableAmount": {
+                                            "currencyUnit": "USD",
+                                            "amount": "10.00"
+                                        }
+                                    }
+                                ]
+                            },
+                            "properties": {
+                                "mealPeriodId": "1"
+                            }
+                        },
+                        {
+                            "itemId": "5b22f8f2b1ed73000c6b5e11",
+                            "lineItemId": "353cda41-4e5b-450a-af5c-fd6bf97f3cef",
+                            "soldByWeight": false,
+                            "lineItemState": "NORMAL",
+                            "weight": 0,
+                            "tareWeight": 0,
+                            "quantity": 1,
+                            "price": {
+                                "currencyUnit": "USD",
+                                "amount": "11.00"
+                            },
+                            "lineItemGroups": [],
+                            "lineItemTax": {
+                                "id": "cdcf7502-cd36-4618-91be-6e0e1223f622",
+                                "taxableAmount": {
+                                    "currencyUnit": "USD",
+                                    "amount": "11.00"
+                                },
+                                "taxIncludedAmount": {
+                                    "currencyUnit": "USD",
+                                    "amount": "11.55"
+                                },
+                                "totalTaxAmount": {
+                                    "currencyUnit": "USD",
+                                    "amount": "0.55"
+                                },
+                                "taxEntries": [
+                                    {
+                                        "taxClass": "Sales Tax",
+                                        "taxAmount": {
+                                            "currencyUnit": "USD",
+                                            "amount": "0.55"
+                                        },
+                                        "taxableAmount": {
+                                            "currencyUnit": "USD",
+                                            "amount": "11.00"
+                                        }
+                                    },
+                                    {
+                                        "taxClass": "No Tax",
+                                        "taxAmount": {
+                                            "currencyUnit": "USD",
+                                            "amount": "0.00"
+                                        },
+                                        "taxableAmount": {
+                                            "currencyUnit": "USD",
+                                            "amount": "11.00"
+                                        }
+                                    }
+                                ]
+                            },
+                            "properties": {
+                                "mealPeriodId": "1"
+                            }
+                        },
+                        {
+                            "itemId": "5b22f8f2b1ed73000c6b5e11",
+                            "lineItemId": "af51102d-64e6-481c-903f-61da07a1d724",
+                            "soldByWeight": false,
+                            "lineItemState": "NORMAL",
+                            "weight": 0,
+                            "tareWeight": 0,
+                            "quantity": 1,
+                            "price": {
+                                "currencyUnit": "USD",
+                                "amount": "12.00"
+                            },
+                            "lineItemGroups": [],
+                            "lineItemTax": {
+                                "id": "2dc67a40-2c76-4f1f-870c-f8c05ab2a3d3",
+                                "taxableAmount": {
+                                    "currencyUnit": "USD",
+                                    "amount": "12.00"
+                                },
+                                "taxIncludedAmount": {
+                                    "currencyUnit": "USD",
+                                    "amount": "12.60"
+                                },
+                                "totalTaxAmount": {
+                                    "currencyUnit": "USD",
+                                    "amount": "0.60"
+                                },
+                                "taxEntries": [
+                                    {
+                                        "taxClass": "Sales Tax",
+                                        "taxAmount": {
+                                            "currencyUnit": "USD",
+                                            "amount": "0.60"
+                                        },
+                                        "taxableAmount": {
+                                            "currencyUnit": "USD",
+                                            "amount": "12.00"
+                                        }
+                                    },
+                                    {
+                                        "taxClass": "No Tax",
+                                        "taxAmount": {
+                                            "currencyUnit": "USD",
+                                            "amount": "0.00"
+                                        },
+                                        "taxableAmount": {
+                                            "currencyUnit": "USD",
+                                            "amount": "12.00"
+                                        }
+                                    }
+                                ]
+                            },
+                            "properties": {
+                                "mealPeriodId": "1"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "lineItemTax": {
+                "id": "60ab16b1-1ce0-45a7-8c0a-77456750dd95",
+                "taxableAmount": {
+                    "currencyUnit": "USD",
+                    "amount": "777.00"
+                },
+                "taxIncludedAmount": {
+                    "currencyUnit": "USD",
+                    "amount": "815.85"
+                },
+                "totalTaxAmount": {
+                    "currencyUnit": "USD",
+                    "amount": "38.85"
+                },
+                "taxEntries": [
+                    {
+                        "taxClass": "Sales Tax",
+                        "taxAmount": {
+                            "currencyUnit": "USD",
+                            "amount": "38.85"
+                        },
+                        "taxableAmount": {
+                            "currencyUnit": "USD",
+                            "amount": "777.00"
+                        }
+                    },
+                    {
+                        "taxClass": "No Tax",
+                        "taxAmount": {
+                            "currencyUnit": "USD",
+                            "amount": "0.00"
+                        },
+                        "taxableAmount": {
+                            "currencyUnit": "USD",
+                            "amount": "777.00"
+                        }
+                    }
+                ]
+            },
+            "properties": {
+                "mealPeriodId": "1"
+            }
+        }
+    ],
+    "taxExcludedTotalAmount": {
+        "currencyUnit": "USD",
+        "amount": "810.00"
+    },
+    "subTotalAmount": {
+        "currencyUnit": "USD",
+        "amount": "778.00"
+    },
+    "taxTotalAmount": {
+        "currencyUnit": "USD",
+        "amount": "40.50"
+    },
+    "subTotalTaxAmount": {
+        "currencyUnit": "USD",
+        "amount": "38.90"
+    },
+    "taxIncludedTotalAmount": {
+        "currencyUnit": "USD",
+        "amount": "850.50"
+    },
+    "totalPaymentAmount": {
+        "currencyUnit": "USD",
+        "amount": "850.50"
+    },
+    "totalDueAmount": {
+        "currencyUnit": "USD",
+        "amount": "0.00"
+    },
+    "payments": [
+        {
+            "paymentForm": "EXTERNAL",
+            "currencyUnit": "USD",
+            "overtenderOperation": "CHANGE",
+            "paymentTransaction": {
+                "paymentProviderId": "external",
+                "transactionData": {
+                    "amount": {
+                        "currencyUnit": "USD",
+                        "amount": "800.00"
+                    },
+                    "tipAmount": {
+                        "currencyUnit": "USD",
+                        "amount": "0.00"
+                    },
+                    "data": {
+                        "anything": {
+                            "exampleData": "something"
+                        },
+                        "something": {
+                            "exampleData": "something"
+                        }
+                    }
+                },
+                "transactionDataAsJsonString": "{\"amount\":{\"currencyUnit\":\"USD\",\"amount\":\"800.00\"},\"tipAmount\":{\"currencyUnit\":\"USD\",\"amount\":\"0.00\"},\"data\":{\"anything\":{\"exampleData\":\"something\"},\"something\":{\"exampleData\":\"something\"}}}"
+            },
+            "properties": {
+                "tenderId": "15",
+                "igVerificationCodeId": "180"
+            },
+            "id": "43d01e88-0a66-45c9-bdb2-e38da9aa82ca",
+            "offline": false,
+            "amount": {
+                "currencyUnit": "USD",
+                "amount": "800.00"
+            },
+            "tipAmount": {
+                "currencyUnit": "USD",
+                "amount": "0.00"
+            }
+        },
+        {
+            "paymentForm": "EXTERNAL",
+            "currencyUnit": "USD",
+            "overtenderOperation": "CHANGE",
+            "paymentTransaction": {
+                "paymentProviderId": "external",
+                "transactionData": {
+                    "amount": {
+                        "currencyUnit": "USD",
+                        "amount": "50.50"
+                    },
+                    "tipAmount": {
+                        "currencyUnit": "USD",
+                        "amount": "0.00"
+                    },
+                    "data": {
+                        "anything": {
+                            "exampleData": "something"
+                        },
+                        "something": {
+                            "exampleData": "something"
+                        }
+                    }
+                },
+                "transactionDataAsJsonString": "{\"amount\":{\"currencyUnit\":\"USD\",\"amount\":\"50.50\"},\"tipAmount\":{\"currencyUnit\":\"USD\",\"amount\":\"0.00\"},\"data\":{\"anything\":{\"exampleData\":\"something\"},\"something\":{\"exampleData\":\"something\"}}}"
+            },
+            "properties": {
+                "tenderId": "15",
+                "igVerificationCodeId": "180"
+            },
+            "id": "f52f8dc1-a112-4f1b-b62d-c04a79596a68",
+            "offline": false,
+            "amount": {
+                "currencyUnit": "USD",
+                "amount": "50.50"
+            },
+            "tipAmount": {
+                "currencyUnit": "USD",
+                "amount": "0.00"
+            }
+        }
+    ],
+    "properties": {
+        "closedTerminalId": "12",
+        "employeeId": "5",
+        "emailId": "foo@bar.com",
+        "openTerminalId": "12",
+        "mobileNumber": "123.456.7890"
+    },
+    "itemsMarkedForOrder": {
+        "5b22f8f1b1ed73000c6b5de6": {
+            "itemId": "101",
+            "name": "Cheeseburger",
+            "lastUpdateTime": "2018-06-14T23:23:29.364Z",
+            "revenueCategoryId": "1",
+            "productClassId": "34",
+            "kpText": "Cheeseburger",
+            "kitchenDisplayText": "Cheeseburger",
+            "receiptText": "Cheeseburger",
+            "price": {
+                "currencyUnit": "USD",
+                "amount": "3.35"
+            },
+            "defaultPriceLevelId": "1",
+            "priceLevels": {
+                "1": {
+                    "priceLevelId": "1",
+                    "name": "Regular",
+                    "price": {
+                        "currencyUnit": "USD",
+                        "amount": "3.35"
+                    }
+                }
+            },
+            "taxClasses": [
+                "No Tax",
+                "Sales Tax"
+            ],
+            "kitchenVideoLabel": "Cheeseburger",
+            "kitchenVideoId": "5b22f8ebb1ed73000c6b5d82",
+            "itemType": "ITEM",
+            "id": "5b22f8f1b1ed73000c6b5de6",
+            "tenantId": "48",
+            "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+        },
+        "5b22f8f2b1ed73000c6b5e13": {
+            "itemId": "22",
+            "name": "Red Onion",
+            "lastUpdateTime": "2018-06-18T21:14:40.313Z",
+            "kpText": "Red Onion",
+            "kitchenDisplayText": "Red Onion",
+            "receiptText": "Red Onion",
+            "price": {
+                "currencyUnit": "USD",
+                "amount": "0.00"
+            },
+            "defaultPriceLevelId": "1",
+            "priceLevels": {
+                "1": {
+                    "priceLevelId": "1",
+                    "name": "Regular",
+                    "price": {
+                        "currencyUnit": "USD",
+                        "amount": "0.00"
+                    }
+                }
+            },
+            "kitchenVideoLabel": "Red Onion",
+            "itemType": "MODIFIER",
+            "id": "5b22f8f2b1ed73000c6b5e13",
+            "tenantId": "48",
+            "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+        },
+        "5b22f8f2b1ed73000c6b5e11": {
+            "itemId": "26",
+            "name": "Pickles",
+            "lastUpdateTime": "2018-06-18T21:14:40.309Z",
+            "kpText": "Pickles",
+            "kitchenDisplayText": "Pickles",
+            "receiptText": "Pickles",
+            "price": {
+                "currencyUnit": "USD",
+                "amount": "0.00"
+            },
+            "defaultPriceLevelId": "1",
+            "priceLevels": {
+                "1": {
+                    "priceLevelId": "1",
+                    "name": "Regular",
+                    "price": {
+                        "currencyUnit": "USD",
+                        "amount": "0.00"
+                    }
+                }
+            },
+            "kitchenVideoLabel": "Pickles",
+            "itemType": "MODIFIER",
+            "id": "5b22f8f2b1ed73000c6b5e11",
+            "tenantId": "48",
+            "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+        }
+    },
+    "groupsMarkedForOrder": {
+        "5b22f8ecb1ed73000c6b5d83": {
+            "groupId": "13",
+            "name": "Add Vegetable",
+            "groupType": "CHOICE_GROUP",
+            "minimum": 0,
+            "maximum": 4,
+            "terminalPrompt": "Add Vegetable",
+            "displayName": "Add Vegetable",
+            "id": "5b22f8ecb1ed73000c6b5d83",
+            "tenantId": "48",
+            "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+        }
+    }
+}

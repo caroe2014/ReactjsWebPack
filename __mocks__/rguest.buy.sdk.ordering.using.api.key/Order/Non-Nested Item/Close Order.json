@@ -1,0 +1,243 @@
+{
+    "orderId": "39bd8ed7-f054-4ea7-a738-0e0303ce15b7",
+    "version": 4,
+    "tenantId": "48",
+    "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f",
+    "created": "2018-07-10T06:27:45.695Z",
+    "orderState": "CLOSED",
+    "orderNumber": "00073",
+    "currencyUnit": "USD",
+    "lineItems": [
+        {
+            "itemId": "5b22f8f1b1ed73000c6b5d91",
+            "lineItemId": "e755614c-c304-4963-988c-2e10b95545d1",
+            "soldByWeight": false,
+            "lineItemState": "NORMAL",
+            "weight": 0,
+            "tareWeight": 0,
+            "quantity": 1,
+            "price": {
+                "currencyUnit": "USD",
+                "amount": "777.00"
+            },
+            "lineItemGroups": [],
+            "lineItemTax": {
+                "id": "424048ce-e927-45eb-ac1e-859204f15d7b",
+                "taxableAmount": {
+                    "currencyUnit": "USD",
+                    "amount": "777.00"
+                },
+                "taxIncludedAmount": {
+                    "currencyUnit": "USD",
+                    "amount": "815.85"
+                },
+                "totalTaxAmount": {
+                    "currencyUnit": "USD",
+                    "amount": "38.85"
+                },
+                "taxEntries": [
+                    {
+                        "taxClass": "Sales Tax",
+                        "taxAmount": {
+                            "currencyUnit": "USD",
+                            "amount": "38.85"
+                        },
+                        "taxableAmount": {
+                            "currencyUnit": "USD",
+                            "amount": "777.00"
+                        }
+                    },
+                    {
+                        "taxClass": "No Tax",
+                        "taxAmount": {
+                            "currencyUnit": "USD",
+                            "amount": "0.00"
+                        },
+                        "taxableAmount": {
+                            "currencyUnit": "USD",
+                            "amount": "777.00"
+                        }
+                    }
+                ]
+            },
+            "properties": {
+                "mealPeriodId": "1"
+            }
+        },
+        {
+            "itemId": "5b22f8f1b1ed73000c6b5d91",
+            "lineItemId": "29c8791c-1441-4d8d-bee0-a73079a00e79",
+            "soldByWeight": false,
+            "lineItemState": "NORMAL",
+            "weight": 0,
+            "tareWeight": 0,
+            "quantity": 1,
+            "price": {
+                "currencyUnit": "USD",
+                "amount": "1.00"
+            },
+            "lineItemGroups": [],
+            "lineItemTax": {
+                "id": "a95e71fe-d45e-4ba0-a56f-a36c06a74368",
+                "taxableAmount": {
+                    "currencyUnit": "USD",
+                    "amount": "1.00"
+                },
+                "taxIncludedAmount": {
+                    "currencyUnit": "USD",
+                    "amount": "1.05"
+                },
+                "totalTaxAmount": {
+                    "currencyUnit": "USD",
+                    "amount": "0.05"
+                },
+                "taxEntries": [
+                    {
+                        "taxClass": "Sales Tax",
+                        "taxAmount": {
+                            "currencyUnit": "USD",
+                            "amount": "0.05"
+                        },
+                        "taxableAmount": {
+                            "currencyUnit": "USD",
+                            "amount": "1.00"
+                        }
+                    },
+                    {
+                        "taxClass": "No Tax",
+                        "taxAmount": {
+                            "currencyUnit": "USD",
+                            "amount": "0.00"
+                        },
+                        "taxableAmount": {
+                            "currencyUnit": "USD",
+                            "amount": "1.00"
+                        }
+                    }
+                ]
+            },
+            "properties": {
+                "mealPeriodId": "1"
+            }
+        }
+    ],
+    "taxExcludedTotalAmount": {
+        "currencyUnit": "USD",
+        "amount": "778.00"
+    },
+    "subTotalAmount": {
+        "currencyUnit": "USD",
+        "amount": "778.00"
+    },
+    "taxTotalAmount": {
+        "currencyUnit": "USD",
+        "amount": "38.90"
+    },
+    "subTotalTaxAmount": {
+        "currencyUnit": "USD",
+        "amount": "38.90"
+    },
+    "taxIncludedTotalAmount": {
+        "currencyUnit": "USD",
+        "amount": "816.90"
+    },
+    "totalPaymentAmount": {
+        "currencyUnit": "USD",
+        "amount": "816.90"
+    },
+    "totalDueAmount": {
+        "currencyUnit": "USD",
+        "amount": "0.00"
+    },
+    "payments": [
+        {
+            "paymentForm": "EXTERNAL",
+            "currencyUnit": "USD",
+            "overtenderOperation": "CHANGE",
+            "paymentTransaction": {
+                "paymentProviderId": "external",
+                "transactionData": {
+                    "amount": {
+                        "currencyUnit": "USD",
+                        "amount": "816.90"
+                    },
+                    "tipAmount": {
+                        "currencyUnit": "USD",
+                        "amount": "0.00"
+                    },
+                    "data": {
+                        "anything": {
+                            "exampleData": "something"
+                        },
+                        "something": {
+                            "exampleData": "something"
+                        }
+                    }
+                },
+                "transactionDataAsJsonString": "{\"amount\":{\"currencyUnit\":\"USD\",\"amount\":\"816.90\"},\"tipAmount\":{\"currencyUnit\":\"USD\",\"amount\":\"0.00\"},\"data\":{\"anything\":{\"exampleData\":\"something\"},\"something\":{\"exampleData\":\"something\"}}}"
+            },
+            "properties": {
+                "tenderId": "15",
+                "igVerificationCodeId": "180"
+            },
+            "id": "6e80640b-f402-43fa-b160-f3d56400a7df",
+            "offline": false,
+            "amount": {
+                "currencyUnit": "USD",
+                "amount": "816.90"
+            },
+            "tipAmount": {
+                "currencyUnit": "USD",
+                "amount": "0.00"
+            }
+        }
+    ],
+    "properties": {
+        "closedTerminalId": "12",
+        "employeeId": "5",
+        "emailId": "foo@bar.com",
+        "openTerminalId": "12",
+        "mobileNumber": "{{textNotificationPhoneNumber}}"
+    },
+    "itemsMarkedForOrder": {
+        "5b22f8f1b1ed73000c6b5d91": {
+            "itemId": "49",
+            "name": "Hersey Bar",
+            "lastUpdateTime": "2018-06-14T23:23:29.079Z",
+            "revenueCategoryId": "1",
+            "productClassId": "34",
+            "kpText": "Hersey Bar",
+            "kitchenDisplayText": "Hersey Bar",
+            "receiptText": "Hersey Bar",
+            "price": {
+                "currencyUnit": "USD",
+                "amount": "0.80"
+            },
+            "defaultPriceLevelId": "1",
+            "priceLevels": {
+                "1": {
+                    "priceLevelId": "1",
+                    "name": "Regular",
+                    "price": {
+                        "currencyUnit": "USD",
+                        "amount": "0.80"
+                    }
+                }
+            },
+            "taxClasses": [
+                "No Tax",
+                "Sales Tax"
+            ],
+            "kitchenVideoLabel": "Hersey Bar",
+            "kitchenVideoId": "5b22f8ebb1ed73000c6b5d82",
+            "skus": [
+                "0342400"
+            ],
+            "itemType": "ITEM",
+            "id": "5b22f8f1b1ed73000c6b5d91",
+            "tenantId": "48",
+            "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+        }
+    },
+    "groupsMarkedForOrder": {}
+}

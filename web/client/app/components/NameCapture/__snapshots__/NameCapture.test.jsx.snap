@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NameCapture does a snapshot test 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "colors": Object {
+        "addOnTab": "#347CFF",
+        "addToCart": "#347CFF",
+        "addonBg": "#EEEEEE",
+        "backgroundGrey": "#E6E6E6",
+        "black": "#000000",
+        "close": "red",
+        "contextBackground": "#f0f0f3",
+        "darkGrey": "#464646",
+        "disableBackground": "#E4E4E4",
+        "disableButton": "#D1D1D1",
+        "error": "#cc0000",
+        "footer": "#48a942",
+        "glutenFree": "#8d7356",
+        "healthy": "#359919",
+        "hint": "#a6a6a6",
+        "inputBottomBorder": "lightgray",
+        "itemBorder": "lightgrey",
+        "itemTile": "#3C474C0",
+        "light": "white",
+        "loader": "#ababab",
+        "loginBackground": "#303030",
+        "loginBoxColor": "#434149",
+        "loginField": "#AAA7AC",
+        "loginFormBackground": "#484848",
+        "navigationMenu": "#48a942",
+        "navigationMenuHover": "cornflowerblue",
+        "new": "#ff6000",
+        "open": "#48a942",
+        "paymentSuccessTitle": "#505050",
+        "placeHolder": "#909090",
+        "primary": "#347CFF",
+        "primaryButton": "#347CFF",
+        "primaryText": "#383838",
+        "secondaryText": "#a6a6a6",
+        "spicy": "#ed1c24",
+        "text": "black",
+        "textGrey": "#505050",
+        "tile": "#505050",
+        "validationError": "#cc0000",
+        "vegan": "#0d4a22",
+        "vegetarian": "#0d4a22",
+      },
+      "fontFamily": "Roboto",
+      "fontSize": Object {
+        "lg": "1.8rem",
+        "md": "1.3rem",
+        "nm": "1rem",
+        "sm": "0.75rem",
+        "xl": "2.4rem",
+      },
+      "fontSizeFromProps": [Function],
+      "mediaBreakpoints": Object {
+        "desktop": [Function],
+        "mobile": [Function],
+        "tablet": [Function],
+      },
+      "nav": Object {
+        "height": "70px",
+      },
+      "receiptFontFamily": "Roboto",
+      "shadow": "#cfcfcf 0.1px 0.1px 3px 0px",
+      "spacing": Object {
+        "lg": "4em",
+        "md": "2em",
+        "nm": "1em",
+        "none": "0em",
+        "sm": "0.5em",
+        "xl": "8em",
+      },
+    }
+  }
+>
+  <Styled(Flex)
+    className="name-capture-container"
+  >
+    <Styled(Flex)
+      className="child-box"
+    >
+      <Styled(Text)
+        aria-label="Instruction text"
+        className="instruction-text"
+        role="form"
+        tabIndex={0}
+      >
+        Instruction text
+      </Styled(Text)>
+      <Styled(Flex)>
+        <Styled(Text)
+          aria-label="DELIVERY_LOCATION_INPUT_HEADER"
+          tabIndex={0}
+        >
+          <div
+            i18nKey="DELIVERY_LOCATION_INPUT_HEADER"
+          />
+        </Styled(Text)>
+        <FloatingLabelInput
+          ariaLabel="FIRST_NAME_LABEL"
+          callBack={[Function]}
+          clearIcon={true}
+          error=""
+          label={
+            <div
+              i18nKey="FIRST_NAME_LABEL"
+            />
+          }
+          placeHolder={
+            <div
+              i18nKey="FIRST_NAME_LABEL"
+            />
+          }
+          propertyName="firstName"
+          tabIndex={0}
+          validationRegEx={/\\^\\(\\[a-z\\|A-Z\\]\\[,\\.\\]\\?\\[ \\]\\?\\|\\[a-z\\|A-Z\\]\\['-\\]\\?\\)\\*\\$/}
+          value=""
+        />
+        <FloatingLabelInput
+          ariaLabel="LAST_INITIAL_LABEL"
+          callBack={[Function]}
+          className="lastInitial"
+          clearIcon={true}
+          error=""
+          label={
+            <div
+              i18nKey="LAST_INITIAL_LABEL"
+            />
+          }
+          placeHolder={
+            <div
+              i18nKey="LAST_INITIAL_LABEL"
+            />
+          }
+          propertyName="lastInitial"
+          tabIndex={0}
+          validationRegEx={/\\^\\[a-z\\|A-Z\\]\\[a-z\\|A-Z\\\\s\\]\\{0\\}\\$/}
+          value=""
+        />
+        <Styled(Flex)>
+          <Styled(Button)
+            aria-label="DELIVERY_LOCATION_CONTINUE_PAY"
+            className="nextBtn"
+            onClick={[Function]}
+            tabIndex={0}
+          >
+            <div
+              i18nKey="DELIVERY_LOCATION_CONTINUE_PAY"
+            />
+          </Styled(Button)>
+        </Styled(Flex)>
+      </Styled(Flex)>
+    </Styled(Flex)>
+  </Styled(Flex)>
+</ThemeProvider>
+`;

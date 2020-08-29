@@ -1,0 +1,484 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItemModifier does a snapshot test 1`] = `
+<ThemeProvider
+  className="item-modifier-block"
+  theme={
+    Object {
+      "colors": Object {
+        "addOnTab": "#347CFF",
+        "addToCart": "#347CFF",
+        "addonBg": "#EEEEEE",
+        "backgroundGrey": "#E6E6E6",
+        "black": "#000000",
+        "close": "red",
+        "contextBackground": "#f0f0f3",
+        "darkGrey": "#464646",
+        "disableBackground": "#E4E4E4",
+        "disableButton": "#D1D1D1",
+        "error": "#cc0000",
+        "footer": "#48a942",
+        "glutenFree": "#8d7356",
+        "healthy": "#359919",
+        "hint": "#a6a6a6",
+        "inputBottomBorder": "lightgray",
+        "itemBorder": "lightgrey",
+        "itemTile": "#3C474C0",
+        "light": "white",
+        "loader": "#ababab",
+        "loginBackground": "#303030",
+        "loginBoxColor": "#434149",
+        "loginField": "#AAA7AC",
+        "loginFormBackground": "#484848",
+        "navigationMenu": "#48a942",
+        "navigationMenuHover": "cornflowerblue",
+        "new": "#ff6000",
+        "open": "#48a942",
+        "paymentSuccessTitle": "#505050",
+        "placeHolder": "#909090",
+        "primary": "#347CFF",
+        "primaryButton": "#347CFF",
+        "primaryText": "#383838",
+        "secondaryText": "#a6a6a6",
+        "spicy": "#ed1c24",
+        "text": "black",
+        "textGrey": "#505050",
+        "tile": "#505050",
+        "validationError": "#cc0000",
+        "vegan": "#0d4a22",
+        "vegetarian": "#0d4a22",
+      },
+      "fontFamily": "Roboto",
+      "fontSize": Object {
+        "lg": "1.8rem",
+        "md": "1.3rem",
+        "nm": "1rem",
+        "sm": "0.75rem",
+        "xl": "2.4rem",
+      },
+      "fontSizeFromProps": [Function],
+      "mediaBreakpoints": Object {
+        "desktop": [Function],
+        "mobile": [Function],
+        "tablet": [Function],
+      },
+      "nav": Object {
+        "height": "70px",
+      },
+      "receiptFontFamily": "Roboto",
+      "shadow": "#cfcfcf 0.1px 0.1px 3px 0px",
+      "spacing": Object {
+        "lg": "4em",
+        "md": "2em",
+        "nm": "1em",
+        "none": "0em",
+        "sm": "0.5em",
+        "xl": "8em",
+      },
+    }
+  }
+>
+  <styled.div
+    className="modifiers"
+    innerRef={[Function]}
+    max-width={0}
+  >
+     
+    <styled.div
+      className="modifier-tabs"
+      innerRef={[Function]}
+      role="tablist"
+      tabIndex={0}
+    >
+      <ArrowHorizontalScroll
+        classContext="modifier-tabs-list"
+        contentStyle={
+          Object {
+            "minHeight": "60px",
+            "width": "100%",
+          }
+        }
+        leftArrow={
+          <Styled(Styled(Flex))
+            tabIndex={0}
+          >
+            <i
+              className="fa fa-angle-left"
+            />
+          </Styled(Styled(Flex))>
+        }
+        rightArrow={
+          <Styled(Styled(Flex))
+            tabIndex={0}
+          >
+            <i
+              className="fa fa-angle-right"
+            />
+          </Styled(Styled(Flex))>
+        }
+      >
+        <Styled(Tab)
+          aria-label="BREAD ITEM_DETAILS_REQUIRED"
+          aria-selected={true}
+          className="tab_1 bread active"
+          id="tab-list"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="tab"
+          tabIndex={0}
+        >
+          <Styled(Text)>
+            BREAD
+          </Styled(Text)>
+          <Styled(Text)
+            className="required-text"
+            error="test"
+          >
+            <div
+              i18nKey="ITEM_DETAILS_REQUIRED"
+            />
+          </Styled(Text)>
+        </Styled(Tab)>
+        <styled.div />
+        <Styled(Tab)
+          aria-label="PROTEINS ITEM_DETAILS_REQUIRED"
+          aria-selected={false}
+          className="tab_2 proteins "
+          id="tab-list"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="tab"
+          tabIndex={0}
+        >
+          <Styled(Text)>
+            PROTEINS
+          </Styled(Text)>
+          <Styled(Text)
+            className="required-text"
+            error="test"
+          >
+            <div
+              i18nKey="ITEM_DETAILS_REQUIRED"
+            />
+          </Styled(Text)>
+        </Styled(Tab)>
+        <styled.div />
+        <Styled(Tab)
+          aria-label="ADD ON ITEM_DETAILS_REQUIRED"
+          aria-selected={false}
+          className="tab_3 addon "
+          id="tab-list"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="tab"
+          tabIndex={0}
+        >
+          <Styled(Text)>
+            ADD ON
+          </Styled(Text)>
+          <Styled(Text)
+            className="required-text"
+            error="test"
+          >
+            <div
+              i18nKey="ITEM_DETAILS_REQUIRED"
+            />
+          </Styled(Text)>
+        </Styled(Tab)>
+        <styled.div />
+      </ArrowHorizontalScroll>
+    </styled.div>
+    <Styled(Flex)>
+      <Styled(Flex)
+        aria-label="ITEM_MODIFIERS_ADDON_MIN_MAX"
+        className="header-text"
+        id="modifiers-choose"
+        tabIndex={0}
+      >
+        ITEM_MODIFIERS_ADDON_MIN_MAX
+      </Styled(Flex)>
+      <Styled(Flex)
+        className="option modifier_0ption_1"
+      >
+        <Styled(Flex)
+          aria-checked={false}
+          className="option_id_ciabatta"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          pl={
+            Array [
+              20,
+              20,
+              0,
+            ]
+          }
+          role="radio"
+          tabIndex={0}
+        >
+          <styled.div>
+            <i
+              className="fa fa-circle-thin"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "display": "inline-block",
+                  "fontSize": "1rem",
+                }
+              }
+            />
+            <Styled(Text)
+              className="option_desc "
+            >
+              Ciabatta
+            </Styled(Text)>
+          </styled.div>
+          <Styled(Text)
+            className="option_amount "
+          >
+            $20.00
+          </Styled(Text)>
+        </Styled(Flex)>
+      </Styled(Flex)>
+      <Styled(Flex)
+        className="option modifier_0ption_2"
+      >
+        <Styled(Flex)
+          aria-checked={false}
+          className="option_id_sourdough"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          pl={
+            Array [
+              20,
+              20,
+              0,
+            ]
+          }
+          role="radio"
+          tabIndex={0}
+        >
+          <styled.div>
+            <i
+              className="fa fa-circle-thin"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "display": "inline-block",
+                  "fontSize": "1rem",
+                }
+              }
+            />
+            <Styled(Text)
+              className="option_desc "
+            >
+              Sourdough
+            </Styled(Text)>
+          </styled.div>
+          <Styled(Text)
+            className="option_amount "
+          >
+            $1.50
+          </Styled(Text)>
+        </Styled(Flex)>
+      </Styled(Flex)>
+      <Styled(Flex)
+        className="option modifier_0ption_3"
+      >
+        <Styled(Flex)
+          aria-checked={false}
+          className="option_id_marblerye"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          pl={
+            Array [
+              20,
+              20,
+              0,
+            ]
+          }
+          role="radio"
+          tabIndex={0}
+        >
+          <styled.div>
+            <i
+              className="fa fa-circle-thin"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "display": "inline-block",
+                  "fontSize": "1rem",
+                }
+              }
+            />
+            <Styled(Text)
+              className="option_desc "
+            >
+              MarbleRye
+            </Styled(Text)>
+          </styled.div>
+          <Styled(Text)
+            className="option_amount "
+          >
+            $1.50
+          </Styled(Text)>
+        </Styled(Flex)>
+      </Styled(Flex)>
+      <Styled(Flex)
+        className="option modifier_0ption_4"
+      >
+        <Styled(Flex)
+          aria-checked={false}
+          className="option_id_multigrain"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          pl={
+            Array [
+              20,
+              20,
+              0,
+            ]
+          }
+          role="radio"
+          tabIndex={0}
+        >
+          <styled.div>
+            <i
+              className="fa fa-circle-thin"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "display": "inline-block",
+                  "fontSize": "1rem",
+                }
+              }
+            />
+            <Styled(Text)
+              className="option_desc "
+            >
+              Multi Grain
+            </Styled(Text)>
+          </styled.div>
+        </Styled(Flex)>
+      </Styled(Flex)>
+      <Styled(Flex)
+        className="option modifier_0ption_5"
+      >
+        <Styled(Flex)
+          aria-checked={false}
+          className="option_id_wheatbaguette"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          pl={
+            Array [
+              20,
+              20,
+              0,
+            ]
+          }
+          role="radio"
+          tabIndex={0}
+        >
+          <styled.div>
+            <i
+              className="fa fa-circle-thin"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "display": "inline-block",
+                  "fontSize": "1rem",
+                }
+              }
+            />
+            <Styled(Text)
+              className="option_desc "
+            >
+              Wheat Baguette
+            </Styled(Text)>
+          </styled.div>
+        </Styled(Flex)>
+      </Styled(Flex)>
+      <Styled(Flex)
+        className="option modifier_0ption_6"
+      >
+        <Styled(Flex)
+          aria-checked={false}
+          className="option_id_wheatwrap"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          pl={
+            Array [
+              20,
+              20,
+              0,
+            ]
+          }
+          role="radio"
+          tabIndex={0}
+        >
+          <styled.div>
+            <i
+              className="fa fa-circle-thin"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "display": "inline-block",
+                  "fontSize": "1rem",
+                }
+              }
+            />
+            <Styled(Text)
+              className="option_desc "
+            >
+              Wheat wrap
+            </Styled(Text)>
+          </styled.div>
+        </Styled(Flex)>
+      </Styled(Flex)>
+      <Styled(Flex)
+        className="option modifier_0ption_7"
+      >
+        <Styled(Flex)
+          aria-checked={false}
+          className="option_id_spinachwrap"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          pl={
+            Array [
+              20,
+              20,
+              0,
+            ]
+          }
+          role="radio"
+          tabIndex={0}
+        >
+          <styled.div>
+            <i
+              className="fa fa-circle-thin"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "display": "inline-block",
+                  "fontSize": "1rem",
+                }
+              }
+            />
+            <Styled(Text)
+              className="option_desc "
+            >
+              Spinach wrap
+            </Styled(Text)>
+          </styled.div>
+        </Styled(Flex)>
+      </Styled(Flex)>
+    </Styled(Flex)>
+  </styled.div>
+</ThemeProvider>
+`;

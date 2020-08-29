@@ -1,0 +1,32 @@
+{
+    "orderData": {
+        "storeInfo": {
+            "storeName": "Kentucky Cafe #01",
+           "address1": "88888 NorthEast Kentucky Industrial Parkway",
+           "address2": "",
+           "phoneNumber": "(800) 241-8768",
+           "city": "Silverwood Haven",
+           "state": "Kentucky",
+           "zipCode": "88888"
+        },
+        "terminalNumber": "012345",
+       "checkNumber": "00987654350",
+       "timezoneOffsetMinutes": 420,
+       "currencySymbol": "$",
+       "subtotalAmount": 2.50,
+       "taxAmount": 0.13,
+       "totalAmount": 2.63,
+       "paymentInfo": {
+           "authCode": 142564,
+           "account": "XXXXXXXXXXXX1234",
+           "tenderName": "Visa"
+        },
+       "lineItems": [
+           {
+               "displayText": "Granola Bar",
+               "price": 2.5
+           }
+       ]
+   },
+   "templateName": "DefaultReceiptTemplate"
+}

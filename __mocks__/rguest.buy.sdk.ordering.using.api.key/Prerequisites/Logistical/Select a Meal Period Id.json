@@ -1,0 +1,37 @@
+[
+    {
+        "mealPeriodId": "1",
+        "name": "Breakfast",
+        "id": "5b21805ea1a419000cf2677d",
+        "tenantId": "48",
+        "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+    },
+    {
+        "mealPeriodId": "2",
+        "name": "Lunch",
+        "id": "5b21805eb1ed73000c6b5d10",
+        "tenantId": "48",
+        "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+    },
+    {
+        "mealPeriodId": "3",
+        "name": "Dinner",
+        "id": "5b21805ea1a419000cf2677e",
+        "tenantId": "48",
+        "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+    },
+    {
+        "mealPeriodId": "4",
+        "name": "Happy Hour",
+        "id": "5b21805fb1ed73000c6b5d11",
+        "tenantId": "48",
+        "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+    },
+    {
+        "mealPeriodId": "5",
+        "name": "All Day",
+        "id": "5b21805fa1a419000cf2677f",
+        "tenantId": "48",
+        "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+    }
+]

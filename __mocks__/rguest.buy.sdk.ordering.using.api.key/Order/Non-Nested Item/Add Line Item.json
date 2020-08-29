@@ -1,0 +1,201 @@
+{
+    "orderId": "39bd8ed7-f054-4ea7-a738-0e0303ce15b7",
+    "version": 2,
+    "tenantId": "48",
+    "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f",
+    "created": "2018-07-10T06:27:45.695Z",
+    "orderState": "OPEN",
+    "orderNumber": "00073",
+    "currencyUnit": "USD",
+    "lineItems": [
+        {
+            "itemId": "5b22f8f1b1ed73000c6b5d91",
+            "lineItemId": "99913b33-1361-4b8a-9f23-f3a01263c01c",
+            "soldByWeight": false,
+            "lineItemState": "NORMAL",
+            "weight": 0,
+            "tareWeight": 0,
+            "quantity": 1,
+            "price": {
+                "currencyUnit": "USD",
+                "amount": "777.00"
+            },
+            "lineItemGroups": [],
+            "lineItemTax": {
+                "id": "03bd46ba-f88e-42bd-b6f0-0483da27ea77",
+                "taxableAmount": {
+                    "currencyUnit": "USD",
+                    "amount": "777.00"
+                },
+                "taxIncludedAmount": {
+                    "currencyUnit": "USD",
+                    "amount": "815.85"
+                },
+                "totalTaxAmount": {
+                    "currencyUnit": "USD",
+                    "amount": "38.85"
+                },
+                "taxEntries": [
+                    {
+                        "taxClass": "Sales Tax",
+                        "taxAmount": {
+                            "currencyUnit": "USD",
+                            "amount": "38.85"
+                        },
+                        "taxableAmount": {
+                            "currencyUnit": "USD",
+                            "amount": "777.00"
+                        }
+                    },
+                    {
+                        "taxClass": "No Tax",
+                        "taxAmount": {
+                            "currencyUnit": "USD",
+                            "amount": "0.00"
+                        },
+                        "taxableAmount": {
+                            "currencyUnit": "USD",
+                            "amount": "777.00"
+                        }
+                    }
+                ]
+            },
+            "properties": {
+                "mealPeriodId": "1"
+            }
+        },
+        {
+            "itemId": "5b22f8f1b1ed73000c6b5d91",
+            "lineItemId": "037c7e74-8f46-4d64-a56f-a0c8a039dd37",
+            "soldByWeight": false,
+            "lineItemState": "NORMAL",
+            "weight": 0,
+            "tareWeight": 0,
+            "quantity": 1,
+            "price": {
+                "currencyUnit": "USD",
+                "amount": "1.00"
+            },
+            "lineItemGroups": [],
+            "lineItemTax": {
+                "id": "4a4d1610-66f0-4c17-ba4c-d89053c6ffb1",
+                "taxableAmount": {
+                    "currencyUnit": "USD",
+                    "amount": "1.00"
+                },
+                "taxIncludedAmount": {
+                    "currencyUnit": "USD",
+                    "amount": "1.05"
+                },
+                "totalTaxAmount": {
+                    "currencyUnit": "USD",
+                    "amount": "0.05"
+                },
+                "taxEntries": [
+                    {
+                        "taxClass": "Sales Tax",
+                        "taxAmount": {
+                            "currencyUnit": "USD",
+                            "amount": "0.05"
+                        },
+                        "taxableAmount": {
+                            "currencyUnit": "USD",
+                            "amount": "1.00"
+                        }
+                    },
+                    {
+                        "taxClass": "No Tax",
+                        "taxAmount": {
+                            "currencyUnit": "USD",
+                            "amount": "0.00"
+                        },
+                        "taxableAmount": {
+                            "currencyUnit": "USD",
+                            "amount": "1.00"
+                        }
+                    }
+                ]
+            },
+            "properties": {
+                "mealPeriodId": "1"
+            }
+        }
+    ],
+    "taxExcludedTotalAmount": {
+        "currencyUnit": "USD",
+        "amount": "778.00"
+    },
+    "subTotalAmount": {
+        "currencyUnit": "USD",
+        "amount": "778.00"
+    },
+    "taxTotalAmount": {
+        "currencyUnit": "USD",
+        "amount": "38.90"
+    },
+    "subTotalTaxAmount": {
+        "currencyUnit": "USD",
+        "amount": "38.90"
+    },
+    "taxIncludedTotalAmount": {
+        "currencyUnit": "USD",
+        "amount": "816.90"
+    },
+    "totalPaymentAmount": {
+        "currencyUnit": "USD",
+        "amount": "0.00"
+    },
+    "totalDueAmount": {
+        "currencyUnit": "USD",
+        "amount": "816.90"
+    },
+    "payments": [],
+    "properties": {
+        "closedTerminalId": "12",
+        "employeeId": "5",
+        "emailId": "foo@bar.com",
+        "openTerminalId": "12",
+        "mobileNumber": "{{textNotificationPhoneNumber}}"
+    },
+    "itemsMarkedForOrder": {
+        "5b22f8f1b1ed73000c6b5d91": {
+            "itemId": "49",
+            "name": "Hersey Bar",
+            "lastUpdateTime": "2018-06-14T23:23:29.079Z",
+            "revenueCategoryId": "1",
+            "productClassId": "34",
+            "kpText": "Hersey Bar",
+            "kitchenDisplayText": "Hersey Bar",
+            "receiptText": "Hersey Bar",
+            "price": {
+                "currencyUnit": "USD",
+                "amount": "0.80"
+            },
+            "defaultPriceLevelId": "1",
+            "priceLevels": {
+                "1": {
+                    "priceLevelId": "1",
+                    "name": "Regular",
+                    "price": {
+                        "currencyUnit": "USD",
+                        "amount": "0.80"
+                    }
+                }
+            },
+            "taxClasses": [
+                "No Tax",
+                "Sales Tax"
+            ],
+            "kitchenVideoLabel": "Hersey Bar",
+            "kitchenVideoId": "5b22f8ebb1ed73000c6b5d82",
+            "skus": [
+                "0342400"
+            ],
+            "itemType": "ITEM",
+            "id": "5b22f8f1b1ed73000c6b5d91",
+            "tenantId": "48",
+            "contextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f"
+        }
+    },
+    "groupsMarkedForOrder": {}
+}

@@ -1,0 +1,28 @@
+{
+  "presets": [
+    "env",
+    "react",
+    "stage-0"
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+    "syntax-dynamic-import",
+    "transform-decorators-legacy"
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        "env",
+        "react",
+        "stage-0"
+        ],
+      "plugins": [
+        "react-hot-loader/babel",
+        "syntax-dynamic-import",
+        "transform-decorators-legacy",
+        "babel-plugin-rewire",
+        "rewire"
+      ]
+    }
+  }
+}

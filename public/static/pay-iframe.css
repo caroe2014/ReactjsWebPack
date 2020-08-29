@@ -1,0 +1,449 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #505050;
+	margin: 0px !important;
+}
+
+input {
+	border: none;
+}
+
+input.cvv {
+	font-size: 18px;
+	letter-spacing: 5px;
+}
+
+.main {
+	max-width: 400px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.formFlex {
+	display: flex;
+	flex-direction: column;
+}
+
+.paymentText {
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+
+.cardText {
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 12px;
+}
+
+.zipText {
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 12px;
+}
+
+.inputTextSize {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.cardBlock {
+	/* display: flex; */
+	flex-direction: column;
+	flex: 1;
+}
+
+.cardNumberText {
+	width: 100%;
+    word-spacing: 20px;
+    flex: 1;
+}
+
+input[type="password"] {
+	word-spacing: 20px;
+	-webkit-text-security: disc;
+}
+
+input[type="password"]#cardNumber {
+	word-spacing: 20px;
+	letter-spacing: 7px;
+	-webkit-text-security: disc;
+	font-size: 16px;
+}
+
+input[type="submit"]:disabled {
+	opacity: 0.6 !important;
+	cursor: not-allowed;
+}
+
+input[type="checkbox"]:disabled {
+	opacity: 0.6 !important;
+	cursor: not-allowed;
+}
+
+.disabledbutton {
+  opacity: 0.6 !important;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.mask-text {
+    -webkit-text-security: disc;
+    -moz-webkit-text-security: disc;
+    -moz-text-security: disc;
+}
+
+/* Hide HTML5 Up and Down arrows. */
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+ 
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+.cardNameText {
+	font-size: 18px;
+	font-weight: 300;
+	width: 100%;
+}
+
+.modal-content {
+	display: none;
+}
+
+#cardNumber-error,
+#postalCode-error,
+#cvv-error,
+#expiryDate-error,
+#cardholderName-error,
+#expirationMonth-error,
+#expirationYear-error,
+#DateofExpiry-error,
+#promptText-error {
+	color: #cc0000;
+	font-size: 14px;
+}
+
+.sosoInput {
+	border-bottom: 1px solid lightgray;
+	outline: none;
+	box-shadow: none;
+	padding: 8px 0px 6px 0px;
+	background-color: transparent;
+	font-family: inherit;
+}
+
+.expCVV {
+	margin-top: 14px;
+	display: flex;
+	flex-direction: row;
+}
+
+.expiryBlock {
+	display: flex;
+	flex-direction: column;
+	flex: 0.5;
+}
+
+.expCvvLabel {
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 14px;
+}
+
+#expiryDatelabel::after {
+	font-size: 16px;
+	content: 'Expiration Date';
+}
+
+#expiryDatelabel {
+	font-size: 0
+}
+
+.cvvFlex {
+	display: flex;
+	flex-direction: row;
+}
+
+.expDateBlock {
+	display: flex;
+	width: 100%;
+	border-bottom: 0.5px solid lightgray;
+}
+
+.expiryMonthTextWidth {
+	width: 13%;
+	border-bottom: none !important;
+}
+
+.expiryYearTextWidth {
+	width: 25%;
+	border-bottom: none !important;
+}
+
+.separator{
+	display: flex;
+	align-items: flex-end;
+	width: 6%;
+	font-size: 24px;
+	margin-bottom: 3px;
+}
+
+.margin {
+	margin-top: 36px;
+}
+
+.submitBtn {
+	margin: 16px auto 8px auto;
+	width: 100%;
+	border-radius: 6px;
+	height: 40px;
+	background-color: #347CFF;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	-webkit-appearance: none;
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	font-family: inherit;
+}
+
+.submitBtn:hover {
+	box-shadow: 0px 0px 10px 2px lightgrey;
+	-webkit-box-shadow: 0px 0px 10px 2px lightgrey;
+	-moz-box-shadow: 0px 0px 10px 2px lightgrey;
+  }
+
+.cancelBtn {
+	margin: 0px auto;
+	text-align: center;
+	height: 40px;
+	color: #347CFF;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.expiryTextWidth {
+	width: 80%;
+	word-spacing: 15px;
+}
+
+.cvvTextWidth {
+	width: 100%;
+	flex: 1;
+}
+
+@media only screen and (max-width: 600px) {
+	.cvvTextWidth {
+		width: 85%;
+	}
+	.savecardText {
+		width: 100%;
+	}
+	.promptParent {
+		width: 60% !important;
+	}
+	body {
+		padding: 0px 20px;
+	}
+}
+
+.zipWidth {
+	width: 100%;
+}
+
+.blueEye {
+	color: #347CFF;
+}
+
+.fa-eye {
+	color: #347CFF;
+}
+
+.fa-eye-slash {
+	color: #347CFF;
+}
+
+.cardFlex {
+	display: flex;
+	flex-direction: row;
+}
+
+.eyeBlock {
+	display: flex;
+    margin-left: 5px;
+    margin-right: -18px;
+}
+
+.cardErrorBlock {
+	height: auto;
+	min-height: 14px;
+	margin-top: 6px
+}
+
+.cvvImageEye {
+	display: flex;
+    margin-left: 5px;
+    margin-right: -18px;
+}
+
+.cvvFlexColumn {
+	display: flex;
+	flex-direction: column;
+	flex: 0.5;
+}
+
+.cvvFlexRow {
+	display: flex;
+	flex-direction: row;
+}
+
+.cardLabel {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.container {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 20px;
+	width: 20px;
+	background-color: #FFFFFF;
+	border: 1px solid #347CFF;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+	background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+	background-color: #347CFF;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+	display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+	left: 6px;
+	top: 2px;
+	width: 5px;
+	height: 10px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+  }
+
+  .totalContainer {
+	display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+	margin-top: 20px;
+  }
+
+  .savecardText {
+	margin-top: 16px;
+	width: 60%;
+	margin-bottom: 10px;
+  }
+
+  .savecardText:disabled {
+	opacity: 0.6 !important;
+	cursor: not-allowed;
+  }
+
+  .savecardText:focus-within .checkmark {
+	box-shadow: 0px 0px 10px 2px lightgrey;
+  }
+
+
+  .promptText {
+    width: 15px;
+	align-self: center;
+	font-size: 18px;
+	text-align: center;
+	border-bottom: 0px !important;
+	padding-bottom: 0px !important;
+  }
+
+  .promptParent{
+	display: flex;
+    flex-direction: row;
+	justify-content: center;
+	border-bottom: 1px solid lightgrey;
+    width: 36%;
+    align-self: center;
+    padding-bottom: 10px;
+	align-items: flex-end;
+	margin-bottom: 4px;
+	margin-top: 4px;
+  }
+
+  .currencyParent{
+	justify-content: center;
+    align-items: center;
+	display: flex;
+	font-size: 18px;
+  }
+
+  .currencyFirst {
+	margin-right: 0px;
+	margin-left: -16px;
+  }
+
+  .currencyLast {
+	margin-left: 0px;
+  }
+
+  .addressText{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 12px;
+  }

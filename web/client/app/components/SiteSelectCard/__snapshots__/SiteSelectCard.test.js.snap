@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SiteSelectCard does a snapshot test 1`] = `
+<ThemeProvider
+  className="site-card"
+  theme={
+    Object {
+      "colors": Object {
+        "addOnTab": "#347CFF",
+        "addToCart": "#347CFF",
+        "addonBg": "#EEEEEE",
+        "backgroundGrey": "#E6E6E6",
+        "black": "#000000",
+        "close": "red",
+        "contextBackground": "#f0f0f3",
+        "darkGrey": "#464646",
+        "disableBackground": "#E4E4E4",
+        "disableButton": "#D1D1D1",
+        "error": "#cc0000",
+        "footer": "#48a942",
+        "glutenFree": "#8d7356",
+        "healthy": "#359919",
+        "hint": "#a6a6a6",
+        "inputBottomBorder": "lightgray",
+        "itemBorder": "lightgrey",
+        "itemTile": "#3C474C0",
+        "light": "white",
+        "loader": "#ababab",
+        "loginBackground": "#303030",
+        "loginBoxColor": "#434149",
+        "loginField": "#AAA7AC",
+        "loginFormBackground": "#484848",
+        "navigationMenu": "#48a942",
+        "navigationMenuHover": "cornflowerblue",
+        "new": "#ff6000",
+        "open": "#48a942",
+        "paymentSuccessTitle": "#505050",
+        "placeHolder": "#909090",
+        "primary": "#347CFF",
+        "primaryButton": "#347CFF",
+        "primaryText": "#383838",
+        "secondaryText": "#a6a6a6",
+        "spicy": "#ed1c24",
+        "text": "black",
+        "textGrey": "#505050",
+        "tile": "#505050",
+        "validationError": "#cc0000",
+        "vegan": "#0d4a22",
+        "vegetarian": "#0d4a22",
+      },
+      "fontFamily": "Roboto",
+      "fontSize": Object {
+        "lg": "1.8rem",
+        "md": "1.3rem",
+        "nm": "1rem",
+        "sm": "0.75rem",
+        "xl": "2.4rem",
+      },
+      "fontSizeFromProps": [Function],
+      "mediaBreakpoints": Object {
+        "desktop": [Function],
+        "mobile": [Function],
+        "tablet": [Function],
+      },
+      "nav": Object {
+        "height": "70px",
+      },
+      "receiptFontFamily": "Roboto",
+      "shadow": "#cfcfcf 0.1px 0.1px 3px 0px",
+      "spacing": Object {
+        "lg": "4em",
+        "md": "2em",
+        "nm": "1em",
+        "none": "0em",
+        "sm": "0.5em",
+        "xl": "8em",
+      },
+    }
+  }
+>
+  <Styled(Flex)
+    className="site-card-container"
+    open={true}
+  >
+    <Tile
+      classContext="tile site_1001"
+      closedoverlay="true"
+      hasBorder={true}
+      image="http://eatstreet.co.id/wp-content/uploads/2016/11/cropped-MASTER-FINAL_LOGO-OVAL-EAT-STREET-1.png"
+      imageresponsive="true"
+      isEnabled={true}
+      title="Eat Street"
+      titleStyle={
+        Object {
+          "fontSize": "18px",
+        }
+      }
+    >
+      <Styled(Flex)
+        alignItems="flex-start"
+        className="address-text"
+        flexDirection="column"
+      >
+        <Styled(Text)
+          aria-hidden={false}
+          aria-label="1000, windward concourse"
+          className="address-line-1"
+          tabIndex={0}
+        >
+          1000, windward concourse
+        </Styled(Text)>
+        <Styled(Text)
+          aria-hidden={false}
+          aria-label="alpharetta,GA, USA"
+          className="address-line-2"
+          tabIndex={0}
+        >
+          alpharetta,GA, USA
+        </Styled(Text)>
+        <Styled(Text)
+          className="opens-text custom-time"
+          tabIndex={0}
+        />
+        <Styled(Text) />
+      </Styled(Flex)>
+      <Styled(Flex)
+        className="delivery-container"
+        optionLength={1}
+      >
+        <Styled(Button)
+          className="delivery-button"
+          key="dinein-0"
+          onClick={[Function]}
+          tabIndex={0}
+          value="dinein"
+        >
+          DELIVERY_DINEIN_DISPLAY_TEXT
+        </Styled(Button)>
+      </Styled(Flex)>
+    </Tile>
+  </Styled(Flex)>
+</ThemeProvider>
+`;

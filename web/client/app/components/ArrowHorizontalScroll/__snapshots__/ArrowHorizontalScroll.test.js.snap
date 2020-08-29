@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArrowHorizontalScroll does a snapshot test 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.c2 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  position: absolute;
+  right: 0;
+  z-index: 100;
+  cursor: pointer;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 200ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
+}
+
+.c3:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.c1 {
+  position: absolute;
+  z-index: 100;
+  cursor: pointer;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 200ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
+}
+
+.c1:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+@media (max-width:72em) {
+  .c2 {
+    overflow-x: auto;
+  }
+}
+
+@media (max-width:32em) {
+  .c2 {
+    overflow-x: auto;
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c3 {
+    top: 0;
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c1 {
+    top: 0;
+  }
+}
+
+<ThemeProvider
+  theme={
+    Object {
+      "colors": Object {
+        "addOnTab": "#347CFF",
+        "addToCart": "#347CFF",
+        "addonBg": "#EEEEEE",
+        "backgroundGrey": "#E6E6E6",
+        "black": "#000000",
+        "close": "red",
+        "contextBackground": "#f0f0f3",
+        "darkGrey": "#464646",
+        "disableBackground": "#E4E4E4",
+        "disableButton": "#D1D1D1",
+        "error": "#cc0000",
+        "footer": "#48a942",
+        "glutenFree": "#8d7356",
+        "healthy": "#359919",
+        "hint": "#a6a6a6",
+        "inputBottomBorder": "lightgray",
+        "itemBorder": "lightgrey",
+        "itemTile": "#3C474C0",
+        "light": "white",
+        "loader": "#ababab",
+        "loginBackground": "#303030",
+        "loginBoxColor": "#434149",
+        "loginField": "#AAA7AC",
+        "loginFormBackground": "#484848",
+        "navigationMenu": "#48a942",
+        "navigationMenuHover": "cornflowerblue",
+        "new": "#ff6000",
+        "open": "#48a942",
+        "paymentSuccessTitle": "#505050",
+        "placeHolder": "#909090",
+        "primary": "#347CFF",
+        "primaryButton": "#347CFF",
+        "primaryText": "#383838",
+        "secondaryText": "#a6a6a6",
+        "spicy": "#ed1c24",
+        "text": "black",
+        "textGrey": "#505050",
+        "tile": "#505050",
+        "validationError": "#cc0000",
+        "vegan": "#0d4a22",
+        "vegetarian": "#0d4a22",
+      },
+      "fontFamily": "Roboto",
+      "fontSize": Object {
+        "lg": "1.8rem",
+        "md": "1.3rem",
+        "nm": "1rem",
+        "sm": "0.75rem",
+        "xl": "2.4rem",
+      },
+      "fontSizeFromProps": [Function],
+      "mediaBreakpoints": Object {
+        "desktop": [Function],
+        "mobile": [Function],
+        "tablet": [Function],
+      },
+      "nav": Object {
+        "height": "70px",
+      },
+      "receiptFontFamily": "Roboto",
+      "shadow": "#cfcfcf 0.1px 0.1px 3px 0px",
+      "spacing": Object {
+        "lg": "4em",
+        "md": "2em",
+        "nm": "1em",
+        "none": "0em",
+        "sm": "0.5em",
+        "xl": "8em",
+      },
+    }
+  }
+>
+  <ArrowHorizontalScroll>
+    <styled.div>
+      <div
+        className="c0"
+      >
+        <styled.div
+          aria-label="SCROLL_LEFT"
+          className="scroll-arrow-left"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+          tabIndex={false}
+          visible={false}
+        >
+          <div
+            aria-label="SCROLL_LEFT"
+            className="scroll-arrow-left c1"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+            tabIndex={false}
+          />
+        </styled.div>
+        <styled.div
+          className="scroll-content"
+          id="scroll-content"
+          innerRef={[Function]}
+          onScroll={[Function]}
+        >
+          <div
+            className="scroll-content c2"
+            id="scroll-content"
+            onScroll={[Function]}
+          />
+        </styled.div>
+        <styled.div
+          aria-label="SCROLL_RIGHT"
+          className="scroll-arrow-right"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+          tabIndex={false}
+          visible={false}
+        >
+          <div
+            aria-label="SCROLL_RIGHT"
+            className="scroll-arrow-right c3"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+            tabIndex={false}
+          />
+        </styled.div>
+      </div>
+    </styled.div>
+  </ArrowHorizontalScroll>
+</ThemeProvider>
+`;

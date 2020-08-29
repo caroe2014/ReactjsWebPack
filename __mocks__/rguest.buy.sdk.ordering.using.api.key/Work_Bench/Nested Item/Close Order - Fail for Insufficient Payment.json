@@ -1,0 +1,20 @@
+{
+    "status": 400,
+    "message": "",
+    "errors": [
+        {
+            "type": "rGuest_buy_order_exception",
+            "code": "INVALID_ORDER",
+            "status": 400,
+            "context": {
+                "PAYMENT_INSUFFICIENT": "USD 800.00",
+                "ORDER_ID": "9f242f11-a2cb-4a44-b0b4-1cbf97623152",
+                "PAYMENT_TOTAL_INCORRECT": "NO_VALUE_AVAILABLE",
+                "CONTEXT_ID": "9b825538-1dce-4a29-b801-dc64fb4ba53f",
+                "TENANT_ID": "48"
+            },
+            "eventId": "72c3790d-c3b8-424e-876c-690db3a131a5",
+            "message": ""
+        }
+    ]
+}

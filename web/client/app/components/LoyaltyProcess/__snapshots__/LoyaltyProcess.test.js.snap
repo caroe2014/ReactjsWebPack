@@ -1,0 +1,728 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoyaltyProcess does a snapshot test 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "colors": Object {
+        "addOnTab": "#347CFF",
+        "addToCart": "#347CFF",
+        "addonBg": "#EEEEEE",
+        "backgroundGrey": "#E6E6E6",
+        "black": "#000000",
+        "close": "red",
+        "contextBackground": "#f0f0f3",
+        "darkGrey": "#464646",
+        "disableBackground": "#E4E4E4",
+        "disableButton": "#D1D1D1",
+        "error": "#cc0000",
+        "footer": "#48a942",
+        "glutenFree": "#8d7356",
+        "healthy": "#359919",
+        "hint": "#a6a6a6",
+        "inputBottomBorder": "lightgray",
+        "itemBorder": "lightgrey",
+        "itemTile": "#3C474C0",
+        "light": "white",
+        "loader": "#ababab",
+        "loginBackground": "#303030",
+        "loginBoxColor": "#434149",
+        "loginField": "#AAA7AC",
+        "loginFormBackground": "#484848",
+        "navigationMenu": "#48a942",
+        "navigationMenuHover": "cornflowerblue",
+        "new": "#ff6000",
+        "open": "#48a942",
+        "paymentSuccessTitle": "#505050",
+        "placeHolder": "#909090",
+        "primary": "#347CFF",
+        "primaryButton": "#347CFF",
+        "primaryText": "#383838",
+        "secondaryText": "#a6a6a6",
+        "spicy": "#ed1c24",
+        "text": "black",
+        "textGrey": "#505050",
+        "tile": "#505050",
+        "validationError": "#cc0000",
+        "vegan": "#0d4a22",
+        "vegetarian": "#0d4a22",
+      },
+      "fontFamily": "Roboto",
+      "fontSize": Object {
+        "lg": "1.8rem",
+        "md": "1.3rem",
+        "nm": "1rem",
+        "sm": "0.75rem",
+        "xl": "2.4rem",
+      },
+      "fontSizeFromProps": [Function],
+      "mediaBreakpoints": Object {
+        "desktop": [Function],
+        "mobile": [Function],
+        "tablet": [Function],
+      },
+      "nav": Object {
+        "height": "70px",
+      },
+      "receiptFontFamily": "Roboto",
+      "shadow": "#cfcfcf 0.1px 0.1px 3px 0px",
+      "spacing": Object {
+        "lg": "4em",
+        "md": "2em",
+        "nm": "1em",
+        "none": "0em",
+        "sm": "0.5em",
+        "xl": "8em",
+      },
+    }
+  }
+>
+  <LoyaltyProcess
+    cancelLoyalty={false}
+    cartLoyaltyInfo={
+      Object {
+        "inquiryId": 1001,
+      }
+    }
+    fetching={false}
+    inquiryError="someError"
+    loyaltyDetails={
+      Object {
+        "header": "test",
+      }
+    }
+    loyaltyInfoMap={
+      Object {
+        "1001": Object {
+          "id": "test",
+          "loyaltyInfo": Object {
+            "test": "test",
+          },
+        },
+      }
+    }
+    loyaltyProcess={
+      Object {
+        "accrueError": true,
+        "loyaltyLinkedAccounts": Array [
+          Object {
+            "accountNumber": "111",
+          },
+        ],
+      }
+    }
+    showAccount={true}
+    siteId={1001}
+  >
+    <Flex
+      className="container-parent"
+      id="accrual-modal"
+    >
+      <Box
+        className="container-parent sc-bwzfXH hKiLMS"
+        id="accrual-modal"
+      >
+        <div
+          className="container-parent sc-bwzfXH hKiLMS sc-bdVaJa iHZvIS"
+          id="accrual-modal"
+        >
+          <Styled(Fixed)
+            className="guest-profile-modal-background"
+          >
+            <Fixed
+              0="s"
+              1="p"
+              2="a"
+              3="c"
+              4="e"
+              className="guest-profile-modal-background sc-kfGgVZ erxrZb"
+              extend={[Function]}
+            >
+              <ForwardRef
+                0="s"
+                1="p"
+                2="a"
+                3="c"
+                4="e"
+                className="guest-profile-modal-background sc-kfGgVZ erxrZb sc-ksYbfQ kYqsUP"
+                extend={[Function]}
+              >
+                <Position
+                  0="s"
+                  1="p"
+                  2="a"
+                  3="c"
+                  4="e"
+                  className="guest-profile-modal-background sc-kfGgVZ erxrZb sc-ksYbfQ kYqsUP"
+                >
+                  <ForwardRef
+                    0="s"
+                    1="p"
+                    2="a"
+                    3="c"
+                    4="e"
+                    className="guest-profile-modal-background sc-kfGgVZ erxrZb sc-ksYbfQ kYqsUP sc-TOsTZ kjYrri"
+                  >
+                    <div
+                      0="s"
+                      1="p"
+                      2="a"
+                      3="c"
+                      4="e"
+                      className="guest-profile-modal-background sc-kfGgVZ erxrZb sc-ksYbfQ kYqsUP sc-TOsTZ kjYrri"
+                    />
+                  </ForwardRef>
+                </Position>
+              </ForwardRef>
+            </Fixed>
+          </Styled(Fixed)>
+          <Styled(Modal)
+            className="loyalty-process-container"
+            onKeyDown={[Function]}
+            role="dialog"
+          >
+            <Modal
+              0="s"
+              1="p"
+              2="a"
+              3="c"
+              4="e"
+              bg="white"
+              borderRadius={2}
+              className="loyalty-process-container sc-hwwEjo kitExE"
+              extend={[Function]}
+              left="50%"
+              maxHeight="100vh"
+              maxWidth="100vw"
+              onKeyDown={[Function]}
+              p={3}
+              role="dialog"
+              top="50%"
+            >
+              <ForwardRef
+                0="s"
+                1="p"
+                2="a"
+                3="c"
+                4="e"
+                bg="white"
+                borderRadius={2}
+                className="loyalty-process-container sc-hwwEjo kitExE sc-frDJqD fcTlLW"
+                extend={[Function]}
+                left="50%"
+                maxHeight="100vh"
+                maxWidth="100vw"
+                onKeyDown={[Function]}
+                p={3}
+                role="dialog"
+                top="50%"
+              >
+                <Fixed
+                  0="s"
+                  1="p"
+                  2="a"
+                  3="c"
+                  4="e"
+                  bg="white"
+                  borderRadius={2}
+                  className="loyalty-process-container sc-hwwEjo kitExE sc-frDJqD fcTlLW"
+                  extend={[Function]}
+                  left="50%"
+                  maxHeight="100vh"
+                  maxWidth="100vw"
+                  onKeyDown={[Function]}
+                  p={3}
+                  role="dialog"
+                  top="50%"
+                >
+                  <ForwardRef
+                    0="s"
+                    1="p"
+                    2="a"
+                    3="c"
+                    4="e"
+                    bg="white"
+                    borderRadius={2}
+                    className="loyalty-process-container sc-hwwEjo kitExE sc-frDJqD fcTlLW sc-ksYbfQ kYqsUP"
+                    extend={[Function]}
+                    left="50%"
+                    maxHeight="100vh"
+                    maxWidth="100vw"
+                    onKeyDown={[Function]}
+                    p={3}
+                    role="dialog"
+                    top="50%"
+                  >
+                    <Position
+                      0="s"
+                      1="p"
+                      2="a"
+                      3="c"
+                      4="e"
+                      bg="white"
+                      borderRadius={2}
+                      className="loyalty-process-container sc-hwwEjo kitExE sc-frDJqD fcTlLW sc-ksYbfQ kYqsUP"
+                      left="50%"
+                      maxHeight="100vh"
+                      maxWidth="100vw"
+                      onKeyDown={[Function]}
+                      p={3}
+                      role="dialog"
+                      top="50%"
+                    >
+                      <ForwardRef
+                        0="s"
+                        1="p"
+                        2="a"
+                        3="c"
+                        4="e"
+                        bg="white"
+                        borderRadius={2}
+                        className="loyalty-process-container sc-hwwEjo kitExE sc-frDJqD fcTlLW sc-ksYbfQ kYqsUP sc-TOsTZ cESxnL"
+                        left="50%"
+                        maxHeight="100vh"
+                        maxWidth="100vw"
+                        onKeyDown={[Function]}
+                        p={3}
+                        role="dialog"
+                        top="50%"
+                      >
+                        <div
+                          0="s"
+                          1="p"
+                          2="a"
+                          3="c"
+                          4="e"
+                          className="loyalty-process-container sc-hwwEjo kitExE sc-frDJqD fcTlLW sc-ksYbfQ kYqsUP sc-TOsTZ cESxnL"
+                          onKeyDown={[Function]}
+                          role="dialog"
+                        >
+                          <div
+                            className="mobile-background"
+                          />
+                          <Styled(Flex)
+                            className="loyalty-process-account-parent"
+                          >
+                            <Flex
+                              className="loyalty-process-account-parent sc-esjQYD cZxuvG"
+                            >
+                              <Box
+                                className="loyalty-process-account-parent sc-esjQYD cZxuvG sc-bwzfXH hKiLMS"
+                              >
+                                <div
+                                  className="loyalty-process-account-parent sc-esjQYD cZxuvG sc-bwzfXH hKiLMS sc-bdVaJa iHZvIS"
+                                >
+                                  <Styled(Heading)
+                                    aria-label="test"
+                                    className="loyalty-process-header"
+                                    id="accrual-modal-title"
+                                    tabIndex={0}
+                                  >
+                                    <Heading
+                                      aria-label="test"
+                                      className="loyalty-process-header sc-gwVKww PlFLo"
+                                      fontSize={5}
+                                      fontWeight="bold"
+                                      id="accrual-modal-title"
+                                      is="h2"
+                                      lineHeight={1.25}
+                                      m={0}
+                                      tabIndex={0}
+                                    >
+                                      <ForwardRef
+                                        aria-label="test"
+                                        className="loyalty-process-header sc-gwVKww PlFLo sc-VigVT fXkMTo"
+                                        fontSize={5}
+                                        fontWeight="bold"
+                                        id="accrual-modal-title"
+                                        is="h2"
+                                        lineHeight={1.25}
+                                        m={0}
+                                        tabIndex={0}
+                                      >
+                                        <h2
+                                          aria-label="test"
+                                          className="loyalty-process-header sc-gwVKww PlFLo sc-VigVT fXkMTo"
+                                          id="accrual-modal-title"
+                                          tabIndex={0}
+                                        >
+                                          test
+                                        </h2>
+                                      </ForwardRef>
+                                    </Heading>
+                                  </Styled(Heading)>
+                                  <Styled(Flex)
+                                    className="msg-parent"
+                                    success={false}
+                                  >
+                                    <Flex
+                                      className="msg-parent sc-kIPQKe kZbVUA"
+                                      success={false}
+                                    >
+                                      <Box
+                                        className="msg-parent sc-kIPQKe kZbVUA sc-bwzfXH hKiLMS"
+                                        success={false}
+                                      >
+                                        <div
+                                          className="msg-parent sc-kIPQKe kZbVUA sc-bwzfXH hKiLMS sc-bdVaJa iHZvIS"
+                                        >
+                                          <Styled(Label)
+                                            aria-label="LOYALTY_FETCH_ERROR"
+                                            className="msg-label"
+                                            tabIndex={0}
+                                          >
+                                            <Label
+                                              alignItems="center"
+                                              aria-label="LOYALTY_FETCH_ERROR"
+                                              className="msg-label sc-hXRMBi bAGiAn"
+                                              fontSize={1}
+                                              is="label"
+                                              mb={1}
+                                              tabIndex={0}
+                                            >
+                                              <ForwardRef
+                                                alignItems="center"
+                                                aria-label="LOYALTY_FETCH_ERROR"
+                                                className="msg-label sc-hXRMBi bAGiAn sc-jKJlTe lknMeZ"
+                                                fontSize={1}
+                                                is="label"
+                                                mb={1}
+                                                tabIndex={0}
+                                              >
+                                                <label
+                                                  aria-label="LOYALTY_FETCH_ERROR"
+                                                  className="msg-label sc-hXRMBi bAGiAn sc-jKJlTe lknMeZ"
+                                                  tabIndex={0}
+                                                >
+                                                  LOYALTY_FETCH_ERROR
+                                                </label>
+                                              </ForwardRef>
+                                            </Label>
+                                          </Styled(Label)>
+                                        </div>
+                                      </Box>
+                                    </Flex>
+                                  </Styled(Flex)>
+                                  <Styled(Text)
+                                    aria-label="LOYALTY_ACCRUE_ERROR"
+                                    aria-live="polite"
+                                    className="error-text"
+                                    style={
+                                      Object {
+                                        "color": "red",
+                                      }
+                                    }
+                                    tabIndex={0}
+                                  >
+                                    <Text
+                                      aria-label="LOYALTY_ACCRUE_ERROR"
+                                      aria-live="polite"
+                                      className="error-text sc-iQNlJl gsloEY"
+                                      m={0}
+                                      style={
+                                        Object {
+                                          "color": "red",
+                                        }
+                                      }
+                                      tabIndex={0}
+                                    >
+                                      <ForwardRef
+                                        aria-label="LOYALTY_ACCRUE_ERROR"
+                                        aria-live="polite"
+                                        className="error-text sc-iQNlJl gsloEY sc-gqjmRU kKsieB"
+                                        m={0}
+                                        style={
+                                          Object {
+                                            "color": "red",
+                                          }
+                                        }
+                                        tabIndex={0}
+                                      >
+                                        <div
+                                          aria-label="LOYALTY_ACCRUE_ERROR"
+                                          aria-live="polite"
+                                          className="error-text sc-iQNlJl gsloEY sc-gqjmRU kKsieB"
+                                          style={
+                                            Object {
+                                              "color": "red",
+                                            }
+                                          }
+                                          tabIndex={0}
+                                        >
+                                          <div
+                                            i18nKey="LOYALTY_ACCRUE_ERROR"
+                                          />
+                                        </div>
+                                      </ForwardRef>
+                                    </Text>
+                                  </Styled(Text)>
+                                  <Styled(Flex)>
+                                    <Flex
+                                      className="sc-bsbRJL fMRhsV"
+                                    >
+                                      <Box
+                                        className="sc-bsbRJL fMRhsV sc-bwzfXH hKiLMS"
+                                      >
+                                        <div
+                                          className="sc-bsbRJL fMRhsV sc-bwzfXH hKiLMS sc-bdVaJa iHZvIS"
+                                        >
+                                          <Styled(Button)
+                                            aria-label="RE_ENTER"
+                                            className="re-enter-button"
+                                            onClick={[Function]}
+                                            onKeyDown={[Function]}
+                                            role="button"
+                                            tabIndex={0}
+                                          >
+                                            <Button
+                                              aria-label="RE_ENTER"
+                                              bg="blue"
+                                              border={0}
+                                              borderRadius={2}
+                                              className="re-enter-button sc-iQKALj iXWBnP"
+                                              color="white"
+                                              fontSize={1}
+                                              fontWeight="bold"
+                                              is="button"
+                                              lineHeight={1.1428571428571428}
+                                              m={0}
+                                              onClick={[Function]}
+                                              onKeyDown={[Function]}
+                                              px={3}
+                                              py={2}
+                                              role="button"
+                                              tabIndex={0}
+                                            >
+                                              <ForwardRef
+                                                aria-label="RE_ENTER"
+                                                bg="blue"
+                                                border={0}
+                                                borderRadius={2}
+                                                className="re-enter-button sc-iQKALj iXWBnP sc-ifAKCX ceNdfT"
+                                                color="white"
+                                                fontSize={1}
+                                                fontWeight="bold"
+                                                is="button"
+                                                lineHeight={1.1428571428571428}
+                                                m={0}
+                                                onClick={[Function]}
+                                                onKeyDown={[Function]}
+                                                px={3}
+                                                py={2}
+                                                role="button"
+                                                tabIndex={0}
+                                              >
+                                                <button
+                                                  aria-label="RE_ENTER"
+                                                  className="re-enter-button sc-iQKALj iXWBnP sc-ifAKCX ceNdfT"
+                                                  onClick={[Function]}
+                                                  onKeyDown={[Function]}
+                                                  role="button"
+                                                  tabIndex={0}
+                                                >
+                                                  <div
+                                                    i18nKey="RE_ENTER"
+                                                  />
+                                                </button>
+                                              </ForwardRef>
+                                            </Button>
+                                          </Styled(Button)>
+                                          <Styled(Button)
+                                            aria-label="PAYMENT_PAGE_FETCHING_CLOSE"
+                                            className="close-button"
+                                            onClick={[Function]}
+                                            role="button"
+                                            tabIndex={0}
+                                          >
+                                            <Button
+                                              aria-label="PAYMENT_PAGE_FETCHING_CLOSE"
+                                              bg="blue"
+                                              border={0}
+                                              borderRadius={2}
+                                              className="close-button sc-iQKALj iXWBnP"
+                                              color="white"
+                                              fontSize={1}
+                                              fontWeight="bold"
+                                              is="button"
+                                              lineHeight={1.1428571428571428}
+                                              m={0}
+                                              onClick={[Function]}
+                                              px={3}
+                                              py={2}
+                                              role="button"
+                                              tabIndex={0}
+                                            >
+                                              <ForwardRef
+                                                aria-label="PAYMENT_PAGE_FETCHING_CLOSE"
+                                                bg="blue"
+                                                border={0}
+                                                borderRadius={2}
+                                                className="close-button sc-iQKALj iXWBnP sc-ifAKCX ceNdfT"
+                                                color="white"
+                                                fontSize={1}
+                                                fontWeight="bold"
+                                                is="button"
+                                                lineHeight={1.1428571428571428}
+                                                m={0}
+                                                onClick={[Function]}
+                                                px={3}
+                                                py={2}
+                                                role="button"
+                                                tabIndex={0}
+                                              >
+                                                <button
+                                                  aria-label="PAYMENT_PAGE_FETCHING_CLOSE"
+                                                  className="close-button sc-iQKALj iXWBnP sc-ifAKCX ceNdfT"
+                                                  onClick={[Function]}
+                                                  role="button"
+                                                  tabIndex={0}
+                                                >
+                                                  <div
+                                                    i18nKey="PAYMENT_PAGE_FETCHING_CLOSE"
+                                                  />
+                                                </button>
+                                              </ForwardRef>
+                                            </Button>
+                                          </Styled(Button)>
+                                        </div>
+                                      </Box>
+                                    </Flex>
+                                  </Styled(Flex)>
+                                </div>
+                              </Box>
+                            </Flex>
+                          </Styled(Flex)>
+                          <Styled(Component)
+                            aria-label="EXIT_DIALOG"
+                            className="close-btn"
+                            onClick={[Function]}
+                            role="button"
+                            tabIndex={0}
+                          >
+                            <Component
+                              aria-label="EXIT_DIALOG"
+                              className="close-btn sc-epnACN bZbihZ"
+                              onClick={[Function]}
+                              role="button"
+                              tabIndex={0}
+                            >
+                              <IconButton
+                                aria-label="EXIT_DIALOG"
+                                className="close-btn sc-epnACN bZbihZ"
+                                onClick={[Function]}
+                                role="button"
+                                tabIndex={0}
+                              >
+                                <Styled(ButtonCircle)
+                                  aria-label="EXIT_DIALOG"
+                                  className="close-btn sc-epnACN bZbihZ"
+                                  onClick={[Function]}
+                                  role="button"
+                                  tabIndex={0}
+                                >
+                                  <ButtonCircle
+                                    aria-label="EXIT_DIALOG"
+                                    bg="blue"
+                                    border={0}
+                                    borderRadius={9999}
+                                    className="close-btn sc-epnACN bZbihZ sc-tilXH jponlC"
+                                    color="white"
+                                    extend={[Function]}
+                                    fontSize={1}
+                                    fontWeight="bold"
+                                    is="button"
+                                    lineHeight={1.1428571428571428}
+                                    m={0}
+                                    onClick={[Function]}
+                                    px={3}
+                                    py={2}
+                                    role="button"
+                                    tabIndex={0}
+                                  >
+                                    <ForwardRef
+                                      aria-label="EXIT_DIALOG"
+                                      bg="blue"
+                                      border={0}
+                                      borderRadius={9999}
+                                      className="close-btn sc-epnACN bZbihZ sc-tilXH jponlC sc-bZQynM bOrPFB"
+                                      color="white"
+                                      extend={[Function]}
+                                      fontSize={1}
+                                      fontWeight="bold"
+                                      is="button"
+                                      lineHeight={1.1428571428571428}
+                                      m={0}
+                                      onClick={[Function]}
+                                      px={3}
+                                      py={2}
+                                      role="button"
+                                      tabIndex={0}
+                                    >
+                                      <Button
+                                        aria-label="EXIT_DIALOG"
+                                        bg="blue"
+                                        border={0}
+                                        borderRadius={9999}
+                                        className="close-btn sc-epnACN bZbihZ sc-tilXH jponlC sc-bZQynM bOrPFB"
+                                        color="white"
+                                        fontSize={1}
+                                        fontWeight="bold"
+                                        is="button"
+                                        lineHeight={1.1428571428571428}
+                                        m={0}
+                                        onClick={[Function]}
+                                        px={3}
+                                        py={2}
+                                        role="button"
+                                        tabIndex={0}
+                                      >
+                                        <ForwardRef
+                                          aria-label="EXIT_DIALOG"
+                                          bg="blue"
+                                          border={0}
+                                          borderRadius={9999}
+                                          className="close-btn sc-epnACN bZbihZ sc-tilXH jponlC sc-bZQynM bOrPFB sc-ifAKCX etSojC"
+                                          color="white"
+                                          fontSize={1}
+                                          fontWeight="bold"
+                                          is="button"
+                                          lineHeight={1.1428571428571428}
+                                          m={0}
+                                          onClick={[Function]}
+                                          px={3}
+                                          py={2}
+                                          role="button"
+                                          tabIndex={0}
+                                        >
+                                          <button
+                                            aria-label="EXIT_DIALOG"
+                                            className="close-btn sc-epnACN bZbihZ sc-tilXH jponlC sc-bZQynM bOrPFB sc-ifAKCX etSojC"
+                                            onClick={[Function]}
+                                            role="button"
+                                            tabIndex={0}
+                                          >
+                                            <i />
+                                            ✕
+                                          </button>
+                                        </ForwardRef>
+                                      </Button>
+                                    </ForwardRef>
+                                  </ButtonCircle>
+                                </Styled(ButtonCircle)>
+                              </IconButton>
+                            </Component>
+                          </Styled(Component)>
+                        </div>
+                      </ForwardRef>
+                    </Position>
+                  </ForwardRef>
+                </Fixed>
+              </ForwardRef>
+            </Modal>
+          </Styled(Modal)>
+        </div>
+      </Box>
+    </Flex>
+  </LoyaltyProcess>
+</ThemeProvider>
+`;

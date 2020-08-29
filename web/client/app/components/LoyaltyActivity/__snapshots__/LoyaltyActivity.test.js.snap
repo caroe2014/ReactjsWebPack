@@ -1,0 +1,421 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoyaltyActivity does a snapshot test 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "colors": Object {
+        "addOnTab": "#347CFF",
+        "addToCart": "#347CFF",
+        "addonBg": "#EEEEEE",
+        "backgroundGrey": "#E6E6E6",
+        "black": "#000000",
+        "close": "red",
+        "contextBackground": "#f0f0f3",
+        "darkGrey": "#464646",
+        "disableBackground": "#E4E4E4",
+        "disableButton": "#D1D1D1",
+        "error": "#cc0000",
+        "footer": "#48a942",
+        "glutenFree": "#8d7356",
+        "healthy": "#359919",
+        "hint": "#a6a6a6",
+        "inputBottomBorder": "lightgray",
+        "itemBorder": "lightgrey",
+        "itemTile": "#3C474C0",
+        "light": "white",
+        "loader": "#ababab",
+        "loginBackground": "#303030",
+        "loginBoxColor": "#434149",
+        "loginField": "#AAA7AC",
+        "loginFormBackground": "#484848",
+        "navigationMenu": "#48a942",
+        "navigationMenuHover": "cornflowerblue",
+        "new": "#ff6000",
+        "open": "#48a942",
+        "paymentSuccessTitle": "#505050",
+        "placeHolder": "#909090",
+        "primary": "#347CFF",
+        "primaryButton": "#347CFF",
+        "primaryText": "#383838",
+        "secondaryText": "#a6a6a6",
+        "spicy": "#ed1c24",
+        "text": "black",
+        "textGrey": "#505050",
+        "tile": "#505050",
+        "validationError": "#cc0000",
+        "vegan": "#0d4a22",
+        "vegetarian": "#0d4a22",
+      },
+      "fontFamily": "Roboto",
+      "fontSize": Object {
+        "lg": "1.8rem",
+        "md": "1.3rem",
+        "nm": "1rem",
+        "sm": "0.75rem",
+        "xl": "2.4rem",
+      },
+      "fontSizeFromProps": [Function],
+      "mediaBreakpoints": Object {
+        "desktop": [Function],
+        "mobile": [Function],
+        "tablet": [Function],
+      },
+      "nav": Object {
+        "height": "70px",
+      },
+      "receiptFontFamily": "Roboto",
+      "shadow": "#cfcfcf 0.1px 0.1px 3px 0px",
+      "spacing": Object {
+        "lg": "4em",
+        "md": "2em",
+        "nm": "1em",
+        "none": "0em",
+        "sm": "0.5em",
+        "xl": "8em",
+      },
+    }
+  }
+>
+  <LoyaltyActivity
+    fetching={false}
+    loyaltyDetailsAccounts={
+      Array [
+        Object {
+          "enabled": true,
+          "id": "phone",
+        },
+        Object {
+          "enabled": true,
+          "id": "card",
+        },
+        Object {
+          "enabled": false,
+          "id": "account",
+        },
+      ]
+    }
+  >
+    <ThemeProvider
+      theme={
+        Object {
+          "colors": Object {
+            "addOnTab": "#347CFF",
+            "addToCart": "#347CFF",
+            "addonBg": "#EEEEEE",
+            "backgroundGrey": "#E6E6E6",
+            "black": "#000000",
+            "close": "red",
+            "contextBackground": "#f0f0f3",
+            "darkGrey": "#464646",
+            "disableBackground": "#E4E4E4",
+            "disableButton": "#D1D1D1",
+            "error": "#cc0000",
+            "footer": "#48a942",
+            "glutenFree": "#8d7356",
+            "healthy": "#359919",
+            "hint": "#a6a6a6",
+            "inputBottomBorder": "lightgray",
+            "itemBorder": "lightgrey",
+            "itemTile": "#3C474C0",
+            "light": "white",
+            "loader": "#ababab",
+            "loginBackground": "#303030",
+            "loginBoxColor": "#434149",
+            "loginField": "#AAA7AC",
+            "loginFormBackground": "#484848",
+            "navigationMenu": "#48a942",
+            "navigationMenuHover": "cornflowerblue",
+            "new": "#ff6000",
+            "open": "#48a942",
+            "paymentSuccessTitle": "#505050",
+            "placeHolder": "#909090",
+            "primary": "#347CFF",
+            "primaryButton": "#347CFF",
+            "primaryText": "#383838",
+            "secondaryText": "#a6a6a6",
+            "spicy": "#ed1c24",
+            "text": "black",
+            "textGrey": "#505050",
+            "tile": "#505050",
+            "validationError": "#cc0000",
+            "vegan": "#0d4a22",
+            "vegetarian": "#0d4a22",
+          },
+          "fontFamily": "Roboto",
+          "fontSize": Object {
+            "lg": "1.8rem",
+            "md": "1.3rem",
+            "nm": "1rem",
+            "sm": "0.75rem",
+            "xl": "2.4rem",
+          },
+          "fontSizeFromProps": [Function],
+          "mediaBreakpoints": Object {
+            "desktop": [Function],
+            "mobile": [Function],
+            "tablet": [Function],
+          },
+          "nav": Object {
+            "height": "70px",
+          },
+          "receiptFontFamily": "Roboto",
+          "shadow": "#cfcfcf 0.1px 0.1px 3px 0px",
+          "spacing": Object {
+            "lg": "4em",
+            "md": "2em",
+            "nm": "1em",
+            "none": "0em",
+            "sm": "0.5em",
+            "xl": "8em",
+          },
+        }
+      }
+    >
+      <Styled(Flex)
+        className="loyalty-activity-container"
+      >
+        <Flex
+          className="loyalty-activity-container sc-lhVmIH eRybNx"
+        >
+          <Box
+            className="loyalty-activity-container sc-lhVmIH eRybNx sc-bwzfXH hKiLMS"
+          >
+            <div
+              className="loyalty-activity-container sc-lhVmIH eRybNx sc-bwzfXH hKiLMS sc-bdVaJa iHZvIS"
+            >
+              <Styled(Text)
+                aria-label="LOYALTY_CAPTURE_POINTS"
+                className="loyalty-activity-header"
+                id="loyalty-activity-header"
+                role="header"
+                tabIndex={0}
+              >
+                <Text
+                  aria-label="LOYALTY_CAPTURE_POINTS"
+                  className="loyalty-activity-header sc-kTUwUJ bPPlLA"
+                  id="loyalty-activity-header"
+                  m={0}
+                  role="header"
+                  tabIndex={0}
+                >
+                  <ForwardRef
+                    aria-label="LOYALTY_CAPTURE_POINTS"
+                    className="loyalty-activity-header sc-kTUwUJ bPPlLA sc-gqjmRU kKsieB"
+                    id="loyalty-activity-header"
+                    m={0}
+                    role="header"
+                    tabIndex={0}
+                  >
+                    <div
+                      aria-label="LOYALTY_CAPTURE_POINTS"
+                      className="loyalty-activity-header sc-kTUwUJ bPPlLA sc-gqjmRU kKsieB"
+                      id="loyalty-activity-header"
+                      role="header"
+                      tabIndex={0}
+                    >
+                      <div
+                        i18nKey="LOYALTY_CAPTURE_POINTS"
+                      />
+                    </div>
+                  </ForwardRef>
+                </Text>
+              </Styled(Text)>
+              <Styled(Flex)
+                className="loyalty-activity-radio-div"
+                role="radiogroup"
+              >
+                <Flex
+                  className="loyalty-activity-radio-div sc-jtRfpW bpOQwk"
+                  role="radiogroup"
+                >
+                  <Box
+                    className="loyalty-activity-radio-div sc-jtRfpW bpOQwk sc-bwzfXH hKiLMS"
+                    role="radiogroup"
+                  >
+                    <div
+                      className="loyalty-activity-radio-div sc-jtRfpW bpOQwk sc-bwzfXH hKiLMS sc-bdVaJa iHZvIS"
+                      role="radiogroup"
+                    >
+                      <RadioButton
+                        ariaChecked={false}
+                        ariaLabel="LOYALTY_CAPTURE_PHONE"
+                        capacityText={true}
+                        classDesc="phone"
+                        className="phone-radio"
+                        label="LOYALTY_CAPTURE_PHONE"
+                        selected={false}
+                        selectedOption={[Function]}
+                        tabIndex={0}
+                        type="phone"
+                      >
+                        <Styled(Flex)
+                          aria-checked={false}
+                          aria-label="LOYALTY_CAPTURE_PHONE"
+                          capacitytext={1}
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
+                          role="radio"
+                          tabIndex={0}
+                        >
+                          <Flex
+                            aria-checked={false}
+                            aria-label="LOYALTY_CAPTURE_PHONE"
+                            capacitytext={1}
+                            className="sc-uJMKN isoDuX"
+                            onClick={[Function]}
+                            onKeyDown={[Function]}
+                            role="radio"
+                            tabIndex={0}
+                          >
+                            <Box
+                              aria-checked={false}
+                              aria-label="LOYALTY_CAPTURE_PHONE"
+                              capacitytext={1}
+                              className="sc-uJMKN isoDuX sc-bwzfXH hKiLMS"
+                              onClick={[Function]}
+                              onKeyDown={[Function]}
+                              role="radio"
+                              tabIndex={0}
+                            >
+                              <div
+                                aria-checked={false}
+                                aria-label="LOYALTY_CAPTURE_PHONE"
+                                className="sc-uJMKN isoDuX sc-bwzfXH hKiLMS sc-bdVaJa iHZvIS"
+                                onClick={[Function]}
+                                onKeyDown={[Function]}
+                                role="radio"
+                                tabIndex={0}
+                              >
+                                <i
+                                  className="fa fa-circle-thin phone radio-o"
+                                />
+                                <Styled(Text)
+                                  capacitytext={1}
+                                  className="option_desc"
+                                  id="phone"
+                                >
+                                  <Text
+                                    capacitytext={1}
+                                    className="option_desc sc-bbmXgH bzKUMN"
+                                    id="phone"
+                                    m={0}
+                                  >
+                                    <ForwardRef
+                                      capacitytext={1}
+                                      className="option_desc sc-bbmXgH bzKUMN sc-gqjmRU kKsieB"
+                                      id="phone"
+                                      m={0}
+                                    >
+                                      <div
+                                        capacitytext={1}
+                                        className="option_desc sc-bbmXgH bzKUMN sc-gqjmRU kKsieB"
+                                        id="phone"
+                                      >
+                                        LOYALTY_CAPTURE_PHONE
+                                      </div>
+                                    </ForwardRef>
+                                  </Text>
+                                </Styled(Text)>
+                              </div>
+                            </Box>
+                          </Flex>
+                        </Styled(Flex)>
+                      </RadioButton>
+                      <RadioButton
+                        ariaChecked={false}
+                        ariaLabel="LOYALTY_CAPTURE_CARD"
+                        capacityText={true}
+                        classDesc="card"
+                        className="card-radio"
+                        label="LOYALTY_CAPTURE_CARD"
+                        selected={false}
+                        selectedOption={[Function]}
+                        tabIndex={0}
+                        type="card"
+                      >
+                        <Styled(Flex)
+                          aria-checked={false}
+                          aria-label="LOYALTY_CAPTURE_CARD"
+                          capacitytext={1}
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
+                          role="radio"
+                          tabIndex={0}
+                        >
+                          <Flex
+                            aria-checked={false}
+                            aria-label="LOYALTY_CAPTURE_CARD"
+                            capacitytext={1}
+                            className="sc-uJMKN isoDuX"
+                            onClick={[Function]}
+                            onKeyDown={[Function]}
+                            role="radio"
+                            tabIndex={0}
+                          >
+                            <Box
+                              aria-checked={false}
+                              aria-label="LOYALTY_CAPTURE_CARD"
+                              capacitytext={1}
+                              className="sc-uJMKN isoDuX sc-bwzfXH hKiLMS"
+                              onClick={[Function]}
+                              onKeyDown={[Function]}
+                              role="radio"
+                              tabIndex={0}
+                            >
+                              <div
+                                aria-checked={false}
+                                aria-label="LOYALTY_CAPTURE_CARD"
+                                className="sc-uJMKN isoDuX sc-bwzfXH hKiLMS sc-bdVaJa iHZvIS"
+                                onClick={[Function]}
+                                onKeyDown={[Function]}
+                                role="radio"
+                                tabIndex={0}
+                              >
+                                <i
+                                  className="fa fa-circle-thin card radio-o"
+                                />
+                                <Styled(Text)
+                                  capacitytext={1}
+                                  className="option_desc"
+                                  id="card"
+                                >
+                                  <Text
+                                    capacitytext={1}
+                                    className="option_desc sc-bbmXgH bzKUMN"
+                                    id="card"
+                                    m={0}
+                                  >
+                                    <ForwardRef
+                                      capacitytext={1}
+                                      className="option_desc sc-bbmXgH bzKUMN sc-gqjmRU kKsieB"
+                                      id="card"
+                                      m={0}
+                                    >
+                                      <div
+                                        capacitytext={1}
+                                        className="option_desc sc-bbmXgH bzKUMN sc-gqjmRU kKsieB"
+                                        id="card"
+                                      >
+                                        LOYALTY_CAPTURE_CARD
+                                      </div>
+                                    </ForwardRef>
+                                  </Text>
+                                </Styled(Text)>
+                              </div>
+                            </Box>
+                          </Flex>
+                        </Styled(Flex)>
+                      </RadioButton>
+                    </div>
+                  </Box>
+                </Flex>
+              </Styled(Flex)>
+            </div>
+          </Box>
+        </Flex>
+      </Styled(Flex)>
+    </ThemeProvider>
+  </LoyaltyActivity>
+</ThemeProvider>
+`;

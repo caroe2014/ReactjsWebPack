@@ -1,0 +1,293 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TipCapture does a snapshot test 1`] = `
+<ThemeProvider
+  className="tip-capture"
+  theme={
+    Object {
+      "colors": Object {
+        "addOnTab": "#347CFF",
+        "addToCart": "#347CFF",
+        "addonBg": "#EEEEEE",
+        "backgroundGrey": "#E6E6E6",
+        "black": "#000000",
+        "close": "red",
+        "contextBackground": "#f0f0f3",
+        "darkGrey": "#464646",
+        "disableBackground": "#E4E4E4",
+        "disableButton": "#D1D1D1",
+        "error": "#cc0000",
+        "footer": "#48a942",
+        "glutenFree": "#8d7356",
+        "healthy": "#359919",
+        "hint": "#a6a6a6",
+        "inputBottomBorder": "lightgray",
+        "itemBorder": "lightgrey",
+        "itemTile": "#3C474C0",
+        "light": "white",
+        "loader": "#ababab",
+        "loginBackground": "#303030",
+        "loginBoxColor": "#434149",
+        "loginField": "#AAA7AC",
+        "loginFormBackground": "#484848",
+        "navigationMenu": "#48a942",
+        "navigationMenuHover": "cornflowerblue",
+        "new": "#ff6000",
+        "open": "#48a942",
+        "paymentSuccessTitle": "#505050",
+        "placeHolder": "#909090",
+        "primary": "#347CFF",
+        "primaryButton": "#347CFF",
+        "primaryText": "#383838",
+        "secondaryText": "#a6a6a6",
+        "spicy": "#ed1c24",
+        "text": "black",
+        "textGrey": "#505050",
+        "tile": "#505050",
+        "validationError": "#cc0000",
+        "vegan": "#0d4a22",
+        "vegetarian": "#0d4a22",
+      },
+      "fontFamily": "Roboto",
+      "fontSize": Object {
+        "lg": "1.8rem",
+        "md": "1.3rem",
+        "nm": "1rem",
+        "sm": "0.75rem",
+        "xl": "2.4rem",
+      },
+      "fontSizeFromProps": [Function],
+      "mediaBreakpoints": Object {
+        "desktop": [Function],
+        "mobile": [Function],
+        "tablet": [Function],
+      },
+      "nav": Object {
+        "height": "70px",
+      },
+      "receiptFontFamily": "Roboto",
+      "shadow": "#cfcfcf 0.1px 0.1px 3px 0px",
+      "spacing": Object {
+        "lg": "4em",
+        "md": "2em",
+        "nm": "1em",
+        "none": "0em",
+        "sm": "0.5em",
+        "xl": "8em",
+      },
+    }
+  }
+>
+  <Styled(Flex)
+    className="tip-capture-container"
+  >
+    <Styled(Flex)
+      className="child-box"
+    >
+      <Styled(Flex)
+        className="bill-box"
+      >
+        <Styled(Flex)
+          className="bill-field sub-total"
+          style={
+            Object {
+              "paddingBottom": "10px",
+            }
+          }
+        >
+          <Styled(Text)
+            aria-label="TIP_CAPTURE_SUBTOTAL"
+            className="bill-amount-label sub-total"
+            tabIndex={0}
+          >
+            <div
+              i18nKey="TIP_CAPTURE_SUBTOTAL"
+            />
+          </Styled(Text)>
+          <Styled(Text)
+            aria-label="$1.00"
+            className="bill-amount-value sub-total"
+            tabIndex={0}
+          >
+            $1.00
+          </Styled(Text)>
+        </Styled(Flex)>
+        <Styled(Flex)
+          className="bill-field"
+        >
+          <Styled(Text)
+            aria-label="TIP_CAPTURE_TAX"
+            className="bill-amount-label"
+            tabIndex={0}
+          >
+            <div
+              i18nKey="TIP_CAPTURE_TAX"
+            />
+          </Styled(Text)>
+          <Styled(Text)
+            aria-label="$1.00"
+            className="bill-amount-value"
+            tabIndex={0}
+          >
+            $1.00
+          </Styled(Text)>
+        </Styled(Flex)>
+      </Styled(Flex)>
+      <Styled(Flex)
+        className="tip-box"
+      >
+        <Styled(Flex)
+          className="bill-field bill"
+        >
+          <Styled(Text)
+            aria-label="TIP_CAPTURE_TIP"
+            className="add-tip-label"
+            tabIndex={0}
+          >
+            <div
+              i18nKey="TIP_CAPTURE_TIP"
+            />
+          </Styled(Text)>
+          <Styled(Text)
+            aria-label="$0.00"
+            className="add-tip-label"
+            tabIndex={0}
+          >
+            $0.00
+          </Styled(Text)>
+        </Styled(Flex)>
+        <Styled(Flex)
+          aria-label="TIP_SELECTION 3 OPTIONS_LABEL"
+          className="tip-options-list"
+          tabIndex={0}
+        >
+          <Styled(Flex)
+            className="tip-button-0"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            selected={false}
+            tabIndex={0}
+          >
+            <Styled(Text)
+              className="tip-option"
+            >
+              15
+              %
+            </Styled(Text)>
+            <Styled(Text)
+              className="tip-amount"
+            >
+              $0.15
+            </Styled(Text)>
+          </Styled(Flex)>
+          <Styled(Flex)
+            className="tip-button-1"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            selected={false}
+            tabIndex={0}
+          >
+            <Styled(Text)
+              className="tip-option"
+            >
+              20
+              %
+            </Styled(Text)>
+            <Styled(Text)
+              className="tip-amount"
+            >
+              $0.20
+            </Styled(Text)>
+          </Styled(Flex)>
+          <Styled(Flex)
+            className="tip-button-2"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            selected={false}
+            tabIndex={0}
+          >
+            <Styled(Text)
+              className="tip-option"
+            >
+              25
+              %
+            </Styled(Text)>
+            <Styled(Text)
+              className="tip-amount"
+            >
+              $0.25
+            </Styled(Text)>
+          </Styled(Flex)>
+        </Styled(Flex)>
+        <Styled(Flex)
+          className="dynamic-boxes"
+        >
+          <Styled(Flex)
+            className="no-tip-button"
+            fullwidth={0}
+            onClick={[Function]}
+            tabIndex={0}
+          >
+            <div
+              i18nKey="TIP_CAPTURE_NO_GRATUITY"
+            />
+          </Styled(Flex)>
+          <Styled(Flex)
+            className="custom-tip-button"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            pointerclick={0}
+            selected={false}
+            tabIndex={0}
+          >
+            <Styled(Text)
+              className="custom-tip-textss"
+            >
+              <div
+                i18nKey="TIP_CAPTURE_CUSTOM"
+              />
+            </Styled(Text)>
+          </Styled(Flex)>
+        </Styled(Flex)>
+      </Styled(Flex)>
+      <Styled(Flex)
+        className="button-box"
+      >
+        <Styled(Flex)
+          className="pay-field"
+        >
+          <Styled(Text)
+            aria-label="TIP_CAPTURE_AMOUNT_PAYABLE"
+            className="bill-amount-label"
+            tabIndex={0}
+          >
+            <div
+              i18nKey="TIP_CAPTURE_AMOUNT_PAYABLE"
+            />
+          </Styled(Text)>
+          <Styled(Text)
+            aria-label="$1.00"
+            className="bill-amount-value"
+            tabIndex={0}
+          >
+            $1.00
+          </Styled(Text)>
+        </Styled(Flex)>
+        <Styled(Flex)
+          className="button-parent"
+        >
+          <Styled(Button)
+            className="pay-button"
+            onClick={[Function]}
+            tabIndex={0}
+          >
+            <div
+              i18nKey="DELIVERY_LOCATION_CONTINUE_PAY"
+            />
+          </Styled(Button)>
+        </Styled(Flex)>
+      </Styled(Flex)>
+    </Styled(Flex)>
+  </Styled(Flex)>
+</ThemeProvider>
+`;

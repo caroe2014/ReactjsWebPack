@@ -1,0 +1,304 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js start:dev
+
+PATH: 
+  C:\Program Files\Docker\Docker\Resources\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\JoshuaV\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\JoshuaV\AppData\local\programs\python\python38-32\Scripts;C:\Users\JoshuaV\AppData\local\programs\python\python38-32;C:\Users\JoshuaV\AppData\Local\Yarn\bin;C:\Users\JoshuaV\AppData\Roaming\npm
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Projects\buy\buy\kiosk\kiosk-desktop\service\package.json: Unexpected token / in JSON at position 1344
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "webapp",
+    "version": "1.0.0",
+    "description": "testing ground for setting up a new webapp with proper configs for webpack, babel, eslint, etc...",
+    "main": "index.js",
+    "author": "Zach Mayer",
+    "license": "MIT",
+    "scripts": {
+      "postinstall": "echo 'Project Node Version: ' && node -v",
+      "make": "cross-env NODE_ENV=production node ./node_scripts/make.js | ./node_modules/.bin/bunyan -o short",
+      "make:dev": "cross-env NODE_ENV=development DOMAIN=http://buy-dev-buy-01.bellevue.agilysys.com:8080 node ./node_scripts/make.js | ./node_modules/.bin/bunyan -o short",
+      "clean": "echo 'clean is a noop placeholder for maven'",
+      "test": "node ./node_scripts/test.js",
+      "test:coverage": "node ./node_scripts/test.js --coverage",
+      "test:watch": "node ./node_scripts/test.js --watch",
+      "test:update": "yarn test -u",
+      "clean:dev": "cross-env NODE_ENV=development node ./node_scripts/clean.js | ./node_modules/.bin/bunyan -o short",
+      "build": "yarn make && webpack -p --config webpack-config.babel.js | ./node_modules/.bin/bunyan -o short",
+      "lint": "yarn make && eslint \"web/**\"",
+      "start:webpack": "webpack-dev-server --config webpack-config.babel.js | ./node_modules/.bin/bunyan -o short",
+      "start:hapi": "nodemon --harmony ./node_scripts/start.js | ./node_modules/.bin/bunyan -o short",
+      //"prestart:dev": "./node_modules/check-node-version/bin.js --node '>= 8.11'",
+      "start:dev": "yarn make:dev && yarn start:webpack & yarn start:hapi",
+      "start:local": "yarn build && yarn start:hapi",
+      "start:monit": "yarn start && yarn monit",
+      "start:docker": "yarn build && pm2-docker pm2config.json",
+      "start": "yarn build && pm2 startOrRestart pm2config.json",
+      "stop": "pm2 kill",
+      "restart": "pm2 restart kiosk-desktop",
+      "status": "pm2 status kiosk-desktop",
+      "monit": "pm2 logs --raw --lines 0 | ./node_modules/.bin/bunyan -o short",
+      "storybook": "start-storybook -p 6006 -s ./public/static",
+      "build-storybook": "build-storybook"
+    },
+    "dependencies": {
+      "@rebass/grid": "6.0.0",
+      "amqplib": "^0.5.2",
+      "animated-ellipsis": "^0.0.4",
+      "axios": "^0.18.0",
+      "babel-polyfill": "^6.26.0",
+      "babel-register": "^6.26.0",
+      "babel-runtime": "^6.26.0",
+      "buffer-to-stream": "^1.0.0",
+      "bunyan": "^1.8.12",
+      "chalk": "^2.3.2",
+      "connected-react-router": "^4.3.0",
+      "cron-parser": "^2.5.0",
+      "cssesc": "^3.0.0",
+      "dotenv": "^5.0.1",
+      "figlet": "^1.2.0",
+      "file-loader": "^1.1.11",
+      "font-awesome": "^4.7.0",
+      "fs": "^0.0.1-security",
+      "h2o2": "^8.0.1",
+      "hapi": "^17.3.0",
+      "hapi-auth-jwt2": "^8.1.0",
+      "hapi-react-views": "^10.0.0",
+      "hapi-swagger": "^9.1.1",
+      "hapi-url": "^1.0.2",
+      "history": "^4.7.2",
+      "i18next": "^19.0.0",
+      "i18next-browser-languagedetector": "^2.2.0",
+      "i18next-locize-backend": "^2.1.0",
+      "i18next-node-fs-backend": "^2.1.1",
+      "i18next-node-locize-backend": "^2.4.3",
+      "i18next-xhr-backend": "^1.5.1",
+      "inert": "^5.1.0",
+      "jest-styled-components": "^6.3.3",
+      "joi": "^13.2.0",
+      "joi-full": "^10.0.6-rel3",
+      "jsonwebtoken": "^8.3.0",
+      "ldapjs": "^1.0.2",
+      "lodash": "^4.17.15",
+      "luxon": "^1.3.2",
+      "moment": "^2.22.1",
+      "moment-timezone": "^0.5.21",
+      "muicss": "^0.9.39",
+      "newrelic": "^6.0.0",
+      "pm2": "^2.10.2",
+      "prop-types": "^15.6.1",
+      "query-string": "5",
+      "react": "^16.3.0",
+      "react-dom": "^16.3.0",
+      "react-form": "^3.5.3",
+      "react-i18next": "^11.0.1",
+      "react-idle-timer": "^4.2.3",
+      "react-redux": "^5.0.7",
+      "react-router-dom": "^4.2.2",
+      "react-select": "^3.0.4",
+      "rebass": "2.3.2",
+      "redux": "^4.0.0",
+      "redux-devtools-extension": "^2.13.5",
+      "redux-logger": "^3.0.6",
+      "redux-mock-store": "^1.5.3",
+      "redux-saga": "^0.16.0",
+      "stripe": "^6.3.0",
+      "styled-components": "3.3.3",
+      "unused-webpack-plugin": "^2.0.0",
+      "uuid": "^3.3.2",
+      "vision": "^5.3.2",
+      "wreck": "^14.1.0"
+    },
+    "devDependencies": {
+      "@storybook/addon-actions": "^3.4.3",
+      "@storybook/addon-knobs": "^3.4.3",
+      "@storybook/addon-links": "^3.4.3",
+      "@storybook/addons": "^3.4.3",
+      "@storybook/react": "^3.4.3",
+      "app-module-path": "^2.2.0",
+      "assets-webpack-plugin": "^3.5.1",
+      "babel-cli": "^6.26.0",
+      "babel-core": "^6.26.0",
+      "babel-eslint": "^8.2.2",
+      "babel-jest": "^22.4.3",
+      "babel-loader": "^7.1.4",
+      "babel-plugin-react-transform": "^3.0.0",
+      "babel-plugin-rewire": "^1.2.0",
+      "babel-plugin-syntax-dynamic-import": "^6.18.0",
+      "babel-plugin-transform-decorators-legacy": "^1.3.5",
+      "babel-plugin-transform-runtime": "^6.23.0",
+      "babel-preset-env": "^1.6.1",
+      "babel-preset-react": "^6.24.1",
+      "babel-preset-stage-0": "^6.24.1",
+      "browser-bunyan": "^1.3.0",
+      "bunyan-pretty-colors": "^0.1.7",
+      "check-node-version": "^3.2.0",
+      "chokidar": "^2.0.3",
+      "copy-webpack-plugin": "^4.5.1",
+      "cross-env": "^5.1.4",
+      "css-loader": "^0.28.11",
+      "enzyme": "^3.3.0",
+      "enzyme-adapter-react-16": "^1.1.1",
+      "enzyme-to-json": "^3.3.3",
+      "eslint": "^5.6.1",
+      "eslint-config-standard": "^11.0.0",
+      "eslint-config-standard-react": "^6.0.0",
+      "eslint-loader": "^2.0.0",
+      "eslint-plugin-import": "^2.10.0",
+      "eslint-plugin-jest": "^21.24.1",
+      "eslint-plugin-node": "^6.0.1",
+      "eslint-plugin-only-warn": "^1.0.1",
+      "eslint-plugin-promise": "^3.7.0",
+      "eslint-plugin-react": "^7.7.0",
+      "eslint-plugin-standard": "^3.0.1",
+      "event-hooks-webpack-plugin": "^2.0.0",
+      "extract-text-webpack-plugin": "^3.0.2",
+      "jest": "^23.6.0",
+      "jsdom": "^11.12.0",
+      "lodash.get": "^4.4.2",
+      "mini-css-extract-plugin": "^0.4.0",
+      "node": "^12.12.0",
+      "nodemon": "^1.17.3",
+      "openurl": "^1.1.1",
+      "react-hot-loader": "^4.0.1",
+      "react-test-renderer": "^16.3.2",
+      "rimraf": "^2.6.2",
+      "sass-loader": "7.0.1",
+      "sinon": "^4.5.0",
+      "style-loader": "0.21.0",
+      "uglifyjs-webpack-plugin": "^1.2.5",
+      "url-loader": "^1.0.1",
+      "webpack": "4.19.0",
+      "webpack-bundle-analyzer": "^2.11.1",
+      "webpack-cli": "^2.0.13",
+      "webpack-dev-server": "^3.1.1",
+      "webpack-simple-progress-plugin": "^0.0.4",
+      "yarn": "^1.5.1"
+    },
+    "nodemonConfig": {
+      "ignore": [
+        "*.test.js",
+        "/web/client/**",
+        "/public",
+        "webpack-assets.json"
+      ]
+    },
+    "jest": {
+      "coverageThreshold": {
+        "global": {
+          "branches": 70,
+          "functions": 70,
+          "lines": 70,
+          "statements": 70
+        },
+        "agilysys.lib/**/*.js?(x)": {
+          "branches": 60,
+          "functions": 60,
+          "lines": 60,
+          "statements": 60
+        },
+        "agilysys.lib/*.js?(x)": {
+          "branches": 70,
+          "functions": 70,
+          "lines": 70,
+          "statements": 70
+        },
+        "api/**/*.js?(x)": {
+          "branches": 70,
+          "functions": 70,
+          "lines": 70,
+          "statements": 70
+        },
+        "web/": {
+          "branches": 70,
+          "functions": 70,
+          "lines": 70,
+          "statements": 70
+        },
+        "web/client/app/components/**/*.js?(x)": {
+          "branches": 70,
+          "functions": 70,
+          "lines": 70,
+          "statements": 70
+        },
+        "web/client/app/modules/**/*.js?(x)": {
+          "branches": 70,
+          "functions": 70,
+          "lines": 70,
+          "statements": 70
+        },
+        "web/client/app/utils/*.js?(x)": {
+          "branches": 70,
+          "functions": 70,
+          "lines": 70,
+          "statements": 70
+        },
+        "web/client/entries/*.js?(x)": {
+          "branches": 70,
+          "functions": 70,
+          "lines": 70,
+          "statements": 70
+        }
+      },
+      "moduleFileExtensions": [
+        "",
+        "jsx",
+        "js",
+        "json",
+        "css"
+      ],
+      "testMatch": [
+        "**/__tests__/**/*.js?(x)",
+        "**/?(*.)+(test).js?(x)"
+      ],
+      "transform": {
+        "^.+\\.js$": "babel-jest",
+        "^.+\\.jsx$": "babel-jest"
+      },
+      "moduleDirectories": [
+        "node_modules"
+      ],
+      "moduleNameMapper": {
+        "^.+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/FileStub.js",
+        "^.+\\.css$": "<rootDir>/__mocks__/CSSStub.js",
+        "@/(.*)$": "<rootDir>/$1",
+        "^api/((?!\\${.*$).*)": "<rootDir>/api/$1",
+        "^web/(.*)$": "<rootDir>/web/$1",
+        "^node_scripts/(.*)$": "<rootDir>/node_scripts/$1",
+        "^__mocks__/(.*)$": "<rootDir>/__mocks__/$1",
+        "^app.config$": "<rootDir>/app.config.js",
+        "^env.config$": "<rootDir>/env.config.js",
+        "^agilysys.lib$": "<rootDir>//agilysys.lib/index.js",
+        "^styled-components": "<rootDir>/node_modules/styled-components"
+      },
+      "modulePathIgnorePatterns": [
+        "<rootDir>/coverage"
+      ],
+      "testPathIgnorePatterns": [
+        "<rootDir>/(build|docs|coverage|node_scripts)/",
+        "<rootDir>/node_modules"
+      ],
+      "testEnvironment": "jsdom"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

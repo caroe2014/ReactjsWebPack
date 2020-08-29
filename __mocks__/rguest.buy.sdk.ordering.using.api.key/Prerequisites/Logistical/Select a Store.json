@@ -1,0 +1,24 @@
+[
+    {
+        "tenantId": "48",
+        "businessContextId": "705a84b0-a0d5-4fb6-820d-87e971fa51af",
+        "name": "mircosoft - enterprise-30",
+        "path": ",705a84b0-a0d5-4fb6-820d-87e971fa51af,"
+    },
+    {
+        "tenantId": "48",
+        "businessContextId": "6adf9bf8-5624-421d-be99-91e074c337f3",
+        "name": "microsoft - division-1",
+        "parentId": "705a84b0-a0d5-4fb6-820d-87e971fa51af",
+        "path": ",705a84b0-a0d5-4fb6-820d-87e971fa51af,6adf9bf8-5624-421d-be99-91e074c337f3,",
+        "depth": 1
+    },
+    {
+        "tenantId": "48",
+        "businessContextId": "9b825538-1dce-4a29-b801-dc64fb4ba53f",
+        "name": "microsoft cafe-1",
+        "parentId": "6adf9bf8-5624-421d-be99-91e074c337f3",
+        "path": ",705a84b0-a0d5-4fb6-820d-87e971fa51af,6adf9bf8-5624-421d-be99-91e074c337f3,9b825538-1dce-4a29-b801-dc64fb4ba53f,",
+        "depth": 2
+    }
+]

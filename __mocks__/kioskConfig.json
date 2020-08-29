@@ -1,0 +1,635 @@
+{
+	"name": "KioskConfig_DP_17869",
+	"id": "11469",
+	"displayProfile": {
+		"name": "DST-test",
+		"id": "17869",
+		"workflowType": "CAFE",
+		"workflowTypeList": ["cafe"],
+		"displayProfileOptions": {
+			"isSmsEnabled": "false",
+			"itemScanningDisabled": "false",
+			"roomChargeEnabled": "false",
+			"profit-center-id": "379",
+			"PAY/GAScanEnabled": "true"
+		},
+		"themeId": "CAFE",
+		"concepts": [{
+			"name": "concept_03_with_menu_-1_ersat",
+			"description": "Concept description goes here",
+			"id": "14363",
+			"conceptOptions": {
+				"inUse": "true",
+				"displayText": "d422f714-b4fe-47b5-98ac-ce8f622a8b91_img_branding",
+				"showLogo": "true",
+				"conceptLogo": "d422f714-b4fe-47b5-98ac-ce8f622a8b91_img_branding25212084_.png"
+			},
+			"menus": [{
+				"name": "Menu with  8 categories",
+				"id": "13697",
+				"categories": [{
+					"name": "Category  1",
+					"description": "A menu with  1 categories",
+					"categoryOptions": {},
+					"items": ["592dc3ffd423d4000d999d2e", "59d35d51b16bc1000dca60f1", "5a0c8b2df29129000d06bf06", "5a0c8b2df29129000d06bf11", "5a0c8b2df29129000d06bf12", "5a0c8b2df29129000d06bf0c", "5a0c8b2df29129000d06bf05", "5a0c8b2df29129000d06bf0e"],
+					"itemIdToItemPropertiesMap": {},
+					"kioskImages": []
+				}, {
+					"name": "Category  2",
+					"description": "A menu with  2 categories",
+					"categoryOptions": {},
+					"items": ["592dc3ffd423d4000d999d2e", "59d35d51b16bc1000dca60f1", "5a0c8b2df29129000d06bf06", "5a0c8b2df29129000d06bf11", "5a0c8b2df29129000d06bf12", "5a0c8b2df29129000d06bf0c", "5a0c8b2df29129000d06bf05", "5a0c8b2df29129000d06bf0e"],
+					"itemIdToItemPropertiesMap": {},
+					"kioskImages": []
+				}, {
+					"name": "Category  3",
+					"description": "A menu with  3 categories",
+					"categoryOptions": {},
+					"items": ["592dc3ffd423d4000d999d2e", "59d35d51b16bc1000dca60f1", "5a0c8b2df29129000d06bf06", "5a0c8b2df29129000d06bf11", "5a0c8b2df29129000d06bf12", "5a0c8b2df29129000d06bf0c", "5a0c8b2df29129000d06bf05", "5a0c8b2df29129000d06bf0e"],
+					"itemIdToItemPropertiesMap": {},
+					"kioskImages": []
+				}, {
+					"name": "Category  4",
+					"description": "A menu with  4 categories",
+					"categoryOptions": {},
+					"items": ["592dc3ffd423d4000d999d2e", "59d35d51b16bc1000dca60f1", "5a0c8b2df29129000d06bf06", "5a0c8b2df29129000d06bf11", "5a0c8b2df29129000d06bf12", "5a0c8b2df29129000d06bf0c", "5a0c8b2df29129000d06bf05", "5a0c8b2df29129000d06bf0e"],
+					"itemIdToItemPropertiesMap": {},
+					"kioskImages": []
+				}, {
+					"name": "Category  5",
+					"description": "A menu with  5 categories",
+					"categoryOptions": {},
+					"items": ["592dc3ffd423d4000d999d2e", "59d35d51b16bc1000dca60f1", "5a0c8b2df29129000d06bf06", "5a0c8b2df29129000d06bf11", "5a0c8b2df29129000d06bf12", "5a0c8b2df29129000d06bf0c", "5a0c8b2df29129000d06bf05", "5a0c8b2df29129000d06bf0e"],
+					"itemIdToItemPropertiesMap": {},
+					"kioskImages": []
+				}, {
+					"name": "Category  6",
+					"description": "A menu with  6 categories",
+					"categoryOptions": {},
+					"items": ["592dc3ffd423d4000d999d2e", "59d35d51b16bc1000dca60f1", "5a0c8b2df29129000d06bf06", "5a0c8b2df29129000d06bf11", "5a0c8b2df29129000d06bf12", "5a0c8b2df29129000d06bf0c", "5a0c8b2df29129000d06bf05", "5a0c8b2df29129000d06bf0e"],
+					"itemIdToItemPropertiesMap": {},
+					"kioskImages": []
+				}, {
+					"name": "Category  7",
+					"description": "A menu with  7 categories",
+					"categoryOptions": {},
+					"items": ["592dc3ffd423d4000d999d2e", "59d35d51b16bc1000dca60f1", "5a0c8b2df29129000d06bf06", "5a0c8b2df29129000d06bf11", "5a0c8b2df29129000d06bf12", "5a0c8b2df29129000d06bf0c", "5a0c8b2df29129000d06bf05", "5a0c8b2df29129000d06bf0e"],
+					"itemIdToItemPropertiesMap": {},
+					"kioskImages": []
+				}, {
+					"name": "Category  8",
+					"description": "A menu with  8 categories",
+					"categoryOptions": {},
+					"items": ["592dc3ffd423d4000d999d2e", "59d35d51b16bc1000dca60f1", "5a0c8b2df29129000d06bf06", "5a0c8b2df29129000d06bf11", "5a0c8b2df29129000d06bf12", "5a0c8b2df29129000d06bf0c", "5a0c8b2df29129000d06bf05", "5a0c8b2df29129000d06bf0e"],
+					"itemIdToItemPropertiesMap": {},
+					"kioskImages": []
+				}],
+				"lastUpdateTime": "2017-12-08T09:24:02.412Z"
+			}, {
+				"name": "Menu with 07 items",
+				"id": "13696",
+				"categories": [{
+					"name": "New Category",
+					"categoryOptions": {},
+					"items": ["592dc3ffd423d4000d999d2e", "59d35d51b16bc1000dca60f1", "5a0c8b2df29129000d06bf11", "5a9644b5cff47e000ce77912", "5a0c8b2df29129000d06bf0e", "5a72155c4cedfd000c0edbdb", "5a0c8b2df29129000d06bf05"],
+					"itemIdToItemPropertiesMap": {},
+					"kioskImages": []
+				}],
+				"lastUpdateTime": "2018-03-07T05:45:32.000Z"
+			}]
+		}, {
+			"name": "concept_02_with_menu_-1_ersat",
+			"description": "Concept description goes here",
+			"id": "14362",
+			"conceptOptions": {
+				"inUse": "true",
+				"displayText": "45b9413e-83d9-4a4c-b027-fa540c5ccd2d_img_branding",
+				"showLogo": "true",
+				"conceptLogo": "45b9413e-83d9-4a4c-b027-fa540c5ccd2d_img_branding25212084_.png"
+			},
+			"menus": [{
+				"name": "Menu with 05 items",
+				"id": "13694",
+				"items": ["592dc3ffd423d4000d999d2e", "59d35d51b16bc1000dca60f1", "5a0c8b2df29129000d06bf06", "5a0c8b2df29129000d06bf11", "5a0c8b2df29129000d06bf12"],
+				"categories": [{
+					"name": "",
+					"categoryOptions": {},
+					"items": [],
+					"itemIdToItemPropertiesMap": {},
+					"kioskImages": []
+				}],
+				"lastUpdateTime": "2018-02-28T05:03:36.722Z"
+			}, {
+				"name": "Menu with  6 categories",
+				"id": "13695",
+				"categories": [{
+					"name": "Category  1",
+					"description": "A menu with  1 categories",
+					"categoryOptions": {},
+					"items": ["592dc3ffd423d4000d999d2e", "59d35d51b16bc1000dca60f1", "5a0c8b2df29129000d06bf06", "5a0c8b2df29129000d06bf11", "5a0c8b2df29129000d06bf12", "5a0c8b2df29129000d06bf0c"],
+					"itemIdToItemPropertiesMap": {},
+					"kioskImages": []
+				}, {
+					"name": "Category  2",
+					"description": "A menu with  2 categories",
+					"categoryOptions": {},
+					"items": ["592dc3ffd423d4000d999d2e", "59d35d51b16bc1000dca60f1", "5a0c8b2df29129000d06bf06", "5a0c8b2df29129000d06bf11", "5a0c8b2df29129000d06bf12", "5a0c8b2df29129000d06bf0c"],
+					"itemIdToItemPropertiesMap": {},
+					"kioskImages": []
+				}, {
+					"name": "Category  3",
+					"description": "A menu with  3 categories",
+					"categoryOptions": {},
+					"items": ["592dc3ffd423d4000d999d2e", "59d35d51b16bc1000dca60f1", "5a0c8b2df29129000d06bf06", "5a0c8b2df29129000d06bf11", "5a0c8b2df29129000d06bf12", "5a0c8b2df29129000d06bf0c"],
+					"itemIdToItemPropertiesMap": {},
+					"kioskImages": []
+				}, {
+					"name": "Category  4",
+					"description": "A menu with  4 categories",
+					"categoryOptions": {},
+					"items": ["592dc3ffd423d4000d999d2e", "59d35d51b16bc1000dca60f1", "5a0c8b2df29129000d06bf06", "5a0c8b2df29129000d06bf11", "5a0c8b2df29129000d06bf12", "5a0c8b2df29129000d06bf0c"],
+					"itemIdToItemPropertiesMap": {},
+					"kioskImages": []
+				}, {
+					"name": "Category  5",
+					"description": "A menu with  5 categories",
+					"categoryOptions": {},
+					"items": ["592dc3ffd423d4000d999d2e", "59d35d51b16bc1000dca60f1", "5a0c8b2df29129000d06bf06", "5a0c8b2df29129000d06bf11", "5a0c8b2df29129000d06bf12", "5a0c8b2df29129000d06bf0c"],
+					"itemIdToItemPropertiesMap": {},
+					"kioskImages": []
+				}, {
+					"name": "Category  5",
+					"description": "A menu with  6 categories",
+					"categoryOptions": {},
+					"items": ["592dc3ffd423d4000d999d2e", "59d35d51b16bc1000dca60f1", "5a0c8b2df29129000d06bf06", "5a0c8b2df29129000d06bf11", "5a0c8b2df29129000d06bf12", "5a0c8b2df29129000d06bf0c"],
+					"itemIdToItemPropertiesMap": {},
+					"kioskImages": []
+				}],
+				"lastUpdateTime": "2018-04-26T09:53:55.741Z"
+			}]
+		}, {
+			"name": "concept_01_with_menu_-1_ersat",
+			"description": "Concept description goes here",
+			"id": "14361",
+			"conceptOptions": {
+				"inUse": "true",
+				"displayText": "47eab551-1ec7-4b95-9dce-d688849e2629_img_branding",
+				"showLogo": "true",
+				"conceptLogo": "47eab551-1ec7-4b95-9dce-d688849e2629_img_branding25212084_.png"
+			},
+			"menus": [{
+				"name": "Menu with  4 categories",
+				"id": "13693",
+				"categories": [{
+					"name": "All Items",
+					"description": "A menu with  1 categories",
+					"categoryOptions": {},
+					"items": ["592dc3ffd423d4000d999d2e", "59d35d51b16bc1000dca60f1", "5a0c8b2df29129000d06bf06", "5a0c8b2df29129000d06bf11", "592dc3ffd423d4000d999d46", "592dc3ffd423d4000d999d30", "59974b3f4feda4000dd24796", "59974b3f4feda4000dd24797", "5a0c8b2df29129000d06bf12", "5a0c8b2df29129000d06bf0c", "5a0c8b2df29129000d06bf05", "5a0c8b2df29129000d06bf0e", "592dc3ffd423d4000d999d4a", "5a0c8b2df29129000d06bf08", "592dc3ffd423d4000d999d4b", "5a0c8b2df29129000d06bf09", "5a0c8b2df29129000d06bf10", "5a0c8b2df29129000d06bf0b", "5a0c8b2df29129000d06bf07", "5a0c8b2df29129000d06bf0a", "5a336d073f5c97000dafaf13", "5a0c8b2df29129000d06bf0f", "59d753c00c2edf000d2cfa65", "592dc3ffd423d4000d999d35", "592dc3ffd423d4000d999d36", "592dc3ffd423d4000d999d37", "599f43f2887a61000d6f4915", "5a0f4caa16df35000da37d86", "5a311cd73f5c97000dafabde", "59cca0b356a8a3000dfef406", "59fad95a14c78a000d84d42e", "59569bda6f985c000db821e5", "59974b3f4feda4000dd24798", "59ccd23e56a8a3000dfef40c", "592dc3ffd423d4000d999d54", "592dc3ffd423d4000d999d38", "59974b3f4feda4000dd247a4", "59974b3f4feda4000dd247a3", "59974b3f4feda4000dd247a8", "59974b3f4feda4000dd247a5", "59974b3f4feda4000dd247a6", "59974b3f4feda4000dd247a7", "59974b3f4feda4000dd247a9", "592dc3ffd423d4000d999d3b", "592dc3ffd423d4000d999d44", "592dc3ffd423d4000d999d49", "59ccd23e56a8a3000dfef409", "592dc3ffd423d4000d999d33", "592dc3ffd423d4000d999d3a", "59d752490c2edf000d2cfa61", "592dc3ffd423d4000d999d55", "592dc3ffd423d4000d999d43", "592dc3ffd423d4000d999d31", "592dc3ffd423d4000d999d34", "596e6c5b294dee000dc49977", "592dc3ffd423d4000d999d42", "592dc3ffd423d4000d999d47", "592dc3ffd423d4000d999d3f", "592dc3ffd423d4000d999d41", "59cb329284f908000db8f0c0", "5a44b07c69b7a5000c45fd5b", "59974b3f4feda4000dd247a0", "59974b3f4feda4000dd24799", "59974b3f4feda4000dd2479b", "59974b3f4feda4000dd2479c", "59974b3f4feda4000dd2479a", "59974b3f4feda4000dd2479e", "59974b3f4feda4000dd2479d", "59974b3f4feda4000dd2479f", "59974b3f4feda4000dd247a2", "59974b3f4feda4000dd247a1", "59c1f42a4e83f6000d63c2b0", "59f18e76b5d516000d381041", "596404adeab42f000d800a08", "592dc3ffd423d4000d999d4c", "592dc3ffd423d4000d999d4d", "592dc3ffd423d4000d999d4e", "592dc3ffd423d4000d999d4f", "59b19de3d15078000d3a00c7", "59b19de3d15078000d3a00c6", "59b19de3d15078000d3a00c8", "59d752490c2edf000d2cfa64", "592dc3ffd423d4000d999d5b", "592dc3ffd423d4000d999d39", "592dc3ffd423d4000d999d3c", "59d752490c2edf000d2cfa62", "592dc3ffd423d4000d999d50", "592dc3ffd423d4000d999d32", "59d752490c2edf000d2cfa63", "592dc3ffd423d4000d999d3e", "5a30c0be3f5c97000dafabdd", "5a30c0be3f5c97000dafabdc", "5a02937214c78a000d84db05", "592dc3ffd423d4000d999d52", "5a0ab3d8f29129000d06b977", "592dc3ffd423d4000d999d53", "592dc3ffd423d4000d999d56", "592dc3ffd423d4000d999d57", "59fab2b114c78a000d84d340", "59cc04d8386799000dc2e4b1", "59fb4fd014c78a000d84d456", "592dc3ffd423d4000d999d48", "59ccd23e56a8a3000dfef40b", "5a3939d169b7a5000c45f8c9", "592dc3ffd423d4000d999d2f", "592dc3ffd423d4000d999d40", "592dc3ffd423d4000d999d58", "592dc3ffd423d4000d999d5c", "592dc3ffd423d4000d999d5d", "59b0da05b30f6e000d5a9e45", "5a1fee7e9bfd61000d994f15", "59fad95a14c78a000d84d42d", "5a00c7a214c78a000d84d6c2", "5a0ab3d8f29129000d06b976", "592dc3ffd423d4000d999d45", "5a0c8b2df29129000d06bf0d", "59ccd23e56a8a3000dfef40a", "592dc3ffd423d4000d999d51", "592dc3ffd423d4000d999d59", "592dc3ffd423d4000d999d5a", "59b7abb2281e3f000dcba3c6", "592dc3ffd423d4000d999d3d"],
+					"itemIdToItemPropertiesMap": {},
+					"kioskImages": []
+				}, {
+					"name": "Category  2",
+					"description": "A menu with  2 categories",
+					"categoryOptions": {},
+					"items": ["592dc3ffd423d4000d999d2e", "59d35d51b16bc1000dca60f1", "5a0c8b2df29129000d06bf06", "5a0c8b2df29129000d06bf11"],
+					"itemIdToItemPropertiesMap": {},
+					"kioskImages": []
+				}, {
+					"name": "Category  3",
+					"description": "A menu with  3 categories",
+					"categoryOptions": {},
+					"items": ["592dc3ffd423d4000d999d2e", "59d35d51b16bc1000dca60f1", "5a0c8b2df29129000d06bf06", "5a0c8b2df29129000d06bf11"],
+					"itemIdToItemPropertiesMap": {},
+					"kioskImages": []
+				}, {
+					"name": "Category  3",
+					"description": "A menu with  4 categories",
+					"categoryOptions": {},
+					"items": ["592dc3ffd423d4000d999d2e", "59d35d51b16bc1000dca60f1", "5a0c8b2df29129000d06bf06", "5a0c8b2df29129000d06bf11"],
+					"itemIdToItemPropertiesMap": {},
+					"kioskImages": []
+				}],
+				"lastUpdateTime": "2018-04-26T09:56:29.032Z"
+			}, {
+				"name": "Menu with 03 items",
+				"id": "13692",
+				"items": ["592dc3ffd423d4000d999d2e", "59d35d51b16bc1000dca60f1", "5a0c8b2df29129000d06bf06"],
+				"categories": [{
+					"name": "",
+					"categoryOptions": {},
+					"items": [],
+					"itemIdToItemPropertiesMap": {},
+					"kioskImages": []
+				}],
+				"lastUpdateTime": "2018-02-26T04:13:05.938Z"
+			}]
+		}],
+		"priceContextPriceLevelAssociations": [],
+		"receiptPrintOptions": "PROMPT"
+	},
+	"schedule": {
+		"id": "4645",
+		"contextId": "7f003c17-73a2-4bf0-b271-830c9ecc07d9",
+		"tasks": [{
+			"@c": ".DisplayProfileTask",
+			"scheduledExpression": "0 0 0 * * MON",
+			"properties": {
+				"meal-period-id": "5"
+			},
+			"displayProfileState": {
+				"displayProfileId": "17869",
+				"conceptStates": [{
+					"conceptId": "14361",
+					"menuId": "13692"
+				}]
+			}
+		}, {
+			"@c": ".TransitionTask",
+			"scheduledExpression": "0 59 2 * * MON",
+			"properties": {
+				"TRANSITION_MESSAGE": ""
+			}
+		}, {
+			"@c": ".DisplayProfileTask",
+			"scheduledExpression": "0 0 3 * * MON",
+			"properties": {
+				"meal-period-id": "2"
+			},
+			"displayProfileState": {
+				"displayProfileId": "17869",
+				"conceptStates": [{
+					"conceptId": "14362",
+					"menuId": "13695"
+				}]
+			}
+		}, {
+			"@c": ".TransitionTask",
+			"scheduledExpression": "0 29 6 * * MON",
+			"properties": {
+				"TRANSITION_MESSAGE": ""
+			}
+		}, {
+			"@c": ".DisplayProfileTask",
+			"scheduledExpression": "0 30 6 * * MON",
+			"properties": {
+				"meal-period-id": "1"
+			},
+			"displayProfileState": {
+				"displayProfileId": "17869",
+				"conceptStates": [{
+					"conceptId": "14363",
+					"menuId": "13696"
+				}]
+			}
+		}, {
+			"@c": ".TransitionTask",
+			"scheduledExpression": "0 29 11 * * MON",
+			"properties": {
+				"TRANSITION_MESSAGE": ""
+			}
+		}, {
+			"@c": ".DisplayProfileTask",
+			"scheduledExpression": "0 0 0 * * TUE",
+			"properties": {
+				"meal-period-id": "5"
+			},
+			"displayProfileState": {
+				"displayProfileId": "17869",
+				"conceptStates": [{
+					"conceptId": "14361",
+					"menuId": "13692"
+				}]
+			}
+		}, {
+			"@c": ".TransitionTask",
+			"scheduledExpression": "0 59 2 * * TUE",
+			"properties": {
+				"TRANSITION_MESSAGE": ""
+			}
+		}, {
+			"@c": ".DisplayProfileTask",
+			"scheduledExpression": "0 0 3 * * TUE",
+			"properties": {
+				"meal-period-id": "2"
+			},
+			"displayProfileState": {
+				"displayProfileId": "17869",
+				"conceptStates": [{
+					"conceptId": "14362",
+					"menuId": "13695"
+				}]
+			}
+		}, {
+			"@c": ".TransitionTask",
+			"scheduledExpression": "0 29 6 * * TUE",
+			"properties": {
+				"TRANSITION_MESSAGE": ""
+			}
+		}, {
+			"@c": ".DisplayProfileTask",
+			"scheduledExpression": "0 30 6 * * TUE",
+			"properties": {
+				"meal-period-id": "1"
+			},
+			"displayProfileState": {
+				"displayProfileId": "17869",
+				"conceptStates": [{
+					"conceptId": "14363",
+					"menuId": "13696"
+				}]
+			}
+		}, {
+			"@c": ".TransitionTask",
+			"scheduledExpression": "0 29 11 * * TUE",
+			"properties": {
+				"TRANSITION_MESSAGE": ""
+			}
+		}, {
+			"@c": ".DisplayProfileTask",
+			"scheduledExpression": "0 0 0 * * WED",
+			"properties": {
+				"meal-period-id": "5"
+			},
+			"displayProfileState": {
+				"displayProfileId": "17869",
+				"conceptStates": [{
+					"conceptId": "14361",
+					"menuId": "13692"
+				}]
+			}
+		}, {
+			"@c": ".TransitionTask",
+			"scheduledExpression": "0 59 2 * * WED",
+			"properties": {
+				"TRANSITION_MESSAGE": ""
+			}
+		}, {
+			"@c": ".DisplayProfileTask",
+			"scheduledExpression": "0 0 3 * * WED",
+			"properties": {
+				"meal-period-id": "2"
+			},
+			"displayProfileState": {
+				"displayProfileId": "17869",
+				"conceptStates": [{
+					"conceptId": "14362",
+					"menuId": "13695"
+				}]
+			}
+		}, {
+			"@c": ".TransitionTask",
+			"scheduledExpression": "0 29 6 * * WED",
+			"properties": {
+				"TRANSITION_MESSAGE": ""
+			}
+		}, {
+			"@c": ".DisplayProfileTask",
+			"scheduledExpression": "0 30 6 * * WED",
+			"properties": {
+				"meal-period-id": "1"
+			},
+			"displayProfileState": {
+				"displayProfileId": "17869",
+				"conceptStates": [{
+					"conceptId": "14363",
+					"menuId": "13696"
+				}]
+			}
+		}, {
+			"@c": ".TransitionTask",
+			"scheduledExpression": "0 29 11 * * WED",
+			"properties": {
+				"TRANSITION_MESSAGE": ""
+			}
+		}, {
+			"@c": ".DisplayProfileTask",
+			"scheduledExpression": "0 0 0 * * THU",
+			"properties": {
+				"meal-period-id": "5"
+			},
+			"displayProfileState": {
+				"displayProfileId": "17869",
+				"conceptStates": [{
+					"conceptId": "14361",
+					"menuId": "13692"
+				}]
+			}
+		}, {
+			"@c": ".TransitionTask",
+			"scheduledExpression": "0 59 2 * * THU",
+			"properties": {
+				"TRANSITION_MESSAGE": ""
+			}
+		}, {
+			"@c": ".DisplayProfileTask",
+			"scheduledExpression": "0 0 3 * * THU",
+			"properties": {
+				"meal-period-id": "2"
+			},
+			"displayProfileState": {
+				"displayProfileId": "17869",
+				"conceptStates": [{
+					"conceptId": "14362",
+					"menuId": "13695"
+				}]
+			}
+		}, {
+			"@c": ".TransitionTask",
+			"scheduledExpression": "0 29 6 * * THU",
+			"properties": {
+				"TRANSITION_MESSAGE": ""
+			}
+		}, {
+			"@c": ".DisplayProfileTask",
+			"scheduledExpression": "0 30 6 * * THU",
+			"properties": {
+				"meal-period-id": "1"
+			},
+			"displayProfileState": {
+				"displayProfileId": "17869",
+				"conceptStates": [{
+					"conceptId": "14363",
+					"menuId": "13696"
+				}]
+			}
+		}, {
+			"@c": ".TransitionTask",
+			"scheduledExpression": "0 29 11 * * THU",
+			"properties": {
+				"TRANSITION_MESSAGE": ""
+			}
+		}, {
+			"@c": ".DisplayProfileTask",
+			"scheduledExpression": "0 0 0 * * FRI",
+			"properties": {
+				"meal-period-id": "5"
+			},
+			"displayProfileState": {
+				"displayProfileId": "17869",
+				"conceptStates": [{
+					"conceptId": "14361",
+					"menuId": "13692"
+				}]
+			}
+		}, {
+			"@c": ".TransitionTask",
+			"scheduledExpression": "0 59 2 * * FRI",
+			"properties": {
+				"TRANSITION_MESSAGE": ""
+			}
+		}, {
+			"@c": ".DisplayProfileTask",
+			"scheduledExpression": "0 0 3 * * FRI",
+			"properties": {
+				"meal-period-id": "2"
+			},
+			"displayProfileState": {
+				"displayProfileId": "17869",
+				"conceptStates": [{
+					"conceptId": "14362",
+					"menuId": "13695"
+				}]
+			}
+		}, {
+			"@c": ".TransitionTask",
+			"scheduledExpression": "0 29 6 * * FRI",
+			"properties": {
+				"TRANSITION_MESSAGE": ""
+			}
+		}, {
+			"@c": ".DisplayProfileTask",
+			"scheduledExpression": "0 30 6 * * FRI",
+			"properties": {
+				"meal-period-id": "1"
+			},
+			"displayProfileState": {
+				"displayProfileId": "17869",
+				"conceptStates": [{
+					"conceptId": "14363",
+					"menuId": "13696"
+				}]
+			}
+		}, {
+			"@c": ".TransitionTask",
+			"scheduledExpression": "0 29 11 * * FRI",
+			"properties": {
+				"TRANSITION_MESSAGE": ""
+			}
+		}, {
+			"@c": ".DisplayProfileTask",
+			"scheduledExpression": "0 0 0 * * SAT",
+			"properties": {
+				"meal-period-id": "5"
+			},
+			"displayProfileState": {
+				"displayProfileId": "17869",
+				"conceptStates": [{
+					"conceptId": "14361",
+					"menuId": "13692"
+				}]
+			}
+		}, {
+			"@c": ".TransitionTask",
+			"scheduledExpression": "0 59 2 * * SAT",
+			"properties": {
+				"TRANSITION_MESSAGE": ""
+			}
+		}, {
+			"@c": ".DisplayProfileTask",
+			"scheduledExpression": "0 0 3 * * SAT",
+			"properties": {
+				"meal-period-id": "2"
+			},
+			"displayProfileState": {
+				"displayProfileId": "17869",
+				"conceptStates": [{
+					"conceptId": "14362",
+					"menuId": "13695"
+				}]
+			}
+		}, {
+			"@c": ".TransitionTask",
+			"scheduledExpression": "0 29 6 * * SAT",
+			"properties": {
+				"TRANSITION_MESSAGE": ""
+			}
+		}, {
+			"@c": ".DisplayProfileTask",
+			"scheduledExpression": "0 30 6 * * SAT",
+			"properties": {
+				"meal-period-id": "1"
+			},
+			"displayProfileState": {
+				"displayProfileId": "17869",
+				"conceptStates": [{
+					"conceptId": "14363",
+					"menuId": "13696"
+				}]
+			}
+		}, {
+			"@c": ".TransitionTask",
+			"scheduledExpression": "0 29 11 * * SAT",
+			"properties": {
+				"TRANSITION_MESSAGE": ""
+			}
+		}, {
+			"@c": ".DisplayProfileTask",
+			"scheduledExpression": "0 0 0 * * SUN",
+			"properties": {
+				"meal-period-id": "5"
+			},
+			"displayProfileState": {
+				"displayProfileId": "17869",
+				"conceptStates": [{
+					"conceptId": "14361",
+					"menuId": "13692"
+				}]
+			}
+		}, {
+			"@c": ".TransitionTask",
+			"scheduledExpression": "0 59 2 * * SUN",
+			"properties": {
+				"TRANSITION_MESSAGE": ""
+			}
+		}, {
+			"@c": ".DisplayProfileTask",
+			"scheduledExpression": "0 0 3 * * SUN",
+			"properties": {
+				"meal-period-id": "2"
+			},
+			"displayProfileState": {
+				"displayProfileId": "17869",
+				"conceptStates": [{
+					"conceptId": "14362",
+					"menuId": "13695"
+				}]
+			}
+		}, {
+			"@c": ".TransitionTask",
+			"scheduledExpression": "0 29 6 * * SUN",
+			"properties": {
+				"TRANSITION_MESSAGE": ""
+			}
+		}, {
+			"@c": ".DisplayProfileTask",
+			"scheduledExpression": "0 30 6 * * SUN",
+			"properties": {
+				"meal-period-id": "1"
+			},
+			"displayProfileState": {
+				"displayProfileId": "17869",
+				"conceptStates": [{
+					"conceptId": "14363",
+					"menuId": "13696"
+				}]
+			}
+		}, {
+			"@c": ".TransitionTask",
+			"scheduledExpression": "0 29 11 * * SUN",
+			"properties": {
+				"TRANSITION_MESSAGE": ""
+			}
+		}]
+	},
+	"businessContextId": "7f003c17-73a2-4bf0-b271-830c9ecc07d9"
+}

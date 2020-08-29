@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart does a snapshot test 1`] = `
+<Styled(Flex)
+  alignItems="center"
+  className="cart-container"
+  flexDirection="column"
+  m={3}
+  width={1}
+>
+  <Styled(Flex)
+    aria-label="CART_MY_CART"
+    className="my-cart-header"
+    role="header"
+    tabIndex={0}
+  >
+    <div
+      i18nKey="CART_MY_CART"
+    />
+  </Styled(Flex)>
+  <Styled(Divider)
+    className="horiz-border"
+  />
+  <Styled(Flex)>
+    <Styled(Box)
+      aria-label="CART_EMPTY"
+      aria-live="polite"
+      style={
+        Object {
+          "left": "0px",
+          "position": "absolute",
+          "right": "0px",
+          "textAlign": "center",
+          "top": "50%",
+        }
+      }
+      tabIndex={1}
+    >
+      <div
+        i18nKey="CART_EMPTY"
+      />
+    </Styled(Box)>
+  </Styled(Flex)>
+</Styled(Flex)>
+`;

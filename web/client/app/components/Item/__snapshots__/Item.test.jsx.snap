@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItemComponent does a snapshot test 1`] = `
+<Tile
+  classContext="tile item_100"
+  footer={
+    <Styled(Flex)>
+      <Styled(Text)
+        className="amount"
+        tabIndex={0}
+      >
+        $123.00
+      </Styled(Text)>
+      <Styled(Text)
+        aria-label="ADD_CART_TEXT"
+        className="add-to-cart-text"
+        onClick={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        <div
+          i18nKey="ITEM_ADD_TO_CART"
+        />
+      </Styled(Text)>
+    </Styled(Flex)>
+  }
+  hasBorder={true}
+  image="image.png"
+  imageresponsive="true"
+  isEnabled={true}
+  iscart={0}
+  titleStyle={
+    Object {
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "wordBreak": "break-word",
+    }
+  }
+>
+  <Styled(Flex)
+    className="box-container"
+  >
+    <Styled(Flex)>
+      <Styled(Text)
+        aria-label="ITEM_DESCRIPTIONMock description text"
+        className="description"
+        tabIndex={0}
+      >
+        Mock description text
+      </Styled(Text)>
+    </Styled(Flex)>
+    <span>
+      <Styled(Flex)>
+        <Styled(Flex)
+          aria-label="mockName1"
+          className="icon-tile"
+          iscart={0}
+          role="img"
+          tabIndex={0}
+        >
+          <i
+            alt=""
+            className="agilysys-icon-mockname1"
+            style={
+              Object {
+                "display": "inline-block",
+                "fontSize": "1em",
+                "marginRight": "8px",
+                "verticalAlign": "middle",
+              }
+            }
+          />
+          <Styled(Flex)
+            className="tag"
+          >
+            mockName1
+          </Styled(Flex)>
+        </Styled(Flex)>
+        <Styled(Flex)
+          aria-label="mockName2"
+          className="icon-tile"
+          iscart={0}
+          role="img"
+          tabIndex={0}
+        >
+          <i
+            alt=""
+            className="agilysys-icon-mockname2"
+            style={
+              Object {
+                "display": "inline-block",
+                "fontSize": "1em",
+                "marginRight": "8px",
+                "verticalAlign": "middle",
+              }
+            }
+          />
+          <Styled(Flex)
+            className="tag"
+          >
+            mockName2
+          </Styled(Flex)>
+        </Styled(Flex)>
+        <Styled(Flex)
+          aria-label="mockName3"
+          className="icon-tile"
+          iscart={0}
+          role="img"
+          tabIndex={0}
+        >
+          <i
+            alt=""
+            className="agilysys-icon-mockname3"
+            style={
+              Object {
+                "display": "inline-block",
+                "fontSize": "1em",
+                "marginRight": "8px",
+                "verticalAlign": "middle",
+              }
+            }
+          />
+          <Styled(Flex)
+            className="tag"
+          >
+            mockName3
+          </Styled(Flex)>
+        </Styled(Flex)>
+      </Styled(Flex)>
+      <Styled(Flex)>
+        <Styled(Flex)
+          aria-label="mockName1"
+          className="icon-tile-mobile"
+          role="img"
+          tabIndex={0}
+        >
+          <i
+            alt=""
+            className="agilysys-icon-mockname1"
+            style={
+              Object {
+                "display": "inline-block",
+                "fontSize": "1em",
+                "marginRight": "8px",
+                "verticalAlign": "middle",
+              }
+            }
+          />
+        </Styled(Flex)>
+        <Styled(Flex)
+          aria-label="mockName2"
+          className="icon-tile-mobile"
+          role="img"
+          tabIndex={0}
+        >
+          <i
+            alt=""
+            className="agilysys-icon-mockname2"
+            style={
+              Object {
+                "display": "inline-block",
+                "fontSize": "1em",
+                "marginRight": "8px",
+                "verticalAlign": "middle",
+              }
+            }
+          />
+        </Styled(Flex)>
+        <Styled(Flex)
+          aria-label="mockName3"
+          className="icon-tile-mobile"
+          role="img"
+          tabIndex={0}
+        >
+          <i
+            alt=""
+            className="agilysys-icon-mockname3"
+            style={
+              Object {
+                "display": "inline-block",
+                "fontSize": "1em",
+                "marginRight": "8px",
+                "verticalAlign": "middle",
+              }
+            }
+          />
+        </Styled(Flex)>
+      </Styled(Flex)>
+    </span>
+  </Styled(Flex)>
+  <Styled(Flex)>
+    <Styled(Text)
+      aria-label="ITEM_PRICE$123.00"
+      className="amount"
+      tabIndex={0}
+    >
+      $123.00
+    </Styled(Text)>
+    <Styled(Text)
+      aria-label="ADD_CART_TEXT"
+      className="add-to-cart-text"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        i18nKey="ITEM_ADD_TO_CART"
+      />
+    </Styled(Text)>
+  </Styled(Flex)>
+</Tile>
+`;

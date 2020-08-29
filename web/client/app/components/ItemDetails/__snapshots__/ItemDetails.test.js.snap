@@ -1,0 +1,340 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItemDetails does a snapshot test 1`] = `
+<Styled(Flex)>
+  <Styled(Box)
+    className="box-container"
+    width={
+      Array [
+        1,
+        0.65,
+      ]
+    }
+  >
+    <Styled(Box)
+      className="image-container"
+    >
+      <DynamicImage
+        bgSize="cover"
+        className="image"
+        src="https://www.ndtv.com/cooks/images/grilled.sandwich.jpg"
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      />
+    </Styled(Box)>
+    <Styled(Box)
+      className="details-container"
+    >
+      <Styled(Text)
+        aria-label="Organic and Natural sandwiches with delicious sauce made to required sizes and shapes as per wish."
+        className="description"
+        pb={
+          Array [
+            10,
+          ]
+        }
+        pt={
+          Array [
+            15,
+          ]
+        }
+        tabIndex={0}
+      >
+        Organic and Natural sandwiches with delicious sauce made to required sizes and shapes as per wish.
+      </Styled(Text)>
+      <Styled(Flex)
+        className="description-tab"
+        flexWrap="wrap"
+      >
+        <Styled(Flex)
+          alignItems="center"
+          className="tileTab"
+          width={
+            Array [
+              1,
+              0.6,
+              0.6,
+              0.6,
+            ]
+          }
+        >
+          <TileContent
+            aria-label="Veg"
+            className="icon-tile"
+            role="img"
+            tabIndex={0}
+          >
+            <i
+              alt=""
+              className="agilysys-icon-veg"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "fontSize": "1em",
+                  "marginRight": "8px",
+                  "verticalAlign": "middle",
+                }
+              }
+            />
+            Veg
+          </TileContent>
+          <Styled(Flex)
+            aria-label="Veg"
+            className="icon-tile"
+            role="img"
+            tabIndex={0}
+          >
+            <i
+              alt=""
+              className="agilysys-icon-veg"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "fontSize": "1em",
+                  "marginRight": "8px",
+                  "verticalAlign": "middle",
+                }
+              }
+            />
+          </Styled(Flex)>
+          <TileContent
+            aria-label="160 cal"
+            className="icon-tile"
+            role="img"
+            tabIndex={0}
+          >
+            <i
+              alt=""
+              className="agilysys-icon-160-cal"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "fontSize": "1em",
+                  "marginRight": "8px",
+                  "verticalAlign": "middle",
+                }
+              }
+            />
+            160 cal
+          </TileContent>
+          <Styled(Flex)
+            aria-label="160 cal"
+            className="icon-tile"
+            role="img"
+            tabIndex={0}
+          >
+            <i
+              alt=""
+              className="agilysys-icon-160-cal"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "fontSize": "1em",
+                  "marginRight": "8px",
+                  "verticalAlign": "middle",
+                }
+              }
+            />
+          </Styled(Flex)>
+        </Styled(Flex)>
+      </Styled(Flex)>
+      <Styled(Flex)>
+        <Styled(Flex)
+          aria-label="ITEM_DETAILS_CUSTOMIZE"
+          className="header-text"
+          tabIndex={0}
+        >
+          <div
+            i18nKey="ITEM_DETAILS_CUSTOMIZE"
+          />
+        </Styled(Flex)>
+        <ItemModifier
+          handlerFromParent={[Function]}
+          key="0"
+          modifiers={
+            Object {
+              "addOnAmount": 0,
+              "modifiers": Array [
+                Object {
+                  "description": "BREAD",
+                  "id": "bread",
+                  "options": Array [
+                    Object {
+                      "description": "Wheat Baguette",
+                      "id": "wheatbaguette",
+                      "selected": false,
+                    },
+                    Object {
+                      "description": "Wheat wrap",
+                      "id": "wheatwrap",
+                      "selected": false,
+                    },
+                    Object {
+                      "description": "Spinach wrap",
+                      "id": "spinachwrap",
+                      "selected": false,
+                    },
+                  ],
+                  "type": "radio",
+                },
+                Object {
+                  "description": "ADD ON",
+                  "id": "addon",
+                  "options": Array [
+                    Object {
+                      "amount": "2.50",
+                      "description": "Fountain Drink",
+                      "id": "Fountain Drink",
+                      "options": Array [
+                        Object {
+                          "amount": "2.50",
+                          "description": "Large",
+                          "id": "Large",
+                          "selected": true,
+                        },
+                        Object {
+                          "amount": "1.50",
+                          "description": "Small",
+                          "id": "Small",
+                          "selected": false,
+                        },
+                      ],
+                      "selected": true,
+                    },
+                    Object {
+                      "amount": "1.50",
+                      "description": "Small Soup",
+                      "id": "Small Soup",
+                      "selected": false,
+                    },
+                    Object {
+                      "amount": "1.50",
+                      "description": "Aged Cheddar",
+                      "id": "Large Soup",
+                      "selected": true,
+                    },
+                    Object {
+                      "amount": "1.50",
+                      "description": "Swiss",
+                      "id": "Swiss",
+                      "selected": true,
+                    },
+                  ],
+                  "type": "checkbox",
+                },
+              ],
+            }
+          }
+          onNotify={[Function]}
+          onValidate={[Function]}
+          showValidationState={false}
+        />
+        <NotificationBar
+          actionButtonText={
+            <div
+              i18nKey="ITEM_DETAILS_GOT_IT"
+            />
+          }
+          onActionClick={[Function]}
+          open={false}
+        />
+      </Styled(Flex)>
+      <Styled(Flex)
+        alignItems="center"
+      >
+        <Styled(Flex)
+          alignItems="center"
+        >
+          <Styled(Text)
+            p={
+              Array [
+                "0px 15px 0px 0px !important",
+              ]
+            }
+          >
+            <div
+              i18nKey="ITEM_DETAILS_QUANTITY"
+            />
+          </Styled(Text)>
+          <AddItem
+            key="0"
+            max={99}
+            min={1}
+            onInputChange={[Function]}
+            width={100}
+          />
+        </Styled(Flex)>
+        <Styled(Text)
+          aria-label="$12.00"
+          className="total-amount-text"
+          tabIndex={0}
+        >
+          $12.00
+        </Styled(Text)>
+      </Styled(Flex)>
+      <Styled(Flex)
+        flexWrap="wrap"
+      >
+        <Styled(Box)
+          pr={
+            Array [
+              0,
+              2,
+            ]
+          }
+          width={
+            Array [
+              1,
+              0.5,
+              0.5,
+              0.5,
+            ]
+          }
+        >
+          <Styled(Button)
+            className="reset-button button"
+            onClick={[Function]}
+            tabIndex={0}
+            type="submit"
+          >
+            <div
+              i18nKey="ITEM_DETAILS_RESET"
+            />
+          </Styled(Button)>
+        </Styled(Box)>
+        <Styled(Box)
+          pl={
+            Array [
+              0,
+              2,
+            ]
+          }
+          width={
+            Array [
+              1,
+              0.5,
+              0.5,
+              0.5,
+            ]
+          }
+        >
+          <Styled(Button)
+            className="add-to-cart-button"
+            disablestate={0}
+            onClick={[Function]}
+            tabIndex={0}
+            type="submit"
+          >
+            <div
+              i18nKey="ITEM_ADD_TO_CART"
+            />
+          </Styled(Button)>
+        </Styled(Box)>
+      </Styled(Flex)>
+    </Styled(Box)>
+  </Styled(Box)>
+</Styled(Flex)>
+`;

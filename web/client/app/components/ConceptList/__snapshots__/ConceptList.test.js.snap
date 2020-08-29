@@ -1,0 +1,326 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConceptList does a snapshot test 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "colors": Object {
+        "addOnTab": "#347CFF",
+        "addToCart": "#347CFF",
+        "addonBg": "#EEEEEE",
+        "backgroundGrey": "#E6E6E6",
+        "black": "#000000",
+        "close": "red",
+        "contextBackground": "#f0f0f3",
+        "darkGrey": "#464646",
+        "disableBackground": "#E4E4E4",
+        "disableButton": "#D1D1D1",
+        "error": "#cc0000",
+        "footer": "#48a942",
+        "glutenFree": "#8d7356",
+        "healthy": "#359919",
+        "hint": "#a6a6a6",
+        "inputBottomBorder": "lightgray",
+        "itemBorder": "lightgrey",
+        "itemTile": "#3C474C0",
+        "light": "white",
+        "loader": "#ababab",
+        "loginBackground": "#303030",
+        "loginBoxColor": "#434149",
+        "loginField": "#AAA7AC",
+        "loginFormBackground": "#484848",
+        "navigationMenu": "#48a942",
+        "navigationMenuHover": "cornflowerblue",
+        "new": "#ff6000",
+        "open": "#48a942",
+        "paymentSuccessTitle": "#505050",
+        "placeHolder": "#909090",
+        "primary": "#347CFF",
+        "primaryButton": "#347CFF",
+        "primaryText": "#383838",
+        "secondaryText": "#a6a6a6",
+        "spicy": "#ed1c24",
+        "text": "black",
+        "textGrey": "#505050",
+        "tile": "#505050",
+        "validationError": "#cc0000",
+        "vegan": "#0d4a22",
+        "vegetarian": "#0d4a22",
+      },
+      "fontFamily": "Roboto",
+      "fontSize": Object {
+        "lg": "1.8rem",
+        "md": "1.3rem",
+        "nm": "1rem",
+        "sm": "0.75rem",
+        "xl": "2.4rem",
+      },
+      "fontSizeFromProps": [Function],
+      "mediaBreakpoints": Object {
+        "desktop": [Function],
+        "mobile": [Function],
+        "tablet": [Function],
+      },
+      "nav": Object {
+        "height": "70px",
+      },
+      "receiptFontFamily": "Roboto",
+      "shadow": "#cfcfcf 0.1px 0.1px 3px 0px",
+      "spacing": Object {
+        "lg": "4em",
+        "md": "2em",
+        "nm": "1em",
+        "none": "0em",
+        "sm": "0.5em",
+        "xl": "8em",
+      },
+    }
+  }
+>
+  <Styled(Flex)
+    className="concept-list"
+    p={
+      Array [
+        1,
+        2,
+        3,
+        4,
+      ]
+    }
+  >
+    <Styled(Heading)
+      aria-level="2"
+      className="select-concept-header"
+      role="heading"
+      tabIndex={0}
+    >
+      <div
+        i18nKey="CONCEPT_LIST_PAGE_LABEL"
+      />
+    </Styled(Heading)>
+    <Styled(Flex)
+      aria-label="CONCEPT_SELECT 7 CONCEPTS"
+      className="concept-list-container"
+      tabIndex={0}
+    >
+      <Tile
+        ariaLabel="concept1 Pickle"
+        classContext="tile concept-1 concept_101"
+        className="tile"
+        closedoverlay={true}
+        handleClick={[Function]}
+        hasBorder={true}
+        id="101"
+        image="https://www.freeiconspng.com/uploads/environment-icon-png-16.png"
+        imageresponsive="true"
+        isEnabled={true}
+        tabIndex={0}
+        title={
+          <Styled(Flex)>
+            <Text
+              m={0}
+            >
+              Pickle
+            </Text>
+            <Styled(Flex)
+              className="opens-text"
+            />
+          </Styled(Flex)>
+        }
+        titleStyle={
+          Object {
+            "textAlign": "center",
+            "width": "100%",
+          }
+        }
+      />
+      <Tile
+        ariaLabel="concept2 Ice Berg"
+        classContext="tile concept-2 concept_102"
+        className="tile"
+        closedoverlay={true}
+        handleClick={[Function]}
+        hasBorder={true}
+        id="102"
+        image="https://www.milkmaid.in/Images/Recipe/Chocolate%20694x400_11.JPG"
+        imageresponsive="true"
+        isEnabled={false}
+        tabIndex={0}
+        title={
+          <Styled(Flex)>
+            <Text
+              m={0}
+            >
+              Ice Berg
+            </Text>
+            <Styled(Flex)
+              className="opens-text"
+            />
+          </Styled(Flex)>
+        }
+        titleStyle={
+          Object {
+            "textAlign": "center",
+            "width": "100%",
+          }
+        }
+      />
+      <Tile
+        ariaLabel="concept3 Ice Berg"
+        classContext="tile concept-3 concept_108"
+        className="tile"
+        closedoverlay={true}
+        handleClick={[Function]}
+        hasBorder={true}
+        id="108"
+        image="https://www.milkmaid.in/Images/Recipe/Chocolate%20694x400_11.JPG"
+        imageresponsive="true"
+        isEnabled={true}
+        tabIndex={0}
+        title={
+          <Styled(Flex)>
+            <Text
+              m={0}
+            >
+              Ice Berg
+            </Text>
+            <Styled(Flex)
+              className="opens-text"
+            />
+          </Styled(Flex)>
+        }
+        titleStyle={
+          Object {
+            "textAlign": "center",
+            "width": "100%",
+          }
+        }
+      />
+      <Tile
+        ariaLabel="concept4 Ice Berg"
+        classContext="tile concept-4 concept_109"
+        className="tile"
+        closedoverlay={true}
+        handleClick={[Function]}
+        hasBorder={true}
+        id="109"
+        image="https://www.milkmaid.in/Images/Recipe/Chocolate%20694x400_11.JPG"
+        imageresponsive="true"
+        isEnabled={false}
+        tabIndex={0}
+        title={
+          <Styled(Flex)>
+            <Text
+              m={0}
+            >
+              Ice Berg
+            </Text>
+            <Styled(Flex)
+              className="opens-text"
+            />
+          </Styled(Flex)>
+        }
+        titleStyle={
+          Object {
+            "textAlign": "center",
+            "width": "100%",
+          }
+        }
+      />
+      <Tile
+        ariaLabel="concept5 Ice Berg"
+        classContext="tile concept-5 concept_110"
+        className="tile"
+        closedoverlay={true}
+        handleClick={[Function]}
+        hasBorder={true}
+        id="110"
+        image="https://www.milkmaid.in/Images/Recipe/Chocolate%20694x400_11.JPG"
+        imageresponsive="true"
+        isEnabled={false}
+        tabIndex={0}
+        title={
+          <Styled(Flex)>
+            <Text
+              m={0}
+            >
+              Ice Berg
+            </Text>
+            <Styled(Flex)
+              className="opens-text"
+            />
+          </Styled(Flex)>
+        }
+        titleStyle={
+          Object {
+            "textAlign": "center",
+            "width": "100%",
+          }
+        }
+      />
+      <Tile
+        ariaLabel="concept6 Go Green"
+        classContext="tile concept-6 concept_103"
+        className="tile"
+        closedoverlay={true}
+        handleClick={[Function]}
+        hasBorder={true}
+        id="103"
+        image="https://www.freeiconspng.com/uploads/chicken-caesar-salad-png-23.png"
+        imageresponsive="true"
+        isEnabled={true}
+        tabIndex={0}
+        title={
+          <Styled(Flex)>
+            <Text
+              m={0}
+            >
+              Go Green
+            </Text>
+            <Styled(Flex)
+              className="opens-text"
+            />
+          </Styled(Flex)>
+        }
+        titleStyle={
+          Object {
+            "textAlign": "center",
+            "width": "100%",
+          }
+        }
+      />
+      <Tile
+        ariaLabel="concept7 Made Nice"
+        classContext="tile concept-7 concept_104"
+        className="tile"
+        closedoverlay={true}
+        handleClick={[Function]}
+        hasBorder={true}
+        id="104"
+        image="https://bakingmischief.com/wp-content/uploads/2016/05/chicken-shawarma-with-yogurt-sauce-image-square1.jpg"
+        imageresponsive="true"
+        isEnabled={true}
+        tabIndex={0}
+        title={
+          <Styled(Flex)>
+            <Text
+              m={0}
+            >
+              Made Nice
+            </Text>
+            <Styled(Flex)
+              className="opens-text"
+            />
+          </Styled(Flex)>
+        }
+        titleStyle={
+          Object {
+            "textAlign": "center",
+            "width": "100%",
+          }
+        }
+      />
+    </Styled(Flex)>
+  </Styled(Flex)>
+</ThemeProvider>
+`;

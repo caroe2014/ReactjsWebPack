@@ -1,0 +1,226 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BackLink does a snapshot test 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <ThemeProvider
+      theme={
+        Object {
+          "colors": Object {
+            "addOnTab": "#347CFF",
+            "addToCart": "#347CFF",
+            "addonBg": "#EEEEEE",
+            "backgroundGrey": "#E6E6E6",
+            "black": "#000000",
+            "close": "red",
+            "contextBackground": "#f0f0f3",
+            "darkGrey": "#464646",
+            "disableBackground": "#E4E4E4",
+            "disableButton": "#D1D1D1",
+            "error": "#cc0000",
+            "footer": "#48a942",
+            "glutenFree": "#8d7356",
+            "healthy": "#359919",
+            "hint": "#a6a6a6",
+            "inputBottomBorder": "lightgray",
+            "itemBorder": "lightgrey",
+            "itemTile": "#3C474C0",
+            "light": "white",
+            "loader": "#ababab",
+            "loginBackground": "#303030",
+            "loginBoxColor": "#434149",
+            "loginField": "#AAA7AC",
+            "loginFormBackground": "#484848",
+            "navigationMenu": "#48a942",
+            "navigationMenuHover": "cornflowerblue",
+            "new": "#ff6000",
+            "open": "#48a942",
+            "paymentSuccessTitle": "#505050",
+            "placeHolder": "#909090",
+            "primary": "#347CFF",
+            "primaryButton": "#347CFF",
+            "primaryText": "#383838",
+            "secondaryText": "#a6a6a6",
+            "spicy": "#ed1c24",
+            "text": "black",
+            "textGrey": "#505050",
+            "tile": "#505050",
+            "validationError": "#cc0000",
+            "vegan": "#0d4a22",
+            "vegetarian": "#0d4a22",
+          },
+          "fontFamily": "Roboto",
+          "fontSize": Object {
+            "lg": "1.8rem",
+            "md": "1.3rem",
+            "nm": "1rem",
+            "sm": "0.75rem",
+            "xl": "2.4rem",
+          },
+          "fontSizeFromProps": [Function],
+          "mediaBreakpoints": Object {
+            "desktop": [Function],
+            "mobile": [Function],
+            "tablet": [Function],
+          },
+          "nav": Object {
+            "height": "70px",
+          },
+          "receiptFontFamily": "Roboto",
+          "shadow": "#cfcfcf 0.1px 0.1px 3px 0px",
+          "spacing": Object {
+            "lg": "4em",
+            "md": "2em",
+            "nm": "1em",
+            "none": "0em",
+            "sm": "0.5em",
+            "xl": "8em",
+          },
+        }
+      }
+    >
+      <BackLink
+        match={
+          Object {
+            "params": Object {},
+          }
+        }
+        section="site"
+        showText={true}
+        sites={Object {}}
+      >
+        <NavLink
+          activeClassName="active"
+          aria-current="page"
+          aria-label="NAVIGATE_PREV_PAGE"
+          className="back-arrow-link"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          style={
+            Object {
+              "boxShadow": "none",
+              "display": "flex",
+              "outline": "none",
+            }
+          }
+          tabIndex={-1}
+          to="/"
+        >
+          <Route
+            path="\\\\/"
+          >
+            <Link
+              aria-current="page"
+              aria-label="NAVIGATE_PREV_PAGE"
+              className="back-arrow-link active"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              replace={false}
+              style={
+                Object {
+                  "boxShadow": "none",
+                  "display": "flex",
+                  "outline": "none",
+                }
+              }
+              tabIndex={-1}
+              to="/"
+            >
+              <a
+                aria-current="page"
+                aria-label="NAVIGATE_PREV_PAGE"
+                className="back-arrow-link active"
+                href="/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                style={
+                  Object {
+                    "boxShadow": "none",
+                    "display": "flex",
+                    "outline": "none",
+                  }
+                }
+                tabIndex={-1}
+              >
+                <Styled(Flex)
+                  section="site"
+                >
+                  <Flex
+                    className="sc-jqCOkK mBDlV"
+                    section="site"
+                  >
+                    <Box
+                      className="sc-jqCOkK mBDlV sc-bwzfXH hKiLMS"
+                      section="site"
+                    >
+                      <div
+                        className="sc-jqCOkK mBDlV sc-bwzfXH hKiLMS sc-bdVaJa iHZvIS"
+                      >
+                        <i
+                          className="fa fa-arrow-left"
+                        />
+                      </div>
+                    </Box>
+                  </Flex>
+                </Styled(Flex)>
+                <Styled(Flex)
+                  aria-label="NAVIGATE_PREV_PAGE"
+                  role="button"
+                  tabIndex={0}
+                >
+                  <Flex
+                    aria-label="NAVIGATE_PREV_PAGE"
+                    className="sc-uJMKN bzxWwV"
+                    role="button"
+                    tabIndex={0}
+                  >
+                    <Box
+                      aria-label="NAVIGATE_PREV_PAGE"
+                      className="sc-uJMKN bzxWwV sc-bwzfXH hKiLMS"
+                      role="button"
+                      tabIndex={0}
+                    >
+                      <div
+                        aria-label="NAVIGATE_PREV_PAGE"
+                        className="sc-uJMKN bzxWwV sc-bwzfXH hKiLMS sc-bdVaJa iHZvIS"
+                        role="button"
+                        tabIndex={0}
+                      >
+                         
+                        <div
+                          i18nKey="CONTEXT_BACK_CHANGE_LOCATION"
+                        />
+                      </div>
+                    </Box>
+                  </Flex>
+                </Styled(Flex)>
+              </a>
+            </Link>
+          </Route>
+        </NavLink>
+      </BackLink>
+    </ThemeProvider>
+  </Router>
+</BrowserRouter>
+`;
