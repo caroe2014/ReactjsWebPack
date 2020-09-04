@@ -25,7 +25,6 @@
     "start:monit": "yarn start && yarn monit",
     "start:docker": "yarn build && pm2-docker ./pm2config.json --no-daemon",
     "start": "yarn build && pm2 startOrRestart ./pm2config.json --no-daemon",
-    "mystart": "yarn build && pm2 startOrRestart ./pm2config.json --no-daemon",
     "stop": "pm2 kill",
     "restart": "pm2 restart kiosk-desktop",
     "status": "pm2 status kiosk-desktop",
